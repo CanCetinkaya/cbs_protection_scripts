@@ -1,0 +1,5 @@
+CONNECT cell_under_temperature_pf
+CELL_TEMPS -31.0
+EXPECT BatteryState == 22 TIMEOUT 50000
+CELL_VOLTS 25.0
+DISCONNECT

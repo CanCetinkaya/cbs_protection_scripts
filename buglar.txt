@@ -1,0 +1,10 @@
+cell_charge_over_temp sadece akım varken okunmamalı her zaman okunmalı
+cell_under_temperature_pf_event -30 dereceden düşükse devreye giriyor ancak bizim ntc table -30 a kadar teknik olarak hiçbir zaman devreye girmeyecek (ya eşittir yapıcaz ya da teknik layout yetersiz diyeceğiz :))
+no charge ve no discharge aynı anda gelirse protection yollanmalı sadece
+wait discharge a good_to_go ekle
+
+aold_repetitive_count recorded_protection_values.aold_repetitive_count 600 saniye de bir arttırılabiliyor onun içinde aold_repetitive_count ın 5 den büyük olması gerekiyor çok sağlıklı değil
+
+discharge_ascd_event 0 lnadığı an alone a geçiyor normal mi bu ?(şöyle bir sıkıntı var eğer wait charge a geçerse orda kalıyo protection a geçerse alone a geçiyo düşünmek lazım bunu herhangi bir sorun oluşturmuyor ama hiyerarşik anlamda garip duruyo
+
+genel anlamda bazı flagler sıfırlanıyo bazıları sıfırlanmıyo

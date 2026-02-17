@@ -1,0 +1,2488 @@
+[2026-02-13 10:49:35] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:49:35] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:49:35] [RUN] 1: CellTemps 610
+[2026-02-13 10:49:35] Cell TEMP Set: 610
+[2026-02-13 10:50:40] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:50:40] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:50:40] [RUN] 1: CellTemps 620
+[2026-02-13 10:50:40] Cell TEMP Set: 620
+[2026-02-13 10:50:40] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 10:50:50] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 10:50:50] [DONE] Script finished.
+[2026-02-13 10:51:46] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:51:46] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:51:46] [RUN] 1: CellTemps 620
+[2026-02-13 10:51:46] Cell TEMP Set: 620
+[2026-02-13 10:51:59] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 10:52:09] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 10:52:09] [DONE] Script finished.
+[2026-02-13 10:53:22] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:53:22] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:53:22] [RUN] 1: CellTemps 620
+[2026-02-13 10:53:22] Cell TEMP Set: 620
+[2026-02-13 10:53:27] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 10:53:37] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 10:53:37] [DONE] Script finished.
+[2026-02-13 10:54:26] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:54:26] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:54:26] [RUN] 1: CellTemps 620
+[2026-02-13 10:54:26] Cell TEMP Set: 620
+[2026-02-13 10:54:26] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 10:54:36] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 10:54:36] [DONE] Script finished.
+[2026-02-13 10:55:45] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-13 10:55:45] Connecting to cell_under_voltage_permanent...
+[2026-02-13 10:55:45] [RUN] 1: CellVolts 18500
+[2026-02-13 10:55:45] Cell Volt Set: 18500
+[2026-02-13 10:55:45] [RUN] 2: Expect BatteryState == 22
+[2026-02-13 10:55:48] [DONE] Script finished.
+[2026-02-13 10:55:51] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:55:51] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:55:51] [RUN] 1: CellTemps 620
+[2026-02-13 10:55:51] Cell TEMP Set: 620
+[2026-02-13 10:55:51] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 10:55:55] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-13 10:55:55] [DONE] Script finished.
+[2026-02-13 10:56:01] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 10:56:01] [DONE] Script finished.
+[2026-02-13 10:56:04] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:56:04] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:56:04] [RUN] 1: CellTemps 620
+[2026-02-13 10:56:04] Cell TEMP Set: 620
+[2026-02-13 10:56:04] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 10:56:20] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 10:56:20] Connecting to cell_charge_over_temperature...
+[2026-02-13 10:56:20] [RUN] 1: CellTemps 620
+[2026-02-13 10:56:20] Cell TEMP Set: 620
+[2026-02-13 10:56:20] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 10:56:35] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 10:56:35] [DONE] Script finished.
+[2026-02-13 11:02:04] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 11:02:04] Connecting to cell_charge_over_temperature...
+[2026-02-13 11:02:04] [RUN] 1: CellTemps 62.0
+[2026-02-13 11:02:04] Cell TEMP Set: 62.0
+[2026-02-13 11:02:04] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 11:02:14] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 11:02:14] [DONE] Script finished.
+[2026-02-13 13:32:13] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-13 13:32:13] Connecting to cell_charge_over_temperature...
+[2026-02-13 13:32:13] [RUN] 1: CellTemps 66.0
+[2026-02-13 13:32:13] Cell TEMP Set: 66.0
+[2026-02-13 13:32:13] [RUN] 2: Expect BatteryState == 12
+[2026-02-13 13:32:23] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-13 13:32:23] [DONE] Script finished.
+[2026-02-13 14:41:05] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-13 14:41:05] Connecting to cell_discharge_under_temperature...
+[2026-02-13 14:41:05] [RUN] 1: CellTemps -20.0
+[2026-02-13 14:41:05] Cell TEMP Set: -20.0
+[2026-02-13 14:41:05] [RUN] 2: Expect BatteryState == 16
+[2026-02-13 14:41:15] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-13 14:41:15] [DONE] Script finished.
+[2026-02-13 14:47:48] [RUN] 0: Connect cell_under_temperature_pf
+[2026-02-13 14:47:48] Connecting to cell_under_temperature_pf...
+[2026-02-13 14:47:48] [RUN] 1: CellTemps -30.0
+[2026-02-13 14:47:48] Cell TEMP Set: -30.0
+[2026-02-13 14:47:48] [RUN] 2: Expect BatteryState == 22
+[2026-02-13 14:47:58] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-13 14:47:58] [DONE] Script finished.
+[2026-02-13 14:51:53] [RUN] 0: Connect cell_under_temperature_pf
+[2026-02-13 14:51:53] Connecting to cell_under_temperature_pf...
+[2026-02-13 14:51:53] [RUN] 1: CellTemps -31.0
+[2026-02-13 14:51:54] Cell TEMP Set: -31.0
+[2026-02-13 14:51:54] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 09:08:45] [RUN] 0: Connect cell_charge_over_current
+[2026-02-16 09:08:45] Connecting to cell_charge_over_current...
+[2026-02-16 09:08:45] [RUN] 1: Charge 
+[2026-02-16 09:08:45] Charging 52000A (no condition, skipping wait)
+[2026-02-16 09:08:45] [RUN] 2: Expect BatteryState == 16
+[2026-02-16 09:08:55] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-16 09:08:55] [DONE] Script finished.
+[2026-02-16 09:09:29] [RUN] 0: Connect cell_charge_over_current
+[2026-02-16 09:09:29] Connecting to cell_charge_over_current...
+[2026-02-16 09:09:29] [RUN] 1: Charge 
+[2026-02-16 09:09:29] Charging 52000A (no condition, skipping wait)
+[2026-02-16 09:09:29] [RUN] 2: Expect BatteryState == 16
+[2026-02-16 09:09:39] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-16 09:09:39] [DONE] Script finished.
+[2026-02-16 09:10:48] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-16 09:10:48] Connecting to cell_discharge_over_current...
+[2026-02-16 09:10:48] [RUN] 1: Discharge 
+[2026-02-16 09:10:48] Discharging 103A (no condition, skipping wait)
+[2026-02-16 09:10:48] [RUN] 2: Expect BatteryState == 12
+[2026-02-16 09:10:57] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-16 09:10:57] [RUN] 3: Disconnect 
+[2026-02-16 09:10:57] Disconnecting...
+[2026-02-16 09:14:10] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-16 09:14:10] Connecting to cell_discharge_over_current...
+[2026-02-16 09:14:10] [RUN] 1: Discharge 
+[2026-02-16 09:14:10] Discharging 103A (no condition, skipping wait)
+[2026-02-16 09:14:10] [RUN] 2: Expect BatteryState == 12
+[2026-02-16 09:14:10] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-16 09:14:10] [RUN] 3: Disconnect 
+[2026-02-16 09:14:10] Disconnecting...
+[2026-02-16 09:14:17] [RUN] 0: Connect cell_charge_over_current
+[2026-02-16 09:14:17] Connecting to cell_charge_over_current...
+[2026-02-16 09:14:17] [RUN] 1: Charge 
+[2026-02-16 09:14:17] Charging 52A (no condition, skipping wait)
+[2026-02-16 09:14:17] [RUN] 2: Expect BatteryState == 16
+[2026-02-16 09:14:27] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-16 09:14:27] [RUN] 3: Disconnect 
+[2026-02-16 09:14:27] Disconnecting...
+[2026-02-16 11:24:39] [RUN] 0: Connect cell_charge_over_current
+[2026-02-16 11:24:39] Connecting to cell_charge_over_current...
+[2026-02-16 11:24:39] [RUN] 1: Charge 
+[2026-02-16 11:24:39] Charging 52A (no condition, skipping wait)
+[2026-02-16 11:24:39] [RUN] 2: Expect BatteryState == 16
+[2026-02-16 11:24:49] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-16 11:24:49] [RUN] 3: Disconnect 
+[2026-02-16 11:24:49] Disconnecting...
+[2026-02-16 11:25:16] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-16 11:25:16] Connecting to cell_discharge_over_current...
+[2026-02-16 11:25:16] [RUN] 1: Discharge 
+[2026-02-16 11:25:16] Discharging 103A (no condition, skipping wait)
+[2026-02-16 11:25:16] [RUN] 2: Expect BatteryState == 12
+[2026-02-16 11:25:26] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-16 11:25:26] [RUN] 3: Disconnect 
+[2026-02-16 11:25:26] Disconnecting...
+[2026-02-16 13:38:18] [RUN] 0: Connect discharge_aold
+[2026-02-16 13:38:18] Connecting to discharge_aold...
+[2026-02-16 13:38:18] [RUN] 1: Discharge 
+[2026-02-16 13:38:18] Discharging 121000A (no condition, skipping wait)
+[2026-02-16 13:38:18] [RUN] 2: Expect BatteryState == 12
+[2026-02-16 13:39:42] [RUN] 0: Connect discharge_aold
+[2026-02-16 13:39:42] Connecting to discharge_aold...
+[2026-02-16 13:39:42] [RUN] 1: Discharge 
+[2026-02-16 13:39:42] Discharging 121A (no condition, skipping wait)
+[2026-02-16 13:39:42] [RUN] 2: Expect BatteryState == 12
+[2026-02-16 13:39:46] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-16 13:39:46] [RUN] 3: Disconnect 
+[2026-02-16 13:39:46] Disconnecting...
+[2026-02-16 13:43:15] [RUN] 0: Connect discharge_aold
+[2026-02-16 13:43:15] Connecting to discharge_aold...
+[2026-02-16 13:43:15] [RUN] 1: Discharge 
+[2026-02-16 13:43:15] Discharging 121A (no condition, skipping wait)
+[2026-02-16 13:43:15] [RUN] 2: Expect BatteryState == 12
+[2026-02-16 13:43:21] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-16 13:43:21] [RUN] 3: Expect BatteryState == 18
+[2026-02-16 13:43:31] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-16 13:43:31] [DONE] Script finished.
+[2026-02-16 14:12:04] [RUN] 0: Connect discharge_aold
+[2026-02-16 14:12:04] Connecting to discharge_aold...
+[2026-02-16 14:12:04] [RUN] 1: Discharge 
+[2026-02-16 14:12:04] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:12:04] [RUN] 2: Expect BatteryState == 12
+[2026-02-16 14:12:09] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-16 14:12:09] [RUN] 3: Expect BatteryState == 18
+[2026-02-16 14:12:19] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-16 14:12:19] [DONE] Script finished.
+[2026-02-16 14:27:38] [RUN] 0: Connect discharge_aold_repetetive
+[2026-02-16 14:27:38] Connecting to discharge_aold_repetetive...
+[2026-02-16 14:27:38] [RUN] 1: LoopStart 
+[2026-02-16 14:27:38] [RUN] 2: Discharge 
+[2026-02-16 14:27:38] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:38] [RUN] 3: Wait 
+[2026-02-16 14:27:38] Waiting 100 ms...
+[2026-02-16 14:27:38] [RUN] 4: Discharge 
+[2026-02-16 14:27:38] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:38] [RUN] 5: Wait 
+[2026-02-16 14:27:38] Waiting 100 ms...
+[2026-02-16 14:27:38] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:38] [RUN] 2: Discharge 
+[2026-02-16 14:27:38] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:38] [RUN] 3: Wait 
+[2026-02-16 14:27:38] Waiting 100 ms...
+[2026-02-16 14:27:39] [RUN] 4: Discharge 
+[2026-02-16 14:27:39] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:39] [RUN] 5: Wait 
+[2026-02-16 14:27:39] Waiting 100 ms...
+[2026-02-16 14:27:39] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:39] [RUN] 2: Discharge 
+[2026-02-16 14:27:39] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:39] [RUN] 3: Wait 
+[2026-02-16 14:27:39] Waiting 100 ms...
+[2026-02-16 14:27:39] [RUN] 4: Discharge 
+[2026-02-16 14:27:39] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:39] [RUN] 5: Wait 
+[2026-02-16 14:27:39] Waiting 100 ms...
+[2026-02-16 14:27:39] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:39] [RUN] 2: Discharge 
+[2026-02-16 14:27:39] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:39] [RUN] 3: Wait 
+[2026-02-16 14:27:39] Waiting 100 ms...
+[2026-02-16 14:27:39] [RUN] 4: Discharge 
+[2026-02-16 14:27:39] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:39] [RUN] 5: Wait 
+[2026-02-16 14:27:39] Waiting 100 ms...
+[2026-02-16 14:27:39] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:39] [RUN] 2: Discharge 
+[2026-02-16 14:27:39] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:39] [RUN] 3: Wait 
+[2026-02-16 14:27:39] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 4: Discharge 
+[2026-02-16 14:27:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 5: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:40] [RUN] 2: Discharge 
+[2026-02-16 14:27:40] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 3: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 4: Discharge 
+[2026-02-16 14:27:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 5: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:40] [RUN] 2: Discharge 
+[2026-02-16 14:27:40] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 3: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 4: Discharge 
+[2026-02-16 14:27:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 5: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:40] [RUN] 2: Discharge 
+[2026-02-16 14:27:40] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 3: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 4: Discharge 
+[2026-02-16 14:27:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 5: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:40] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:40] [RUN] 2: Discharge 
+[2026-02-16 14:27:40] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:40] [RUN] 3: Wait 
+[2026-02-16 14:27:40] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 4: Discharge 
+[2026-02-16 14:27:41] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 5: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:41] [RUN] 2: Discharge 
+[2026-02-16 14:27:41] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 3: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 4: Discharge 
+[2026-02-16 14:27:41] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 5: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:41] [RUN] 2: Discharge 
+[2026-02-16 14:27:41] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 3: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 4: Discharge 
+[2026-02-16 14:27:41] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 5: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:41] [RUN] 2: Discharge 
+[2026-02-16 14:27:41] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 3: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 4: Discharge 
+[2026-02-16 14:27:41] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 5: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:41] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:41] [RUN] 2: Discharge 
+[2026-02-16 14:27:41] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:41] [RUN] 3: Wait 
+[2026-02-16 14:27:41] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 4: Discharge 
+[2026-02-16 14:27:42] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 5: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:42] [RUN] 2: Discharge 
+[2026-02-16 14:27:42] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 3: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 4: Discharge 
+[2026-02-16 14:27:42] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 5: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:42] [RUN] 2: Discharge 
+[2026-02-16 14:27:42] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 3: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 4: Discharge 
+[2026-02-16 14:27:42] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 5: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:42] [RUN] 2: Discharge 
+[2026-02-16 14:27:42] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 3: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 4: Discharge 
+[2026-02-16 14:27:42] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 5: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:42] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:42] [RUN] 2: Discharge 
+[2026-02-16 14:27:42] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:42] [RUN] 3: Wait 
+[2026-02-16 14:27:42] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 4: Discharge 
+[2026-02-16 14:27:43] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 5: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:43] [RUN] 2: Discharge 
+[2026-02-16 14:27:43] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 3: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 4: Discharge 
+[2026-02-16 14:27:43] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 5: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:43] [RUN] 2: Discharge 
+[2026-02-16 14:27:43] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 3: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 4: Discharge 
+[2026-02-16 14:27:43] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 5: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:43] [RUN] 2: Discharge 
+[2026-02-16 14:27:43] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 3: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 4: Discharge 
+[2026-02-16 14:27:43] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 5: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:43] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:43] [RUN] 2: Discharge 
+[2026-02-16 14:27:43] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:43] [RUN] 3: Wait 
+[2026-02-16 14:27:43] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 4: Discharge 
+[2026-02-16 14:27:44] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 5: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:44] [RUN] 2: Discharge 
+[2026-02-16 14:27:44] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 3: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 4: Discharge 
+[2026-02-16 14:27:44] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 5: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:44] [RUN] 2: Discharge 
+[2026-02-16 14:27:44] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 3: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 4: Discharge 
+[2026-02-16 14:27:44] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 5: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:44] [RUN] 2: Discharge 
+[2026-02-16 14:27:44] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 3: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 4: Discharge 
+[2026-02-16 14:27:44] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 5: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:44] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:44] [RUN] 2: Discharge 
+[2026-02-16 14:27:44] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:44] [RUN] 3: Wait 
+[2026-02-16 14:27:44] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 4: Discharge 
+[2026-02-16 14:27:45] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 5: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:45] [RUN] 2: Discharge 
+[2026-02-16 14:27:45] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 3: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 4: Discharge 
+[2026-02-16 14:27:45] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 5: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:45] [RUN] 2: Discharge 
+[2026-02-16 14:27:45] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 3: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 4: Discharge 
+[2026-02-16 14:27:45] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 5: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:45] [RUN] 2: Discharge 
+[2026-02-16 14:27:45] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 3: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 4: Discharge 
+[2026-02-16 14:27:45] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 5: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:45] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:45] [RUN] 2: Discharge 
+[2026-02-16 14:27:45] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:45] [RUN] 3: Wait 
+[2026-02-16 14:27:45] Waiting 100 ms...
+[2026-02-16 14:27:46] [RUN] 4: Discharge 
+[2026-02-16 14:27:46] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:46] [RUN] 5: Wait 
+[2026-02-16 14:27:46] Waiting 100 ms...
+[2026-02-16 14:27:46] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:46] [RUN] 2: Discharge 
+[2026-02-16 14:27:46] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:27:46] [RUN] 3: Wait 
+[2026-02-16 14:27:46] Waiting 100 ms...
+[2026-02-16 14:27:46] [RUN] 4: Discharge 
+[2026-02-16 14:27:46] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:27:46] [RUN] 5: Wait 
+[2026-02-16 14:27:46] Waiting 100 ms...
+[2026-02-16 14:27:46] [RUN] 6: LoopEnd 
+[2026-02-16 14:27:46] [RUN] 7: Expect BatteryState == 22
+[2026-02-16 14:28:38] [RUN] 0: Connect discharge_aold_repetetive
+[2026-02-16 14:28:38] Connecting to discharge_aold_repetetive...
+[2026-02-16 14:28:38] [RUN] 1: LoopStart 
+[2026-02-16 14:28:38] [RUN] 2: Discharge 
+[2026-02-16 14:28:38] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:38] [RUN] 3: Wait 
+[2026-02-16 14:28:38] Waiting 1000 ms...
+[2026-02-16 14:28:39] [RUN] 4: Discharge 
+[2026-02-16 14:28:39] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:39] [RUN] 5: Wait 
+[2026-02-16 14:28:39] Waiting 1000 ms...
+[2026-02-16 14:28:42] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:42] [RUN] 2: Discharge 
+[2026-02-16 14:28:42] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:42] [RUN] 3: Wait 
+[2026-02-16 14:28:42] Waiting 1000 ms...
+[2026-02-16 14:28:43] [RUN] 4: Discharge 
+[2026-02-16 14:28:43] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:43] [RUN] 5: Wait 
+[2026-02-16 14:28:43] Waiting 1000 ms...
+[2026-02-16 14:28:44] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:44] [RUN] 2: Discharge 
+[2026-02-16 14:28:44] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:44] [RUN] 3: Wait 
+[2026-02-16 14:28:44] Waiting 1000 ms...
+[2026-02-16 14:28:45] [RUN] 4: Discharge 
+[2026-02-16 14:28:45] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:45] [RUN] 5: Wait 
+[2026-02-16 14:28:45] Waiting 1000 ms...
+[2026-02-16 14:28:46] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:46] [RUN] 2: Discharge 
+[2026-02-16 14:28:46] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:46] [RUN] 3: Wait 
+[2026-02-16 14:28:46] Waiting 1000 ms...
+[2026-02-16 14:28:47] [RUN] 4: Discharge 
+[2026-02-16 14:28:47] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:47] [RUN] 5: Wait 
+[2026-02-16 14:28:47] Waiting 1000 ms...
+[2026-02-16 14:28:48] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:48] [RUN] 2: Discharge 
+[2026-02-16 14:28:48] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:48] [RUN] 3: Wait 
+[2026-02-16 14:28:48] Waiting 1000 ms...
+[2026-02-16 14:28:49] [RUN] 4: Discharge 
+[2026-02-16 14:28:49] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:49] [RUN] 5: Wait 
+[2026-02-16 14:28:49] Waiting 1000 ms...
+[2026-02-16 14:28:50] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:50] [RUN] 2: Discharge 
+[2026-02-16 14:28:50] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:50] [RUN] 3: Wait 
+[2026-02-16 14:28:50] Waiting 1000 ms...
+[2026-02-16 14:28:51] [RUN] 4: Discharge 
+[2026-02-16 14:28:51] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:51] [RUN] 5: Wait 
+[2026-02-16 14:28:51] Waiting 1000 ms...
+[2026-02-16 14:28:54] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:54] [RUN] 2: Discharge 
+[2026-02-16 14:28:54] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:54] [RUN] 3: Wait 
+[2026-02-16 14:28:54] Waiting 1000 ms...
+[2026-02-16 14:28:55] [RUN] 4: Discharge 
+[2026-02-16 14:28:55] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:55] [RUN] 5: Wait 
+[2026-02-16 14:28:55] Waiting 1000 ms...
+[2026-02-16 14:28:56] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:56] [RUN] 2: Discharge 
+[2026-02-16 14:28:56] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:56] [RUN] 3: Wait 
+[2026-02-16 14:28:56] Waiting 1000 ms...
+[2026-02-16 14:28:57] [RUN] 4: Discharge 
+[2026-02-16 14:28:57] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:57] [RUN] 5: Wait 
+[2026-02-16 14:28:57] Waiting 1000 ms...
+[2026-02-16 14:28:58] [RUN] 6: LoopEnd 
+[2026-02-16 14:28:58] [RUN] 2: Discharge 
+[2026-02-16 14:28:58] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:28:58] [RUN] 3: Wait 
+[2026-02-16 14:28:58] Waiting 1000 ms...
+[2026-02-16 14:28:59] [RUN] 4: Discharge 
+[2026-02-16 14:28:59] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:28:59] [RUN] 5: Wait 
+[2026-02-16 14:28:59] Waiting 1000 ms...
+[2026-02-16 14:29:00] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:00] [RUN] 2: Discharge 
+[2026-02-16 14:29:00] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:00] [RUN] 3: Wait 
+[2026-02-16 14:29:00] Waiting 1000 ms...
+[2026-02-16 14:29:01] [RUN] 4: Discharge 
+[2026-02-16 14:29:01] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:01] [RUN] 5: Wait 
+[2026-02-16 14:29:01] Waiting 1000 ms...
+[2026-02-16 14:29:02] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:02] [RUN] 2: Discharge 
+[2026-02-16 14:29:02] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:02] [RUN] 3: Wait 
+[2026-02-16 14:29:02] Waiting 1000 ms...
+[2026-02-16 14:29:03] [RUN] 4: Discharge 
+[2026-02-16 14:29:03] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:03] [RUN] 5: Wait 
+[2026-02-16 14:29:03] Waiting 1000 ms...
+[2026-02-16 14:29:04] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:04] [RUN] 2: Discharge 
+[2026-02-16 14:29:04] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:04] [RUN] 3: Wait 
+[2026-02-16 14:29:04] Waiting 1000 ms...
+[2026-02-16 14:29:06] [RUN] 4: Discharge 
+[2026-02-16 14:29:06] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:06] [RUN] 5: Wait 
+[2026-02-16 14:29:06] Waiting 1000 ms...
+[2026-02-16 14:29:07] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:07] [RUN] 2: Discharge 
+[2026-02-16 14:29:07] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:07] [RUN] 3: Wait 
+[2026-02-16 14:29:07] Waiting 1000 ms...
+[2026-02-16 14:29:08] [RUN] 4: Discharge 
+[2026-02-16 14:29:08] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:08] [RUN] 5: Wait 
+[2026-02-16 14:29:08] Waiting 1000 ms...
+[2026-02-16 14:29:09] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:09] [RUN] 2: Discharge 
+[2026-02-16 14:29:09] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:09] [RUN] 3: Wait 
+[2026-02-16 14:29:09] Waiting 1000 ms...
+[2026-02-16 14:29:10] [RUN] 4: Discharge 
+[2026-02-16 14:29:10] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:10] [RUN] 5: Wait 
+[2026-02-16 14:29:10] Waiting 1000 ms...
+[2026-02-16 14:29:11] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:11] [RUN] 2: Discharge 
+[2026-02-16 14:29:11] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:11] [RUN] 3: Wait 
+[2026-02-16 14:29:11] Waiting 1000 ms...
+[2026-02-16 14:29:12] [RUN] 4: Discharge 
+[2026-02-16 14:29:12] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:12] [RUN] 5: Wait 
+[2026-02-16 14:29:12] Waiting 1000 ms...
+[2026-02-16 14:29:13] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:13] [RUN] 2: Discharge 
+[2026-02-16 14:29:13] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:13] [RUN] 3: Wait 
+[2026-02-16 14:29:13] Waiting 1000 ms...
+[2026-02-16 14:29:14] [RUN] 4: Discharge 
+[2026-02-16 14:29:14] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:14] [RUN] 5: Wait 
+[2026-02-16 14:29:14] Waiting 1000 ms...
+[2026-02-16 14:29:15] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:15] [RUN] 2: Discharge 
+[2026-02-16 14:29:15] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:15] [RUN] 3: Wait 
+[2026-02-16 14:29:15] Waiting 1000 ms...
+[2026-02-16 14:29:16] [RUN] 4: Discharge 
+[2026-02-16 14:29:16] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:16] [RUN] 5: Wait 
+[2026-02-16 14:29:16] Waiting 1000 ms...
+[2026-02-16 14:29:17] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:17] [RUN] 2: Discharge 
+[2026-02-16 14:29:17] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:17] [RUN] 3: Wait 
+[2026-02-16 14:29:17] Waiting 1000 ms...
+[2026-02-16 14:29:18] [RUN] 4: Discharge 
+[2026-02-16 14:29:18] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:18] [RUN] 5: Wait 
+[2026-02-16 14:29:18] Waiting 1000 ms...
+[2026-02-16 14:29:19] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:19] [RUN] 2: Discharge 
+[2026-02-16 14:29:19] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:19] [RUN] 3: Wait 
+[2026-02-16 14:29:19] Waiting 1000 ms...
+[2026-02-16 14:29:20] [RUN] 4: Discharge 
+[2026-02-16 14:29:20] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:20] [RUN] 5: Wait 
+[2026-02-16 14:29:20] Waiting 1000 ms...
+[2026-02-16 14:29:21] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:21] [RUN] 2: Discharge 
+[2026-02-16 14:29:21] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:21] [RUN] 3: Wait 
+[2026-02-16 14:29:21] Waiting 1000 ms...
+[2026-02-16 14:29:22] [RUN] 4: Discharge 
+[2026-02-16 14:29:22] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:22] [RUN] 5: Wait 
+[2026-02-16 14:29:22] Waiting 1000 ms...
+[2026-02-16 14:29:23] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:23] [RUN] 2: Discharge 
+[2026-02-16 14:29:23] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:23] [RUN] 3: Wait 
+[2026-02-16 14:29:23] Waiting 1000 ms...
+[2026-02-16 14:29:24] [RUN] 4: Discharge 
+[2026-02-16 14:29:24] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:24] [RUN] 5: Wait 
+[2026-02-16 14:29:24] Waiting 1000 ms...
+[2026-02-16 14:29:25] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:25] [RUN] 2: Discharge 
+[2026-02-16 14:29:25] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:25] [RUN] 3: Wait 
+[2026-02-16 14:29:25] Waiting 1000 ms...
+[2026-02-16 14:29:26] [RUN] 4: Discharge 
+[2026-02-16 14:29:26] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:26] [RUN] 5: Wait 
+[2026-02-16 14:29:26] Waiting 1000 ms...
+[2026-02-16 14:29:27] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:27] [RUN] 2: Discharge 
+[2026-02-16 14:29:27] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:27] [RUN] 3: Wait 
+[2026-02-16 14:29:27] Waiting 1000 ms...
+[2026-02-16 14:29:28] [RUN] 4: Discharge 
+[2026-02-16 14:29:28] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:28] [RUN] 5: Wait 
+[2026-02-16 14:29:28] Waiting 1000 ms...
+[2026-02-16 14:29:29] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:29] [RUN] 2: Discharge 
+[2026-02-16 14:29:29] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:29] [RUN] 3: Wait 
+[2026-02-16 14:29:29] Waiting 1000 ms...
+[2026-02-16 14:29:30] [RUN] 4: Discharge 
+[2026-02-16 14:29:30] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:30] [RUN] 5: Wait 
+[2026-02-16 14:29:30] Waiting 1000 ms...
+[2026-02-16 14:29:31] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:31] [RUN] 2: Discharge 
+[2026-02-16 14:29:31] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:31] [RUN] 3: Wait 
+[2026-02-16 14:29:31] Waiting 1000 ms...
+[2026-02-16 14:29:32] [RUN] 4: Discharge 
+[2026-02-16 14:29:32] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:32] [RUN] 5: Wait 
+[2026-02-16 14:29:32] Waiting 1000 ms...
+[2026-02-16 14:29:33] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:33] [RUN] 2: Discharge 
+[2026-02-16 14:29:33] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:33] [RUN] 3: Wait 
+[2026-02-16 14:29:33] Waiting 1000 ms...
+[2026-02-16 14:29:34] [RUN] 4: Discharge 
+[2026-02-16 14:29:34] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:34] [RUN] 5: Wait 
+[2026-02-16 14:29:34] Waiting 1000 ms...
+[2026-02-16 14:29:35] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:35] [RUN] 2: Discharge 
+[2026-02-16 14:29:35] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:35] [RUN] 3: Wait 
+[2026-02-16 14:29:35] Waiting 1000 ms...
+[2026-02-16 14:29:36] [RUN] 4: Discharge 
+[2026-02-16 14:29:36] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:36] [RUN] 5: Wait 
+[2026-02-16 14:29:36] Waiting 1000 ms...
+[2026-02-16 14:29:37] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:37] [RUN] 2: Discharge 
+[2026-02-16 14:29:37] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:37] [RUN] 3: Wait 
+[2026-02-16 14:29:37] Waiting 1000 ms...
+[2026-02-16 14:29:38] [RUN] 4: Discharge 
+[2026-02-16 14:29:38] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:38] [RUN] 5: Wait 
+[2026-02-16 14:29:38] Waiting 1000 ms...
+[2026-02-16 14:29:39] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:39] [RUN] 2: Discharge 
+[2026-02-16 14:29:39] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:39] [RUN] 3: Wait 
+[2026-02-16 14:29:39] Waiting 1000 ms...
+[2026-02-16 14:29:40] [RUN] 4: Discharge 
+[2026-02-16 14:29:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:40] [RUN] 5: Wait 
+[2026-02-16 14:29:40] Waiting 1000 ms...
+[2026-02-16 14:29:41] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:41] [RUN] 2: Discharge 
+[2026-02-16 14:29:41] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:29:41] [RUN] 3: Wait 
+[2026-02-16 14:29:42] Waiting 1000 ms...
+[2026-02-16 14:29:43] [RUN] 4: Discharge 
+[2026-02-16 14:29:43] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:29:43] [RUN] 5: Wait 
+[2026-02-16 14:29:43] Waiting 1000 ms...
+[2026-02-16 14:29:44] [RUN] 6: LoopEnd 
+[2026-02-16 14:29:44] [RUN] 7: Expect BatteryState == 22
+[2026-02-16 14:31:15] [RUN] 0: Connect discharge_aold_repetetive
+[2026-02-16 14:31:15] Connecting to discharge_aold_repetetive...
+[2026-02-16 14:31:15] [RUN] 1: LoopStart 
+[2026-02-16 14:31:15] [RUN] 2: Discharge 
+[2026-02-16 14:31:15] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:15] [RUN] 3: Wait 
+[2026-02-16 14:31:15] Waiting 1300 ms...
+[2026-02-16 14:31:17] [RUN] 4: Discharge 
+[2026-02-16 14:31:17] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:17] [RUN] 5: Wait 
+[2026-02-16 14:31:17] Waiting 1300 ms...
+[2026-02-16 14:31:18] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:18] [RUN] 2: Discharge 
+[2026-02-16 14:31:18] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:18] [RUN] 3: Wait 
+[2026-02-16 14:31:18] Waiting 1300 ms...
+[2026-02-16 14:31:19] [RUN] 4: Discharge 
+[2026-02-16 14:31:19] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:19] [RUN] 5: Wait 
+[2026-02-16 14:31:19] Waiting 1300 ms...
+[2026-02-16 14:31:21] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:21] [RUN] 2: Discharge 
+[2026-02-16 14:31:21] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:21] [RUN] 3: Wait 
+[2026-02-16 14:31:21] Waiting 1300 ms...
+[2026-02-16 14:31:22] [RUN] 4: Discharge 
+[2026-02-16 14:31:22] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:22] [RUN] 5: Wait 
+[2026-02-16 14:31:22] Waiting 1300 ms...
+[2026-02-16 14:31:23] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:23] [RUN] 2: Discharge 
+[2026-02-16 14:31:23] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:23] [RUN] 3: Wait 
+[2026-02-16 14:31:23] Waiting 1300 ms...
+[2026-02-16 14:31:25] [RUN] 4: Discharge 
+[2026-02-16 14:31:25] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:25] [RUN] 5: Wait 
+[2026-02-16 14:31:25] Waiting 1300 ms...
+[2026-02-16 14:31:26] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:26] [RUN] 2: Discharge 
+[2026-02-16 14:31:26] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:26] [RUN] 3: Wait 
+[2026-02-16 14:31:26] Waiting 1300 ms...
+[2026-02-16 14:31:27] [RUN] 4: Discharge 
+[2026-02-16 14:31:27] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:27] [RUN] 5: Wait 
+[2026-02-16 14:31:27] Waiting 1300 ms...
+[2026-02-16 14:31:29] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:29] [RUN] 2: Discharge 
+[2026-02-16 14:31:29] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:29] [RUN] 3: Wait 
+[2026-02-16 14:31:29] Waiting 1300 ms...
+[2026-02-16 14:31:30] [RUN] 4: Discharge 
+[2026-02-16 14:31:30] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:30] [RUN] 5: Wait 
+[2026-02-16 14:31:30] Waiting 1300 ms...
+[2026-02-16 14:31:31] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:31] [RUN] 2: Discharge 
+[2026-02-16 14:31:31] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:31] [RUN] 3: Wait 
+[2026-02-16 14:31:31] Waiting 1300 ms...
+[2026-02-16 14:31:33] [RUN] 4: Discharge 
+[2026-02-16 14:31:33] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:33] [RUN] 5: Wait 
+[2026-02-16 14:31:33] Waiting 1300 ms...
+[2026-02-16 14:31:34] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:34] [RUN] 2: Discharge 
+[2026-02-16 14:31:34] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:34] [RUN] 3: Wait 
+[2026-02-16 14:31:34] Waiting 1300 ms...
+[2026-02-16 14:31:35] [RUN] 4: Discharge 
+[2026-02-16 14:31:35] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:35] [RUN] 5: Wait 
+[2026-02-16 14:31:35] Waiting 1300 ms...
+[2026-02-16 14:31:37] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:37] [RUN] 2: Discharge 
+[2026-02-16 14:31:37] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:37] [RUN] 3: Wait 
+[2026-02-16 14:31:37] Waiting 1300 ms...
+[2026-02-16 14:31:38] [RUN] 4: Discharge 
+[2026-02-16 14:31:38] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:38] [RUN] 5: Wait 
+[2026-02-16 14:31:38] Waiting 1300 ms...
+[2026-02-16 14:31:39] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:39] [RUN] 2: Discharge 
+[2026-02-16 14:31:39] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:31:39] [RUN] 3: Wait 
+[2026-02-16 14:31:39] Waiting 1300 ms...
+[2026-02-16 14:31:41] [RUN] 4: Discharge 
+[2026-02-16 14:31:41] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:31:41] [RUN] 5: Wait 
+[2026-02-16 14:31:41] Waiting 1300 ms...
+[2026-02-16 14:31:42] [RUN] 6: LoopEnd 
+[2026-02-16 14:31:42] [RUN] 7: Expect BatteryState == 22
+[2026-02-16 14:32:56] [RUN] 0: Connect discharge_aold_repetetive
+[2026-02-16 14:32:56] Connecting to discharge_aold_repetetive...
+[2026-02-16 14:32:56] [RUN] 1: LoopStart 
+[2026-02-16 14:32:56] [RUN] 2: Discharge 
+[2026-02-16 14:32:56] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:32:56] [RUN] 3: Wait 
+[2026-02-16 14:32:56] Waiting 1300 ms...
+[2026-02-16 14:32:57] [RUN] 4: Discharge 
+[2026-02-16 14:32:57] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:32:57] [RUN] 5: Wait 
+[2026-02-16 14:32:57] Waiting 1300 ms...
+[2026-02-16 14:32:58] [RUN] 6: LoopEnd 
+[2026-02-16 14:32:58] [RUN] 2: Discharge 
+[2026-02-16 14:32:58] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:32:58] [RUN] 3: Wait 
+[2026-02-16 14:32:58] Waiting 1300 ms...
+[2026-02-16 14:33:00] [RUN] 4: Discharge 
+[2026-02-16 14:33:00] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:00] [RUN] 5: Wait 
+[2026-02-16 14:33:00] Waiting 1300 ms...
+[2026-02-16 14:33:01] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:01] [RUN] 2: Discharge 
+[2026-02-16 14:33:01] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:01] [RUN] 3: Wait 
+[2026-02-16 14:33:01] Waiting 1300 ms...
+[2026-02-16 14:33:02] [RUN] 4: Discharge 
+[2026-02-16 14:33:02] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:02] [RUN] 5: Wait 
+[2026-02-16 14:33:02] Waiting 1300 ms...
+[2026-02-16 14:33:04] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:04] [RUN] 2: Discharge 
+[2026-02-16 14:33:04] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:04] [RUN] 3: Wait 
+[2026-02-16 14:33:04] Waiting 1300 ms...
+[2026-02-16 14:33:05] [RUN] 4: Discharge 
+[2026-02-16 14:33:05] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:05] [RUN] 5: Wait 
+[2026-02-16 14:33:05] Waiting 1300 ms...
+[2026-02-16 14:33:06] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:06] [RUN] 2: Discharge 
+[2026-02-16 14:33:06] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:06] [RUN] 3: Wait 
+[2026-02-16 14:33:06] Waiting 1300 ms...
+[2026-02-16 14:33:08] [RUN] 4: Discharge 
+[2026-02-16 14:33:08] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:08] [RUN] 5: Wait 
+[2026-02-16 14:33:08] Waiting 1300 ms...
+[2026-02-16 14:33:09] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:09] [RUN] 7: Expect BatteryState == 18
+[2026-02-16 14:33:46] [RUN] 0: Connect discharge_aold_repetetive
+[2026-02-16 14:33:46] Connecting to discharge_aold_repetetive...
+[2026-02-16 14:33:46] [RUN] 1: LoopStart 
+[2026-02-16 14:33:46] [RUN] 2: Discharge 
+[2026-02-16 14:33:46] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:46] [RUN] 3: Wait 
+[2026-02-16 14:33:46] Waiting 1300 ms...
+[2026-02-16 14:33:47] [RUN] 4: Discharge 
+[2026-02-16 14:33:47] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:47] [RUN] 5: Wait 
+[2026-02-16 14:33:47] Waiting 1300 ms...
+[2026-02-16 14:33:49] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:49] [RUN] 2: Discharge 
+[2026-02-16 14:33:49] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:49] [RUN] 3: Wait 
+[2026-02-16 14:33:49] Waiting 1300 ms...
+[2026-02-16 14:33:50] [RUN] 4: Discharge 
+[2026-02-16 14:33:50] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:50] [RUN] 5: Wait 
+[2026-02-16 14:33:50] Waiting 1300 ms...
+[2026-02-16 14:33:51] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:51] [RUN] 2: Discharge 
+[2026-02-16 14:33:51] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:51] [RUN] 3: Wait 
+[2026-02-16 14:33:51] Waiting 1300 ms...
+[2026-02-16 14:33:53] [RUN] 4: Discharge 
+[2026-02-16 14:33:53] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:53] [RUN] 5: Wait 
+[2026-02-16 14:33:53] Waiting 1300 ms...
+[2026-02-16 14:33:54] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:54] [RUN] 2: Discharge 
+[2026-02-16 14:33:54] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:54] [RUN] 3: Wait 
+[2026-02-16 14:33:54] Waiting 1300 ms...
+[2026-02-16 14:33:55] [RUN] 4: Discharge 
+[2026-02-16 14:33:55] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:55] [RUN] 5: Wait 
+[2026-02-16 14:33:55] Waiting 1300 ms...
+[2026-02-16 14:33:57] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:57] [RUN] 2: Discharge 
+[2026-02-16 14:33:57] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:57] [RUN] 3: Wait 
+[2026-02-16 14:33:57] Waiting 1300 ms...
+[2026-02-16 14:33:58] [RUN] 4: Discharge 
+[2026-02-16 14:33:58] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:33:58] [RUN] 5: Wait 
+[2026-02-16 14:33:58] Waiting 1300 ms...
+[2026-02-16 14:33:59] [RUN] 6: LoopEnd 
+[2026-02-16 14:33:59] [RUN] 2: Discharge 
+[2026-02-16 14:33:59] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:33:59] [RUN] 3: Wait 
+[2026-02-16 14:33:59] Waiting 1300 ms...
+[2026-02-16 14:34:01] [RUN] 4: Discharge 
+[2026-02-16 14:34:01] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:01] [RUN] 5: Wait 
+[2026-02-16 14:34:01] Waiting 1300 ms...
+[2026-02-16 14:34:02] [RUN] 6: LoopEnd 
+[2026-02-16 14:34:02] [RUN] 7: Expect BatteryState == 18
+[2026-02-16 14:34:02] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-16 14:34:02] [RUN] 8: LoopStart 
+[2026-02-16 14:34:02] [RUN] 9: Discharge 
+[2026-02-16 14:34:02] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:02] [RUN] 10: Wait 
+[2026-02-16 14:34:02] Waiting 1300 ms...
+[2026-02-16 14:34:04] [RUN] 11: Discharge 
+[2026-02-16 14:34:04] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:04] [RUN] 12: Wait 
+[2026-02-16 14:34:04] Waiting 1300 ms...
+[2026-02-16 14:34:05] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:05] [RUN] 9: Discharge 
+[2026-02-16 14:34:05] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:05] [RUN] 10: Wait 
+[2026-02-16 14:34:05] Waiting 1300 ms...
+[2026-02-16 14:34:06] [RUN] 11: Discharge 
+[2026-02-16 14:34:06] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:06] [RUN] 12: Wait 
+[2026-02-16 14:34:06] Waiting 1300 ms...
+[2026-02-16 14:34:08] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:08] [RUN] 9: Discharge 
+[2026-02-16 14:34:08] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:08] [RUN] 10: Wait 
+[2026-02-16 14:34:08] Waiting 1300 ms...
+[2026-02-16 14:34:09] [RUN] 11: Discharge 
+[2026-02-16 14:34:09] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:09] [RUN] 12: Wait 
+[2026-02-16 14:34:09] Waiting 1300 ms...
+[2026-02-16 14:34:10] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:10] [RUN] 9: Discharge 
+[2026-02-16 14:34:10] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:10] [RUN] 10: Wait 
+[2026-02-16 14:34:10] Waiting 1300 ms...
+[2026-02-16 14:34:12] [RUN] 11: Discharge 
+[2026-02-16 14:34:12] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:12] [RUN] 12: Wait 
+[2026-02-16 14:34:12] Waiting 1300 ms...
+[2026-02-16 14:34:13] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:13] [RUN] 9: Discharge 
+[2026-02-16 14:34:13] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:13] [RUN] 10: Wait 
+[2026-02-16 14:34:13] Waiting 1300 ms...
+[2026-02-16 14:34:14] [RUN] 11: Discharge 
+[2026-02-16 14:34:14] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:14] [RUN] 12: Wait 
+[2026-02-16 14:34:14] Waiting 1300 ms...
+[2026-02-16 14:34:16] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:16] [RUN] 9: Discharge 
+[2026-02-16 14:34:16] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:16] [RUN] 10: Wait 
+[2026-02-16 14:34:16] Waiting 1300 ms...
+[2026-02-16 14:34:17] [RUN] 11: Discharge 
+[2026-02-16 14:34:17] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:17] [RUN] 12: Wait 
+[2026-02-16 14:34:17] Waiting 1300 ms...
+[2026-02-16 14:34:18] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:18] [RUN] 9: Discharge 
+[2026-02-16 14:34:18] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:18] [RUN] 10: Wait 
+[2026-02-16 14:34:18] Waiting 1300 ms...
+[2026-02-16 14:34:20] [RUN] 11: Discharge 
+[2026-02-16 14:34:20] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:20] [RUN] 12: Wait 
+[2026-02-16 14:34:20] Waiting 1300 ms...
+[2026-02-16 14:34:21] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:21] [RUN] 9: Discharge 
+[2026-02-16 14:34:21] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:21] [RUN] 10: Wait 
+[2026-02-16 14:34:21] Waiting 1300 ms...
+[2026-02-16 14:34:22] [RUN] 11: Discharge 
+[2026-02-16 14:34:22] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:22] [RUN] 12: Wait 
+[2026-02-16 14:34:22] Waiting 1300 ms...
+[2026-02-16 14:34:24] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:24] [RUN] 9: Discharge 
+[2026-02-16 14:34:24] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:24] [RUN] 10: Wait 
+[2026-02-16 14:34:24] Waiting 1300 ms...
+[2026-02-16 14:34:25] [RUN] 11: Discharge 
+[2026-02-16 14:34:25] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:25] [RUN] 12: Wait 
+[2026-02-16 14:34:25] Waiting 1300 ms...
+[2026-02-16 14:34:26] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:26] [RUN] 9: Discharge 
+[2026-02-16 14:34:26] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:26] [RUN] 10: Wait 
+[2026-02-16 14:34:26] Waiting 1300 ms...
+[2026-02-16 14:34:28] [RUN] 11: Discharge 
+[2026-02-16 14:34:28] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:28] [RUN] 12: Wait 
+[2026-02-16 14:34:28] Waiting 1300 ms...
+[2026-02-16 14:34:29] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:29] [RUN] 9: Discharge 
+[2026-02-16 14:34:29] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:29] [RUN] 10: Wait 
+[2026-02-16 14:34:29] Waiting 1300 ms...
+[2026-02-16 14:34:30] [RUN] 11: Discharge 
+[2026-02-16 14:34:30] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:30] [RUN] 12: Wait 
+[2026-02-16 14:34:30] Waiting 1300 ms...
+[2026-02-16 14:34:32] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:32] [RUN] 9: Discharge 
+[2026-02-16 14:34:32] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:32] [RUN] 10: Wait 
+[2026-02-16 14:34:32] Waiting 1300 ms...
+[2026-02-16 14:34:33] [RUN] 11: Discharge 
+[2026-02-16 14:34:33] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:33] [RUN] 12: Wait 
+[2026-02-16 14:34:33] Waiting 1300 ms...
+[2026-02-16 14:34:34] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:34] [RUN] 9: Discharge 
+[2026-02-16 14:34:34] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:34] [RUN] 10: Wait 
+[2026-02-16 14:34:34] Waiting 1300 ms...
+[2026-02-16 14:34:36] [RUN] 11: Discharge 
+[2026-02-16 14:34:36] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:36] [RUN] 12: Wait 
+[2026-02-16 14:34:36] Waiting 1300 ms...
+[2026-02-16 14:34:37] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:37] [RUN] 9: Discharge 
+[2026-02-16 14:34:37] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:37] [RUN] 10: Wait 
+[2026-02-16 14:34:37] Waiting 1300 ms...
+[2026-02-16 14:34:38] [RUN] 11: Discharge 
+[2026-02-16 14:34:38] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:38] [RUN] 12: Wait 
+[2026-02-16 14:34:38] Waiting 1300 ms...
+[2026-02-16 14:34:40] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:40] [RUN] 9: Discharge 
+[2026-02-16 14:34:40] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:40] [RUN] 10: Wait 
+[2026-02-16 14:34:40] Waiting 1300 ms...
+[2026-02-16 14:34:41] [RUN] 11: Discharge 
+[2026-02-16 14:34:41] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:41] [RUN] 12: Wait 
+[2026-02-16 14:34:41] Waiting 1300 ms...
+[2026-02-16 14:34:42] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:42] [RUN] 9: Discharge 
+[2026-02-16 14:34:42] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:42] [RUN] 10: Wait 
+[2026-02-16 14:34:42] Waiting 1300 ms...
+[2026-02-16 14:34:44] [RUN] 11: Discharge 
+[2026-02-16 14:34:44] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:44] [RUN] 12: Wait 
+[2026-02-16 14:34:44] Waiting 1300 ms...
+[2026-02-16 14:34:45] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:45] [RUN] 9: Discharge 
+[2026-02-16 14:34:45] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:45] [RUN] 10: Wait 
+[2026-02-16 14:34:45] Waiting 1300 ms...
+[2026-02-16 14:34:46] [RUN] 11: Discharge 
+[2026-02-16 14:34:46] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:46] [RUN] 12: Wait 
+[2026-02-16 14:34:46] Waiting 1300 ms...
+[2026-02-16 14:34:48] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:48] [RUN] 9: Discharge 
+[2026-02-16 14:34:48] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:48] [RUN] 10: Wait 
+[2026-02-16 14:34:48] Waiting 1300 ms...
+[2026-02-16 14:34:49] [RUN] 11: Discharge 
+[2026-02-16 14:34:49] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:49] [RUN] 12: Wait 
+[2026-02-16 14:34:49] Waiting 1300 ms...
+[2026-02-16 14:34:50] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:50] [RUN] 9: Discharge 
+[2026-02-16 14:34:50] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:50] [RUN] 10: Wait 
+[2026-02-16 14:34:50] Waiting 1300 ms...
+[2026-02-16 14:34:52] [RUN] 11: Discharge 
+[2026-02-16 14:34:52] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:52] [RUN] 12: Wait 
+[2026-02-16 14:34:52] Waiting 1300 ms...
+[2026-02-16 14:34:53] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:53] [RUN] 9: Discharge 
+[2026-02-16 14:34:53] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:53] [RUN] 10: Wait 
+[2026-02-16 14:34:53] Waiting 1300 ms...
+[2026-02-16 14:34:54] [RUN] 11: Discharge 
+[2026-02-16 14:34:54] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:54] [RUN] 12: Wait 
+[2026-02-16 14:34:54] Waiting 1300 ms...
+[2026-02-16 14:34:56] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:56] [RUN] 9: Discharge 
+[2026-02-16 14:34:56] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:56] [RUN] 10: Wait 
+[2026-02-16 14:34:56] Waiting 1300 ms...
+[2026-02-16 14:34:57] [RUN] 11: Discharge 
+[2026-02-16 14:34:57] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:34:57] [RUN] 12: Wait 
+[2026-02-16 14:34:57] Waiting 1300 ms...
+[2026-02-16 14:34:58] [RUN] 13: LoopEnd 
+[2026-02-16 14:34:58] [RUN] 9: Discharge 
+[2026-02-16 14:34:58] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:34:58] [RUN] 10: Wait 
+[2026-02-16 14:34:58] Waiting 1300 ms...
+[2026-02-16 14:35:00] [RUN] 11: Discharge 
+[2026-02-16 14:35:00] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:00] [RUN] 12: Wait 
+[2026-02-16 14:35:00] Waiting 1300 ms...
+[2026-02-16 14:35:01] [RUN] 13: LoopEnd 
+[2026-02-16 14:35:01] [RUN] 9: Discharge 
+[2026-02-16 14:35:01] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:35:01] [RUN] 10: Wait 
+[2026-02-16 14:35:01] Waiting 1300 ms...
+[2026-02-16 14:35:02] [RUN] 11: Discharge 
+[2026-02-16 14:35:02] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:02] [RUN] 12: Wait 
+[2026-02-16 14:35:02] Waiting 1300 ms...
+[2026-02-16 14:35:03] [RUN] 13: LoopEnd 
+[2026-02-16 14:35:04] [RUN] 9: Discharge 
+[2026-02-16 14:35:04] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:35:04] [RUN] 10: Wait 
+[2026-02-16 14:35:04] Waiting 1300 ms...
+[2026-02-16 14:35:05] [RUN] 11: Discharge 
+[2026-02-16 14:35:05] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:05] [RUN] 12: Wait 
+[2026-02-16 14:35:05] Waiting 1300 ms...
+[2026-02-16 14:35:06] [RUN] 13: LoopEnd 
+[2026-02-16 14:35:06] [RUN] 9: Discharge 
+[2026-02-16 14:35:06] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:35:06] [RUN] 10: Wait 
+[2026-02-16 14:35:06] Waiting 1300 ms...
+[2026-02-16 14:35:07] [RUN] 11: Discharge 
+[2026-02-16 14:35:07] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:07] [RUN] 12: Wait 
+[2026-02-16 14:35:08] Waiting 1300 ms...
+[2026-02-16 14:35:09] [RUN] 13: LoopEnd 
+[2026-02-16 14:35:09] [RUN] 9: Discharge 
+[2026-02-16 14:35:09] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:35:09] [RUN] 10: Wait 
+[2026-02-16 14:35:09] Waiting 1300 ms...
+[2026-02-16 14:35:10] [RUN] 11: Discharge 
+[2026-02-16 14:35:10] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:10] [RUN] 12: Wait 
+[2026-02-16 14:35:10] Waiting 1300 ms...
+[2026-02-16 14:35:11] [RUN] 13: LoopEnd 
+[2026-02-16 14:35:11] [RUN] 14: Expect BatteryState == 22
+[2026-02-16 14:35:52] [RUN] 0: Connect discharge_aold_repetetive
+[2026-02-16 14:35:52] Connecting to discharge_aold_repetetive...
+[2026-02-16 14:35:52] [RUN] 1: LoopStart 
+[2026-02-16 14:35:52] [RUN] 2: Discharge 
+[2026-02-16 14:35:52] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:35:52] [RUN] 3: Wait 
+[2026-02-16 14:35:52] Waiting 1300 ms...
+[2026-02-16 14:35:54] [RUN] 4: Discharge 
+[2026-02-16 14:35:54] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:54] [RUN] 5: Wait 
+[2026-02-16 14:35:54] Waiting 1300 ms...
+[2026-02-16 14:35:55] [RUN] 6: LoopEnd 
+[2026-02-16 14:35:55] [RUN] 2: Discharge 
+[2026-02-16 14:35:55] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:35:55] [RUN] 3: Wait 
+[2026-02-16 14:35:55] Waiting 1300 ms...
+[2026-02-16 14:35:56] [RUN] 4: Discharge 
+[2026-02-16 14:35:56] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:56] [RUN] 5: Wait 
+[2026-02-16 14:35:56] Waiting 1300 ms...
+[2026-02-16 14:35:58] [RUN] 6: LoopEnd 
+[2026-02-16 14:35:58] [RUN] 2: Discharge 
+[2026-02-16 14:35:58] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:35:58] [RUN] 3: Wait 
+[2026-02-16 14:35:58] Waiting 1300 ms...
+[2026-02-16 14:35:59] [RUN] 4: Discharge 
+[2026-02-16 14:35:59] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:35:59] [RUN] 5: Wait 
+[2026-02-16 14:35:59] Waiting 1300 ms...
+[2026-02-16 14:36:00] [RUN] 6: LoopEnd 
+[2026-02-16 14:36:00] [RUN] 2: Discharge 
+[2026-02-16 14:36:00] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:00] [RUN] 3: Wait 
+[2026-02-16 14:36:00] Waiting 1300 ms...
+[2026-02-16 14:36:02] [RUN] 4: Discharge 
+[2026-02-16 14:36:02] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:02] [RUN] 5: Wait 
+[2026-02-16 14:36:02] Waiting 1300 ms...
+[2026-02-16 14:36:03] [RUN] 6: LoopEnd 
+[2026-02-16 14:36:03] [RUN] 2: Discharge 
+[2026-02-16 14:36:03] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:03] [RUN] 3: Wait 
+[2026-02-16 14:36:03] Waiting 1300 ms...
+[2026-02-16 14:36:04] [RUN] 4: Discharge 
+[2026-02-16 14:36:04] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:04] [RUN] 5: Wait 
+[2026-02-16 14:36:04] Waiting 1300 ms...
+[2026-02-16 14:36:06] [RUN] 6: LoopEnd 
+[2026-02-16 14:36:06] [RUN] 2: Discharge 
+[2026-02-16 14:36:06] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:06] [RUN] 3: Wait 
+[2026-02-16 14:36:06] Waiting 1300 ms...
+[2026-02-16 14:36:07] [RUN] 4: Discharge 
+[2026-02-16 14:36:07] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:07] [RUN] 5: Wait 
+[2026-02-16 14:36:07] Waiting 1300 ms...
+[2026-02-16 14:36:08] [RUN] 6: LoopEnd 
+[2026-02-16 14:36:08] [RUN] 7: Expect BatteryState == 18
+[2026-02-16 14:36:08] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-16 14:36:08] [RUN] 8: LoopStart 
+[2026-02-16 14:36:08] [RUN] 9: Discharge 
+[2026-02-16 14:36:08] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:08] [RUN] 10: Wait 
+[2026-02-16 14:36:08] Waiting 1300 ms...
+[2026-02-16 14:36:10] [RUN] 11: Discharge 
+[2026-02-16 14:36:10] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:10] [RUN] 12: Wait 
+[2026-02-16 14:36:10] Waiting 1300 ms...
+[2026-02-16 14:36:11] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:11] [RUN] 9: Discharge 
+[2026-02-16 14:36:11] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:11] [RUN] 10: Wait 
+[2026-02-16 14:36:11] Waiting 1300 ms...
+[2026-02-16 14:36:12] [RUN] 11: Discharge 
+[2026-02-16 14:36:12] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:12] [RUN] 12: Wait 
+[2026-02-16 14:36:12] Waiting 1300 ms...
+[2026-02-16 14:36:14] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:14] [RUN] 9: Discharge 
+[2026-02-16 14:36:14] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:14] [RUN] 10: Wait 
+[2026-02-16 14:36:14] Waiting 1300 ms...
+[2026-02-16 14:36:15] [RUN] 11: Discharge 
+[2026-02-16 14:36:15] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:15] [RUN] 12: Wait 
+[2026-02-16 14:36:15] Waiting 1300 ms...
+[2026-02-16 14:36:16] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:16] [RUN] 9: Discharge 
+[2026-02-16 14:36:16] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:16] [RUN] 10: Wait 
+[2026-02-16 14:36:16] Waiting 1300 ms...
+[2026-02-16 14:36:18] [RUN] 11: Discharge 
+[2026-02-16 14:36:18] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:18] [RUN] 12: Wait 
+[2026-02-16 14:36:18] Waiting 1300 ms...
+[2026-02-16 14:36:19] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:19] [RUN] 9: Discharge 
+[2026-02-16 14:36:19] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:19] [RUN] 10: Wait 
+[2026-02-16 14:36:19] Waiting 1300 ms...
+[2026-02-16 14:36:20] [RUN] 11: Discharge 
+[2026-02-16 14:36:20] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:20] [RUN] 12: Wait 
+[2026-02-16 14:36:20] Waiting 1300 ms...
+[2026-02-16 14:36:22] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:22] [RUN] 9: Discharge 
+[2026-02-16 14:36:22] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:22] [RUN] 10: Wait 
+[2026-02-16 14:36:22] Waiting 1300 ms...
+[2026-02-16 14:36:23] [RUN] 11: Discharge 
+[2026-02-16 14:36:23] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:23] [RUN] 12: Wait 
+[2026-02-16 14:36:23] Waiting 1300 ms...
+[2026-02-16 14:36:24] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:24] [RUN] 9: Discharge 
+[2026-02-16 14:36:24] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:24] [RUN] 10: Wait 
+[2026-02-16 14:36:24] Waiting 1300 ms...
+[2026-02-16 14:36:26] [RUN] 11: Discharge 
+[2026-02-16 14:36:26] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:26] [RUN] 12: Wait 
+[2026-02-16 14:36:26] Waiting 1300 ms...
+[2026-02-16 14:36:27] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:27] [RUN] 9: Discharge 
+[2026-02-16 14:36:27] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:27] [RUN] 10: Wait 
+[2026-02-16 14:36:27] Waiting 1300 ms...
+[2026-02-16 14:36:28] [RUN] 11: Discharge 
+[2026-02-16 14:36:28] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:28] [RUN] 12: Wait 
+[2026-02-16 14:36:28] Waiting 1300 ms...
+[2026-02-16 14:36:30] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:30] [RUN] 9: Discharge 
+[2026-02-16 14:36:30] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:30] [RUN] 10: Wait 
+[2026-02-16 14:36:30] Waiting 1300 ms...
+[2026-02-16 14:36:31] [RUN] 11: Discharge 
+[2026-02-16 14:36:31] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:31] [RUN] 12: Wait 
+[2026-02-16 14:36:31] Waiting 1300 ms...
+[2026-02-16 14:36:32] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:32] [RUN] 9: Discharge 
+[2026-02-16 14:36:32] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:32] [RUN] 10: Wait 
+[2026-02-16 14:36:32] Waiting 1300 ms...
+[2026-02-16 14:36:34] [RUN] 11: Discharge 
+[2026-02-16 14:36:34] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:34] [RUN] 12: Wait 
+[2026-02-16 14:36:34] Waiting 1300 ms...
+[2026-02-16 14:36:35] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:35] [RUN] 9: Discharge 
+[2026-02-16 14:36:35] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:35] [RUN] 10: Wait 
+[2026-02-16 14:36:35] Waiting 1300 ms...
+[2026-02-16 14:36:36] [RUN] 11: Discharge 
+[2026-02-16 14:36:36] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:36] [RUN] 12: Wait 
+[2026-02-16 14:36:36] Waiting 1300 ms...
+[2026-02-16 14:36:38] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:38] [RUN] 9: Discharge 
+[2026-02-16 14:36:38] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:38] [RUN] 10: Wait 
+[2026-02-16 14:36:38] Waiting 1300 ms...
+[2026-02-16 14:36:39] [RUN] 11: Discharge 
+[2026-02-16 14:36:39] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:39] [RUN] 12: Wait 
+[2026-02-16 14:36:39] Waiting 1300 ms...
+[2026-02-16 14:36:40] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:40] [RUN] 9: Discharge 
+[2026-02-16 14:36:40] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:40] [RUN] 10: Wait 
+[2026-02-16 14:36:40] Waiting 1300 ms...
+[2026-02-16 14:36:42] [RUN] 11: Discharge 
+[2026-02-16 14:36:42] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:42] [RUN] 12: Wait 
+[2026-02-16 14:36:42] Waiting 1300 ms...
+[2026-02-16 14:36:43] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:43] [RUN] 9: Discharge 
+[2026-02-16 14:36:43] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:43] [RUN] 10: Wait 
+[2026-02-16 14:36:43] Waiting 1300 ms...
+[2026-02-16 14:36:44] [RUN] 11: Discharge 
+[2026-02-16 14:36:44] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:44] [RUN] 12: Wait 
+[2026-02-16 14:36:44] Waiting 1300 ms...
+[2026-02-16 14:36:46] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:46] [RUN] 9: Discharge 
+[2026-02-16 14:36:46] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:46] [RUN] 10: Wait 
+[2026-02-16 14:36:46] Waiting 1300 ms...
+[2026-02-16 14:36:47] [RUN] 11: Discharge 
+[2026-02-16 14:36:47] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:47] [RUN] 12: Wait 
+[2026-02-16 14:36:47] Waiting 1300 ms...
+[2026-02-16 14:36:48] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:48] [RUN] 9: Discharge 
+[2026-02-16 14:36:48] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:48] [RUN] 10: Wait 
+[2026-02-16 14:36:48] Waiting 1300 ms...
+[2026-02-16 14:36:50] [RUN] 11: Discharge 
+[2026-02-16 14:36:50] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:50] [RUN] 12: Wait 
+[2026-02-16 14:36:50] Waiting 1300 ms...
+[2026-02-16 14:36:51] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:51] [RUN] 9: Discharge 
+[2026-02-16 14:36:51] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:51] [RUN] 10: Wait 
+[2026-02-16 14:36:51] Waiting 1300 ms...
+[2026-02-16 14:36:52] [RUN] 11: Discharge 
+[2026-02-16 14:36:52] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:52] [RUN] 12: Wait 
+[2026-02-16 14:36:52] Waiting 1300 ms...
+[2026-02-16 14:36:54] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:54] [RUN] 9: Discharge 
+[2026-02-16 14:36:54] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:54] [RUN] 10: Wait 
+[2026-02-16 14:36:54] Waiting 1300 ms...
+[2026-02-16 14:36:55] [RUN] 11: Discharge 
+[2026-02-16 14:36:55] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:55] [RUN] 12: Wait 
+[2026-02-16 14:36:55] Waiting 1300 ms...
+[2026-02-16 14:36:56] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:56] [RUN] 9: Discharge 
+[2026-02-16 14:36:56] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:56] [RUN] 10: Wait 
+[2026-02-16 14:36:56] Waiting 1300 ms...
+[2026-02-16 14:36:58] [RUN] 11: Discharge 
+[2026-02-16 14:36:58] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:36:58] [RUN] 12: Wait 
+[2026-02-16 14:36:58] Waiting 1300 ms...
+[2026-02-16 14:36:59] [RUN] 13: LoopEnd 
+[2026-02-16 14:36:59] [RUN] 9: Discharge 
+[2026-02-16 14:36:59] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:36:59] [RUN] 10: Wait 
+[2026-02-16 14:36:59] Waiting 1300 ms...
+[2026-02-16 14:37:00] [RUN] 11: Discharge 
+[2026-02-16 14:37:00] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:00] [RUN] 12: Wait 
+[2026-02-16 14:37:00] Waiting 1300 ms...
+[2026-02-16 14:37:02] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:02] [RUN] 9: Discharge 
+[2026-02-16 14:37:02] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:02] [RUN] 10: Wait 
+[2026-02-16 14:37:02] Waiting 1300 ms...
+[2026-02-16 14:37:03] [RUN] 11: Discharge 
+[2026-02-16 14:37:03] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:03] [RUN] 12: Wait 
+[2026-02-16 14:37:03] Waiting 1300 ms...
+[2026-02-16 14:37:04] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:04] [RUN] 9: Discharge 
+[2026-02-16 14:37:04] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:04] [RUN] 10: Wait 
+[2026-02-16 14:37:04] Waiting 1300 ms...
+[2026-02-16 14:37:05] [RUN] 11: Discharge 
+[2026-02-16 14:37:05] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:05] [RUN] 12: Wait 
+[2026-02-16 14:37:05] Waiting 1300 ms...
+[2026-02-16 14:37:07] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:07] [RUN] 9: Discharge 
+[2026-02-16 14:37:07] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:07] [RUN] 10: Wait 
+[2026-02-16 14:37:07] Waiting 1300 ms...
+[2026-02-16 14:37:08] [RUN] 11: Discharge 
+[2026-02-16 14:37:08] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:08] [RUN] 12: Wait 
+[2026-02-16 14:37:08] Waiting 1300 ms...
+[2026-02-16 14:37:09] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:09] [RUN] 9: Discharge 
+[2026-02-16 14:37:09] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:09] [RUN] 10: Wait 
+[2026-02-16 14:37:09] Waiting 1300 ms...
+[2026-02-16 14:37:11] [RUN] 11: Discharge 
+[2026-02-16 14:37:11] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:11] [RUN] 12: Wait 
+[2026-02-16 14:37:11] Waiting 1300 ms...
+[2026-02-16 14:37:12] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:12] [RUN] 9: Discharge 
+[2026-02-16 14:37:12] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:12] [RUN] 10: Wait 
+[2026-02-16 14:37:12] Waiting 1300 ms...
+[2026-02-16 14:37:13] [RUN] 11: Discharge 
+[2026-02-16 14:37:13] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:13] [RUN] 12: Wait 
+[2026-02-16 14:37:13] Waiting 1300 ms...
+[2026-02-16 14:37:15] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:15] [RUN] 9: Discharge 
+[2026-02-16 14:37:15] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:15] [RUN] 10: Wait 
+[2026-02-16 14:37:15] Waiting 1300 ms...
+[2026-02-16 14:37:16] [RUN] 11: Discharge 
+[2026-02-16 14:37:16] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:16] [RUN] 12: Wait 
+[2026-02-16 14:37:16] Waiting 1300 ms...
+[2026-02-16 14:37:17] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:17] [RUN] 9: Discharge 
+[2026-02-16 14:37:17] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:17] [RUN] 10: Wait 
+[2026-02-16 14:37:17] Waiting 1300 ms...
+[2026-02-16 14:37:19] [RUN] 11: Discharge 
+[2026-02-16 14:37:19] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:19] [RUN] 12: Wait 
+[2026-02-16 14:37:19] Waiting 1300 ms...
+[2026-02-16 14:37:20] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:20] [RUN] 9: Discharge 
+[2026-02-16 14:37:20] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:20] [RUN] 10: Wait 
+[2026-02-16 14:37:20] Waiting 1300 ms...
+[2026-02-16 14:37:21] [RUN] 11: Discharge 
+[2026-02-16 14:37:21] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:21] [RUN] 12: Wait 
+[2026-02-16 14:37:21] Waiting 1300 ms...
+[2026-02-16 14:37:23] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:23] [RUN] 9: Discharge 
+[2026-02-16 14:37:23] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:23] [RUN] 10: Wait 
+[2026-02-16 14:37:23] Waiting 1300 ms...
+[2026-02-16 14:37:24] [RUN] 11: Discharge 
+[2026-02-16 14:37:24] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:24] [RUN] 12: Wait 
+[2026-02-16 14:37:24] Waiting 1300 ms...
+[2026-02-16 14:37:25] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:25] [RUN] 9: Discharge 
+[2026-02-16 14:37:25] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:25] [RUN] 10: Wait 
+[2026-02-16 14:37:25] Waiting 1300 ms...
+[2026-02-16 14:37:27] [RUN] 11: Discharge 
+[2026-02-16 14:37:27] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:27] [RUN] 12: Wait 
+[2026-02-16 14:37:27] Waiting 1300 ms...
+[2026-02-16 14:37:28] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:28] [RUN] 9: Discharge 
+[2026-02-16 14:37:28] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:28] [RUN] 10: Wait 
+[2026-02-16 14:37:28] Waiting 1300 ms...
+[2026-02-16 14:37:29] [RUN] 11: Discharge 
+[2026-02-16 14:37:29] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:29] [RUN] 12: Wait 
+[2026-02-16 14:37:29] Waiting 1300 ms...
+[2026-02-16 14:37:31] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:31] [RUN] 9: Discharge 
+[2026-02-16 14:37:31] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:31] [RUN] 10: Wait 
+[2026-02-16 14:37:31] Waiting 1300 ms...
+[2026-02-16 14:37:32] [RUN] 11: Discharge 
+[2026-02-16 14:37:32] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:32] [RUN] 12: Wait 
+[2026-02-16 14:37:32] Waiting 1300 ms...
+[2026-02-16 14:37:33] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:33] [RUN] 9: Discharge 
+[2026-02-16 14:37:33] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:33] [RUN] 10: Wait 
+[2026-02-16 14:37:33] Waiting 1300 ms...
+[2026-02-16 14:37:35] [RUN] 11: Discharge 
+[2026-02-16 14:37:35] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:35] [RUN] 12: Wait 
+[2026-02-16 14:37:35] Waiting 1300 ms...
+[2026-02-16 14:37:36] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:36] [RUN] 9: Discharge 
+[2026-02-16 14:37:36] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:36] [RUN] 10: Wait 
+[2026-02-16 14:37:36] Waiting 1300 ms...
+[2026-02-16 14:37:37] [RUN] 11: Discharge 
+[2026-02-16 14:37:37] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:37] [RUN] 12: Wait 
+[2026-02-16 14:37:37] Waiting 1300 ms...
+[2026-02-16 14:37:39] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:39] [RUN] 9: Discharge 
+[2026-02-16 14:37:39] Discharging 121A (no condition, skipping wait)
+[2026-02-16 14:37:39] [RUN] 10: Wait 
+[2026-02-16 14:37:39] Waiting 1300 ms...
+[2026-02-16 14:37:40] [RUN] 11: Discharge 
+[2026-02-16 14:37:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 14:37:40] [RUN] 12: Wait 
+[2026-02-16 14:37:40] Waiting 1300 ms...
+[2026-02-16 14:37:41] [RUN] 13: LoopEnd 
+[2026-02-16 14:37:41] [RUN] 14: Expect BatteryState == 22
+[2026-02-16 14:39:00] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-16 14:39:00] [DONE] Script finished.
+[2026-02-16 15:23:27] [RUN] 0: Connect discharge_ascd
+[2026-02-16 15:23:27] Connecting to discharge_ascd...
+[2026-02-16 15:23:27] [RUN] 1: Discharge 
+[2026-02-16 15:23:27] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:23:27] [RUN] 2: Expect BatteryState == 18
+[2026-02-16 15:23:34] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-16 15:23:34] [RUN] 3: Disconnect 
+[2026-02-16 15:23:34] Disconnecting...
+[2026-02-16 15:32:31] [RUN] 0: Connect discharge_ascd_repetetive
+[2026-02-16 15:32:31] Connecting to discharge_ascd_repetetive...
+[2026-02-16 15:32:31] [RUN] 1: LoopStart 
+[2026-02-16 15:32:31] [RUN] 2: Discharge 
+[2026-02-16 15:32:31] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:32:31] [RUN] 3: Wait 
+[2026-02-16 15:32:31] Waiting 1300 ms...
+[2026-02-16 15:32:33] [RUN] 4: Discharge 
+[2026-02-16 15:32:33] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:32:33] [RUN] 5: Wait 
+[2026-02-16 15:32:33] Waiting 1300 ms...
+[2026-02-16 15:32:34] [RUN] 6: LoopEnd 
+[2026-02-16 15:32:34] [RUN] 2: Discharge 
+[2026-02-16 15:32:34] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:32:34] [RUN] 3: Wait 
+[2026-02-16 15:32:34] Waiting 1300 ms...
+[2026-02-16 15:32:35] [RUN] 4: Discharge 
+[2026-02-16 15:32:35] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:32:35] [RUN] 5: Wait 
+[2026-02-16 15:32:35] Waiting 1300 ms...
+[2026-02-16 15:32:36] [RUN] 6: LoopEnd 
+[2026-02-16 15:32:36] [RUN] 2: Discharge 
+[2026-02-16 15:32:36] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:32:36] [RUN] 3: Wait 
+[2026-02-16 15:32:36] Waiting 1300 ms...
+[2026-02-16 15:32:38] [RUN] 4: Discharge 
+[2026-02-16 15:32:38] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:32:38] [RUN] 5: Wait 
+[2026-02-16 15:32:38] Waiting 1300 ms...
+[2026-02-16 15:32:39] [RUN] 6: LoopEnd 
+[2026-02-16 15:32:39] [RUN] 2: Discharge 
+[2026-02-16 15:32:39] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:32:39] [RUN] 3: Wait 
+[2026-02-16 15:32:39] Waiting 1300 ms...
+[2026-02-16 15:32:40] [RUN] 4: Discharge 
+[2026-02-16 15:32:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:32:40] [RUN] 5: Wait 
+[2026-02-16 15:32:40] Waiting 1300 ms...
+[2026-02-16 15:32:42] [RUN] 6: LoopEnd 
+[2026-02-16 15:32:42] [RUN] 2: Discharge 
+[2026-02-16 15:32:42] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:32:42] [RUN] 3: Wait 
+[2026-02-16 15:32:42] Waiting 1300 ms...
+[2026-02-16 15:32:43] [RUN] 4: Discharge 
+[2026-02-16 15:32:43] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:32:43] [RUN] 5: Wait 
+[2026-02-16 15:32:43] Waiting 1300 ms...
+[2026-02-16 15:32:45] [RUN] 6: LoopEnd 
+[2026-02-16 15:32:45] [RUN] 2: Discharge 
+[2026-02-16 15:32:45] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:32:45] [RUN] 3: Wait 
+[2026-02-16 15:32:45] Waiting 1300 ms...
+[2026-02-16 15:32:46] [RUN] 4: Discharge 
+[2026-02-16 15:32:46] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:32:46] [RUN] 5: Wait 
+[2026-02-16 15:32:46] Waiting 1300 ms...
+[2026-02-16 15:32:47] [RUN] 6: LoopEnd 
+[2026-02-16 15:32:47] [RUN] 7: Expect BatteryState == 18
+[2026-02-16 15:33:26] [RUN] 0: Connect discharge_ascd_repetetive
+[2026-02-16 15:33:26] Connecting to discharge_ascd_repetetive...
+[2026-02-16 15:33:26] [RUN] 1: LoopStart 
+[2026-02-16 15:33:26] [RUN] 2: Discharge 
+[2026-02-16 15:33:26] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:33:26] [RUN] 3: Wait 
+[2026-02-16 15:33:26] Waiting 1300 ms...
+[2026-02-16 15:33:27] [RUN] 4: Discharge 
+[2026-02-16 15:33:27] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:33:27] [RUN] 5: Wait 
+[2026-02-16 15:33:27] Waiting 1300 ms...
+[2026-02-16 15:33:28] [RUN] 6: LoopEnd 
+[2026-02-16 15:33:28] [RUN] 2: Discharge 
+[2026-02-16 15:33:28] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:33:28] [RUN] 3: Wait 
+[2026-02-16 15:33:28] Waiting 1300 ms...
+[2026-02-16 15:33:30] [RUN] 4: Discharge 
+[2026-02-16 15:33:30] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:33:30] [RUN] 5: Wait 
+[2026-02-16 15:33:30] Waiting 1300 ms...
+[2026-02-16 15:33:31] [RUN] 6: LoopEnd 
+[2026-02-16 15:33:31] [RUN] 2: Discharge 
+[2026-02-16 15:33:31] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:33:31] [RUN] 3: Wait 
+[2026-02-16 15:33:31] Waiting 1300 ms...
+[2026-02-16 15:33:32] [RUN] 4: Discharge 
+[2026-02-16 15:33:32] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:33:32] [RUN] 5: Wait 
+[2026-02-16 15:33:32] Waiting 1300 ms...
+[2026-02-16 15:33:34] [RUN] 6: LoopEnd 
+[2026-02-16 15:33:34] [RUN] 2: Discharge 
+[2026-02-16 15:33:34] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:33:34] [RUN] 3: Wait 
+[2026-02-16 15:33:34] Waiting 1300 ms...
+[2026-02-16 15:33:35] [RUN] 4: Discharge 
+[2026-02-16 15:33:35] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:33:35] [RUN] 5: Wait 
+[2026-02-16 15:33:35] Waiting 1300 ms...
+[2026-02-16 15:33:36] [RUN] 6: LoopEnd 
+[2026-02-16 15:33:36] [RUN] 2: Discharge 
+[2026-02-16 15:33:36] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:33:36] [RUN] 3: Wait 
+[2026-02-16 15:33:36] Waiting 1300 ms...
+[2026-02-16 15:33:38] [RUN] 4: Discharge 
+[2026-02-16 15:33:38] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:33:38] [RUN] 5: Wait 
+[2026-02-16 15:33:38] Waiting 1300 ms...
+[2026-02-16 15:33:39] [RUN] 6: LoopEnd 
+[2026-02-16 15:33:39] [RUN] 2: Discharge 
+[2026-02-16 15:33:39] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:33:39] [RUN] 3: Wait 
+[2026-02-16 15:33:39] Waiting 1300 ms...
+[2026-02-16 15:33:40] [RUN] 4: Discharge 
+[2026-02-16 15:33:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:33:40] [RUN] 5: Wait 
+[2026-02-16 15:33:40] Waiting 1300 ms...
+[2026-02-16 15:33:42] [RUN] 6: LoopEnd 
+[2026-02-16 15:33:42] [RUN] 7: Expect BatteryState == 18
+[2026-02-16 15:34:32] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-16 15:34:32] [DONE] Script finished.
+[2026-02-16 15:37:26] [RUN] 0: Connect discharge_aold_repetetive
+[2026-02-16 15:37:26] Connecting to discharge_aold_repetetive...
+[2026-02-16 15:37:26] [RUN] 1: LoopStart 
+[2026-02-16 15:37:26] [RUN] 2: Discharge 
+[2026-02-16 15:37:26] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:26] [RUN] 3: Wait 
+[2026-02-16 15:37:26] Waiting 1300 ms...
+[2026-02-16 15:37:28] [RUN] 4: Discharge 
+[2026-02-16 15:37:28] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:28] [RUN] 5: Wait 
+[2026-02-16 15:37:28] Waiting 1300 ms...
+[2026-02-16 15:37:29] [RUN] 6: LoopEnd 
+[2026-02-16 15:37:29] [RUN] 2: Discharge 
+[2026-02-16 15:37:29] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:29] [RUN] 3: Wait 
+[2026-02-16 15:37:29] Waiting 1300 ms...
+[2026-02-16 15:37:30] [RUN] 4: Discharge 
+[2026-02-16 15:37:30] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:30] [RUN] 5: Wait 
+[2026-02-16 15:37:30] Waiting 1300 ms...
+[2026-02-16 15:37:32] [RUN] 6: LoopEnd 
+[2026-02-16 15:37:32] [RUN] 2: Discharge 
+[2026-02-16 15:37:32] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:32] [RUN] 3: Wait 
+[2026-02-16 15:37:32] Waiting 1300 ms...
+[2026-02-16 15:37:33] [RUN] 4: Discharge 
+[2026-02-16 15:37:33] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:33] [RUN] 5: Wait 
+[2026-02-16 15:37:33] Waiting 1300 ms...
+[2026-02-16 15:37:34] [RUN] 6: LoopEnd 
+[2026-02-16 15:37:34] [RUN] 2: Discharge 
+[2026-02-16 15:37:34] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:34] [RUN] 3: Wait 
+[2026-02-16 15:37:34] Waiting 1300 ms...
+[2026-02-16 15:37:36] [RUN] 4: Discharge 
+[2026-02-16 15:37:36] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:36] [RUN] 5: Wait 
+[2026-02-16 15:37:36] Waiting 1300 ms...
+[2026-02-16 15:37:37] [RUN] 6: LoopEnd 
+[2026-02-16 15:37:37] [RUN] 2: Discharge 
+[2026-02-16 15:37:37] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:37] [RUN] 3: Wait 
+[2026-02-16 15:37:37] Waiting 1300 ms...
+[2026-02-16 15:37:38] [RUN] 4: Discharge 
+[2026-02-16 15:37:38] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:38] [RUN] 5: Wait 
+[2026-02-16 15:37:38] Waiting 1300 ms...
+[2026-02-16 15:37:40] [RUN] 6: LoopEnd 
+[2026-02-16 15:37:40] [RUN] 2: Discharge 
+[2026-02-16 15:37:40] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:40] [RUN] 3: Wait 
+[2026-02-16 15:37:40] Waiting 1300 ms...
+[2026-02-16 15:37:41] [RUN] 4: Discharge 
+[2026-02-16 15:37:41] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:41] [RUN] 5: Wait 
+[2026-02-16 15:37:41] Waiting 1300 ms...
+[2026-02-16 15:37:42] [RUN] 6: LoopEnd 
+[2026-02-16 15:37:42] [RUN] 7: Expect BatteryState == 18
+[2026-02-16 15:37:43] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-16 15:37:43] [RUN] 8: LoopStart 
+[2026-02-16 15:37:43] [RUN] 9: Discharge 
+[2026-02-16 15:37:43] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:43] [RUN] 10: Wait 
+[2026-02-16 15:37:43] Waiting 1300 ms...
+[2026-02-16 15:37:44] [RUN] 11: Discharge 
+[2026-02-16 15:37:44] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:44] [RUN] 12: Wait 
+[2026-02-16 15:37:44] Waiting 1300 ms...
+[2026-02-16 15:37:45] [RUN] 13: LoopEnd 
+[2026-02-16 15:37:45] [RUN] 9: Discharge 
+[2026-02-16 15:37:45] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:45] [RUN] 10: Wait 
+[2026-02-16 15:37:45] Waiting 1300 ms...
+[2026-02-16 15:37:47] [RUN] 11: Discharge 
+[2026-02-16 15:37:47] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:47] [RUN] 12: Wait 
+[2026-02-16 15:37:47] Waiting 1300 ms...
+[2026-02-16 15:37:48] [RUN] 13: LoopEnd 
+[2026-02-16 15:37:48] [RUN] 9: Discharge 
+[2026-02-16 15:37:48] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:48] [RUN] 10: Wait 
+[2026-02-16 15:37:48] Waiting 1300 ms...
+[2026-02-16 15:37:49] [RUN] 11: Discharge 
+[2026-02-16 15:37:49] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:49] [RUN] 12: Wait 
+[2026-02-16 15:37:49] Waiting 1300 ms...
+[2026-02-16 15:37:51] [RUN] 13: LoopEnd 
+[2026-02-16 15:37:51] [RUN] 9: Discharge 
+[2026-02-16 15:37:51] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:51] [RUN] 10: Wait 
+[2026-02-16 15:37:51] Waiting 1300 ms...
+[2026-02-16 15:37:52] [RUN] 11: Discharge 
+[2026-02-16 15:37:52] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:52] [RUN] 12: Wait 
+[2026-02-16 15:37:52] Waiting 1300 ms...
+[2026-02-16 15:37:53] [RUN] 13: LoopEnd 
+[2026-02-16 15:37:53] [RUN] 9: Discharge 
+[2026-02-16 15:37:53] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:53] [RUN] 10: Wait 
+[2026-02-16 15:37:53] Waiting 1300 ms...
+[2026-02-16 15:37:55] [RUN] 11: Discharge 
+[2026-02-16 15:37:55] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:55] [RUN] 12: Wait 
+[2026-02-16 15:37:55] Waiting 1300 ms...
+[2026-02-16 15:37:56] [RUN] 13: LoopEnd 
+[2026-02-16 15:37:56] [RUN] 9: Discharge 
+[2026-02-16 15:37:56] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:56] [RUN] 10: Wait 
+[2026-02-16 15:37:56] Waiting 1300 ms...
+[2026-02-16 15:37:57] [RUN] 11: Discharge 
+[2026-02-16 15:37:57] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:37:57] [RUN] 12: Wait 
+[2026-02-16 15:37:57] Waiting 1300 ms...
+[2026-02-16 15:37:59] [RUN] 13: LoopEnd 
+[2026-02-16 15:37:59] [RUN] 9: Discharge 
+[2026-02-16 15:37:59] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:37:59] [RUN] 10: Wait 
+[2026-02-16 15:37:59] Waiting 1300 ms...
+[2026-02-16 15:38:00] [RUN] 11: Discharge 
+[2026-02-16 15:38:00] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:00] [RUN] 12: Wait 
+[2026-02-16 15:38:00] Waiting 1300 ms...
+[2026-02-16 15:38:01] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:01] [RUN] 9: Discharge 
+[2026-02-16 15:38:01] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:01] [RUN] 10: Wait 
+[2026-02-16 15:38:01] Waiting 1300 ms...
+[2026-02-16 15:38:02] [RUN] 11: Discharge 
+[2026-02-16 15:38:02] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:02] [RUN] 12: Wait 
+[2026-02-16 15:38:02] Waiting 1300 ms...
+[2026-02-16 15:38:04] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:04] [RUN] 9: Discharge 
+[2026-02-16 15:38:04] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:04] [RUN] 10: Wait 
+[2026-02-16 15:38:04] Waiting 1300 ms...
+[2026-02-16 15:38:05] [RUN] 11: Discharge 
+[2026-02-16 15:38:05] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:05] [RUN] 12: Wait 
+[2026-02-16 15:38:05] Waiting 1300 ms...
+[2026-02-16 15:38:06] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:06] [RUN] 9: Discharge 
+[2026-02-16 15:38:06] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:06] [RUN] 10: Wait 
+[2026-02-16 15:38:06] Waiting 1300 ms...
+[2026-02-16 15:38:08] [RUN] 11: Discharge 
+[2026-02-16 15:38:08] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:08] [RUN] 12: Wait 
+[2026-02-16 15:38:08] Waiting 1300 ms...
+[2026-02-16 15:38:09] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:09] [RUN] 9: Discharge 
+[2026-02-16 15:38:09] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:09] [RUN] 10: Wait 
+[2026-02-16 15:38:09] Waiting 1300 ms...
+[2026-02-16 15:38:10] [RUN] 11: Discharge 
+[2026-02-16 15:38:10] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:10] [RUN] 12: Wait 
+[2026-02-16 15:38:10] Waiting 1300 ms...
+[2026-02-16 15:38:12] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:12] [RUN] 9: Discharge 
+[2026-02-16 15:38:12] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:12] [RUN] 10: Wait 
+[2026-02-16 15:38:12] Waiting 1300 ms...
+[2026-02-16 15:38:13] [RUN] 11: Discharge 
+[2026-02-16 15:38:13] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:13] [RUN] 12: Wait 
+[2026-02-16 15:38:13] Waiting 1300 ms...
+[2026-02-16 15:38:14] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:14] [RUN] 9: Discharge 
+[2026-02-16 15:38:14] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:14] [RUN] 10: Wait 
+[2026-02-16 15:38:14] Waiting 1300 ms...
+[2026-02-16 15:38:16] [RUN] 11: Discharge 
+[2026-02-16 15:38:16] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:16] [RUN] 12: Wait 
+[2026-02-16 15:38:16] Waiting 1300 ms...
+[2026-02-16 15:38:17] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:17] [RUN] 9: Discharge 
+[2026-02-16 15:38:17] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:17] [RUN] 10: Wait 
+[2026-02-16 15:38:17] Waiting 1300 ms...
+[2026-02-16 15:38:18] [RUN] 11: Discharge 
+[2026-02-16 15:38:18] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:18] [RUN] 12: Wait 
+[2026-02-16 15:38:18] Waiting 1300 ms...
+[2026-02-16 15:38:20] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:20] [RUN] 9: Discharge 
+[2026-02-16 15:38:20] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:20] [RUN] 10: Wait 
+[2026-02-16 15:38:20] Waiting 1300 ms...
+[2026-02-16 15:38:21] [RUN] 11: Discharge 
+[2026-02-16 15:38:21] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:21] [RUN] 12: Wait 
+[2026-02-16 15:38:21] Waiting 1300 ms...
+[2026-02-16 15:38:22] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:22] [RUN] 9: Discharge 
+[2026-02-16 15:38:22] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:22] [RUN] 10: Wait 
+[2026-02-16 15:38:22] Waiting 1300 ms...
+[2026-02-16 15:38:24] [RUN] 11: Discharge 
+[2026-02-16 15:38:24] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:24] [RUN] 12: Wait 
+[2026-02-16 15:38:24] Waiting 1300 ms...
+[2026-02-16 15:38:25] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:25] [RUN] 9: Discharge 
+[2026-02-16 15:38:25] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:25] [RUN] 10: Wait 
+[2026-02-16 15:38:25] Waiting 1300 ms...
+[2026-02-16 15:38:26] [RUN] 11: Discharge 
+[2026-02-16 15:38:26] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:26] [RUN] 12: Wait 
+[2026-02-16 15:38:26] Waiting 1300 ms...
+[2026-02-16 15:38:28] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:28] [RUN] 9: Discharge 
+[2026-02-16 15:38:28] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:28] [RUN] 10: Wait 
+[2026-02-16 15:38:28] Waiting 1300 ms...
+[2026-02-16 15:38:29] [RUN] 11: Discharge 
+[2026-02-16 15:38:29] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:29] [RUN] 12: Wait 
+[2026-02-16 15:38:29] Waiting 1300 ms...
+[2026-02-16 15:38:30] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:30] [RUN] 9: Discharge 
+[2026-02-16 15:38:30] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:30] [RUN] 10: Wait 
+[2026-02-16 15:38:30] Waiting 1300 ms...
+[2026-02-16 15:38:32] [RUN] 11: Discharge 
+[2026-02-16 15:38:32] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:32] [RUN] 12: Wait 
+[2026-02-16 15:38:32] Waiting 1300 ms...
+[2026-02-16 15:38:33] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:33] [RUN] 9: Discharge 
+[2026-02-16 15:38:33] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:33] [RUN] 10: Wait 
+[2026-02-16 15:38:33] Waiting 1300 ms...
+[2026-02-16 15:38:34] [RUN] 11: Discharge 
+[2026-02-16 15:38:34] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:34] [RUN] 12: Wait 
+[2026-02-16 15:38:34] Waiting 1300 ms...
+[2026-02-16 15:38:36] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:36] [RUN] 9: Discharge 
+[2026-02-16 15:38:36] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:36] [RUN] 10: Wait 
+[2026-02-16 15:38:36] Waiting 1300 ms...
+[2026-02-16 15:38:37] [RUN] 11: Discharge 
+[2026-02-16 15:38:37] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:37] [RUN] 12: Wait 
+[2026-02-16 15:38:37] Waiting 1300 ms...
+[2026-02-16 15:38:38] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:38] [RUN] 9: Discharge 
+[2026-02-16 15:38:38] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:38] [RUN] 10: Wait 
+[2026-02-16 15:38:38] Waiting 1300 ms...
+[2026-02-16 15:38:40] [RUN] 11: Discharge 
+[2026-02-16 15:38:40] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:40] [RUN] 12: Wait 
+[2026-02-16 15:38:40] Waiting 1300 ms...
+[2026-02-16 15:38:41] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:41] [RUN] 9: Discharge 
+[2026-02-16 15:38:41] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:41] [RUN] 10: Wait 
+[2026-02-16 15:38:41] Waiting 1300 ms...
+[2026-02-16 15:38:42] [RUN] 11: Discharge 
+[2026-02-16 15:38:42] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:42] [RUN] 12: Wait 
+[2026-02-16 15:38:42] Waiting 1300 ms...
+[2026-02-16 15:38:44] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:44] [RUN] 9: Discharge 
+[2026-02-16 15:38:44] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:44] [RUN] 10: Wait 
+[2026-02-16 15:38:44] Waiting 1300 ms...
+[2026-02-16 15:38:45] [RUN] 11: Discharge 
+[2026-02-16 15:38:45] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:45] [RUN] 12: Wait 
+[2026-02-16 15:38:45] Waiting 1300 ms...
+[2026-02-16 15:38:46] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:46] [RUN] 9: Discharge 
+[2026-02-16 15:38:46] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:46] [RUN] 10: Wait 
+[2026-02-16 15:38:46] Waiting 1300 ms...
+[2026-02-16 15:38:48] [RUN] 11: Discharge 
+[2026-02-16 15:38:48] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:48] [RUN] 12: Wait 
+[2026-02-16 15:38:48] Waiting 1300 ms...
+[2026-02-16 15:38:49] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:49] [RUN] 9: Discharge 
+[2026-02-16 15:38:49] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:49] [RUN] 10: Wait 
+[2026-02-16 15:38:49] Waiting 1300 ms...
+[2026-02-16 15:38:50] [RUN] 11: Discharge 
+[2026-02-16 15:38:50] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:50] [RUN] 12: Wait 
+[2026-02-16 15:38:50] Waiting 1300 ms...
+[2026-02-16 15:38:52] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:52] [RUN] 9: Discharge 
+[2026-02-16 15:38:52] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:52] [RUN] 10: Wait 
+[2026-02-16 15:38:52] Waiting 1300 ms...
+[2026-02-16 15:38:53] [RUN] 11: Discharge 
+[2026-02-16 15:38:53] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:53] [RUN] 12: Wait 
+[2026-02-16 15:38:53] Waiting 1300 ms...
+[2026-02-16 15:38:54] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:54] [RUN] 9: Discharge 
+[2026-02-16 15:38:54] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:54] [RUN] 10: Wait 
+[2026-02-16 15:38:54] Waiting 1300 ms...
+[2026-02-16 15:38:56] [RUN] 11: Discharge 
+[2026-02-16 15:38:56] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:56] [RUN] 12: Wait 
+[2026-02-16 15:38:56] Waiting 1300 ms...
+[2026-02-16 15:38:57] [RUN] 13: LoopEnd 
+[2026-02-16 15:38:57] [RUN] 9: Discharge 
+[2026-02-16 15:38:57] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:38:57] [RUN] 10: Wait 
+[2026-02-16 15:38:57] Waiting 1300 ms...
+[2026-02-16 15:38:58] [RUN] 11: Discharge 
+[2026-02-16 15:38:58] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:38:58] [RUN] 12: Wait 
+[2026-02-16 15:38:58] Waiting 1300 ms...
+[2026-02-16 15:39:00] [RUN] 13: LoopEnd 
+[2026-02-16 15:39:00] [RUN] 9: Discharge 
+[2026-02-16 15:39:00] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:39:00] [RUN] 10: Wait 
+[2026-02-16 15:39:00] Waiting 1300 ms...
+[2026-02-16 15:39:01] [RUN] 11: Discharge 
+[2026-02-16 15:39:01] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:39:01] [RUN] 12: Wait 
+[2026-02-16 15:39:01] Waiting 1300 ms...
+[2026-02-16 15:39:02] [RUN] 13: LoopEnd 
+[2026-02-16 15:39:02] [RUN] 9: Discharge 
+[2026-02-16 15:39:02] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:39:02] [RUN] 10: Wait 
+[2026-02-16 15:39:02] Waiting 1300 ms...
+[2026-02-16 15:39:04] [RUN] 11: Discharge 
+[2026-02-16 15:39:04] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:39:04] [RUN] 12: Wait 
+[2026-02-16 15:39:04] Waiting 1300 ms...
+[2026-02-16 15:39:05] [RUN] 13: LoopEnd 
+[2026-02-16 15:39:05] [RUN] 9: Discharge 
+[2026-02-16 15:39:05] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:39:05] [RUN] 10: Wait 
+[2026-02-16 15:39:05] Waiting 1300 ms...
+[2026-02-16 15:39:06] [RUN] 11: Discharge 
+[2026-02-16 15:39:06] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:39:06] [RUN] 12: Wait 
+[2026-02-16 15:39:06] Waiting 1300 ms...
+[2026-02-16 15:39:08] [RUN] 13: LoopEnd 
+[2026-02-16 15:39:08] [RUN] 9: Discharge 
+[2026-02-16 15:39:08] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:39:08] [RUN] 10: Wait 
+[2026-02-16 15:39:08] Waiting 1300 ms...
+[2026-02-16 15:39:09] [RUN] 11: Discharge 
+[2026-02-16 15:39:09] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:39:09] [RUN] 12: Wait 
+[2026-02-16 15:39:09] Waiting 1300 ms...
+[2026-02-16 15:39:10] [RUN] 13: LoopEnd 
+[2026-02-16 15:39:10] [RUN] 9: Discharge 
+[2026-02-16 15:39:10] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:39:10] [RUN] 10: Wait 
+[2026-02-16 15:39:10] Waiting 1300 ms...
+[2026-02-16 15:39:12] [RUN] 11: Discharge 
+[2026-02-16 15:39:12] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:39:12] [RUN] 12: Wait 
+[2026-02-16 15:39:12] Waiting 1300 ms...
+[2026-02-16 15:39:13] [RUN] 13: LoopEnd 
+[2026-02-16 15:39:13] [RUN] 9: Discharge 
+[2026-02-16 15:39:13] Discharging 121A (no condition, skipping wait)
+[2026-02-16 15:39:13] [RUN] 10: Wait 
+[2026-02-16 15:39:13] Waiting 1300 ms...
+[2026-02-16 15:39:14] [RUN] 11: Discharge 
+[2026-02-16 15:39:14] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:39:14] [RUN] 12: Wait 
+[2026-02-16 15:39:14] Waiting 1300 ms...
+[2026-02-16 15:39:16] [RUN] 13: LoopEnd 
+[2026-02-16 15:39:16] [RUN] 14: Expect BatteryState == 22
+[2026-02-16 15:40:11] [RUN] 0: Connect discharge_ascd
+[2026-02-16 15:40:11] Connecting to discharge_ascd...
+[2026-02-16 15:40:11] [RUN] 1: Discharge 
+[2026-02-16 15:40:11] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:40:11] [RUN] 2: Expect BatteryState == 18
+[2026-02-16 15:40:16] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-16 15:40:16] [RUN] 3: Disconnect 
+[2026-02-16 15:40:16] Disconnecting...
+[2026-02-16 15:41:46] [RUN] 0: Connect discharge_ascd_repetetive
+[2026-02-16 15:41:46] Connecting to discharge_ascd_repetetive...
+[2026-02-16 15:41:46] [RUN] 1: LoopStart 
+[2026-02-16 15:41:46] [RUN] 2: Discharge 
+[2026-02-16 15:41:46] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:41:46] [RUN] 3: Wait 
+[2026-02-16 15:41:46] Waiting 1300 ms...
+[2026-02-16 15:41:47] [RUN] 4: Discharge 
+[2026-02-16 15:41:47] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:41:47] [RUN] 5: Wait 
+[2026-02-16 15:41:47] Waiting 1300 ms...
+[2026-02-16 15:41:49] [RUN] 6: LoopEnd 
+[2026-02-16 15:41:49] [RUN] 2: Discharge 
+[2026-02-16 15:41:49] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:41:49] [RUN] 3: Wait 
+[2026-02-16 15:41:49] Waiting 1300 ms...
+[2026-02-16 15:41:50] [RUN] 4: Discharge 
+[2026-02-16 15:41:50] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:41:50] [RUN] 5: Wait 
+[2026-02-16 15:41:50] Waiting 1300 ms...
+[2026-02-16 15:41:51] [RUN] 6: LoopEnd 
+[2026-02-16 15:41:51] [RUN] 2: Discharge 
+[2026-02-16 15:41:51] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:41:51] [RUN] 3: Wait 
+[2026-02-16 15:41:51] Waiting 1300 ms...
+[2026-02-16 15:41:53] [RUN] 4: Discharge 
+[2026-02-16 15:41:53] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:41:53] [RUN] 5: Wait 
+[2026-02-16 15:41:53] Waiting 1300 ms...
+[2026-02-16 15:41:54] [RUN] 6: LoopEnd 
+[2026-02-16 15:41:54] [RUN] 2: Discharge 
+[2026-02-16 15:41:54] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:41:54] [RUN] 3: Wait 
+[2026-02-16 15:41:54] Waiting 1300 ms...
+[2026-02-16 15:41:55] [RUN] 4: Discharge 
+[2026-02-16 15:41:55] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:41:55] [RUN] 5: Wait 
+[2026-02-16 15:41:55] Waiting 1300 ms...
+[2026-02-16 15:41:56] [RUN] 6: LoopEnd 
+[2026-02-16 15:41:57] [RUN] 2: Discharge 
+[2026-02-16 15:41:57] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:41:57] [RUN] 3: Wait 
+[2026-02-16 15:41:57] Waiting 1300 ms...
+[2026-02-16 15:41:58] [RUN] 4: Discharge 
+[2026-02-16 15:41:58] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:41:58] [RUN] 5: Wait 
+[2026-02-16 15:41:58] Waiting 1300 ms...
+[2026-02-16 15:41:59] [RUN] 6: LoopEnd 
+[2026-02-16 15:41:59] [RUN] 2: Discharge 
+[2026-02-16 15:41:59] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:41:59] [RUN] 3: Wait 
+[2026-02-16 15:41:59] Waiting 1300 ms...
+[2026-02-16 15:42:00] [RUN] 4: Discharge 
+[2026-02-16 15:42:00] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:42:00] [RUN] 5: Wait 
+[2026-02-16 15:42:00] Waiting 1300 ms...
+[2026-02-16 15:42:02] [RUN] 6: LoopEnd 
+[2026-02-16 15:42:02] [RUN] 7: Expect BatteryState == 18
+[2026-02-16 15:42:02] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-16 15:42:02] [RUN] 8: LoopStart 
+[2026-02-16 15:42:02] [RUN] 9: Discharge 
+[2026-02-16 15:42:02] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:42:02] [RUN] 10: Wait 
+[2026-02-16 15:42:02] Waiting 1300 ms...
+[2026-02-16 15:42:03] [RUN] 11: Discharge 
+[2026-02-16 15:42:04] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:42:04] [RUN] 12: Wait 
+[2026-02-16 15:42:04] Waiting 1300 ms...
+[2026-02-16 15:42:05] [RUN] 13: LoopEnd 
+[2026-02-16 15:42:05] [RUN] 9: Discharge 
+[2026-02-16 15:42:05] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:42:05] [RUN] 10: Wait 
+[2026-02-16 15:42:05] Waiting 1300 ms...
+[2026-02-16 15:42:06] [RUN] 11: Discharge 
+[2026-02-16 15:42:06] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:42:06] [RUN] 12: Wait 
+[2026-02-16 15:42:06] Waiting 1300 ms...
+[2026-02-16 15:42:07] [RUN] 13: LoopEnd 
+[2026-02-16 15:42:07] [RUN] 9: Discharge 
+[2026-02-16 15:42:07] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:42:07] [RUN] 10: Wait 
+[2026-02-16 15:42:07] Waiting 1300 ms...
+[2026-02-16 15:42:09] [RUN] 11: Discharge 
+[2026-02-16 15:42:09] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:42:09] [RUN] 12: Wait 
+[2026-02-16 15:42:09] Waiting 1300 ms...
+[2026-02-16 15:42:10] [RUN] 13: LoopEnd 
+[2026-02-16 15:42:10] [RUN] 9: Discharge 
+[2026-02-16 15:42:10] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:42:10] [RUN] 10: Wait 
+[2026-02-16 15:42:10] Waiting 1300 ms...
+[2026-02-16 15:42:11] [RUN] 11: Discharge 
+[2026-02-16 15:42:11] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:42:11] [RUN] 12: Wait 
+[2026-02-16 15:42:11] Waiting 1300 ms...
+[2026-02-16 15:42:13] [RUN] 13: LoopEnd 
+[2026-02-16 15:42:13] [RUN] 9: Discharge 
+[2026-02-16 15:42:13] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:42:13] [RUN] 10: Wait 
+[2026-02-16 15:42:13] Waiting 1300 ms...
+[2026-02-16 15:42:14] [RUN] 11: Discharge 
+[2026-02-16 15:42:14] Discharging 0A (no condition, skipping wait)
+[2026-02-16 15:42:14] [RUN] 12: Wait 
+[2026-02-16 15:42:14] Waiting 1300 ms...
+[2026-02-16 15:42:15] [RUN] 13: LoopEnd 
+[2026-02-16 15:42:15] [RUN] 9: Discharge 
+[2026-02-16 15:42:15] Discharging 301A (no condition, skipping wait)
+[2026-02-16 15:42:15] [RUN] 10: Wait 
+[2026-02-16 15:42:15] Waiting 1300 ms...
+[2026-02-16 16:32:09] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:32:09] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:32:09] [RUN] 1: CellVolts 18500
+[2026-02-16 16:32:09] Cell Volt Set: 18500
+[2026-02-16 16:32:09] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:32:13] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:32:13] [RUN] 3: CellVolts 28600
+[2026-02-16 16:32:13] Cell Volt Set: 28600
+[2026-02-16 16:32:13] [RUN] 4: Disconnect 
+[2026-02-16 16:32:13] Disconnecting...
+[2026-02-16 16:32:52] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:32:52] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:32:52] [RUN] 1: CellVolts 18500
+[2026-02-16 16:32:52] Cell Volt Set: 18500
+[2026-02-16 16:33:55] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:33:55] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:33:55] [RUN] 1: CellVolts 18500
+[2026-02-16 16:33:55] Cell Volt Set: 18500
+[2026-02-16 16:33:57] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:34:25] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:34:25] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:34:25] [RUN] 1: CellVolts 18500
+[2026-02-16 16:34:25] Cell Volt Set: 18500
+[2026-02-16 16:34:44] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:34:47] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-16 16:34:47] [DONE] Script finished.
+[2026-02-16 16:34:47] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:34:47] [RUN] 3: CellVolts 28600
+[2026-02-16 16:34:47] Cell Volt Set: 28600
+[2026-02-16 16:34:53] [RUN] 4: Disconnect 
+[2026-02-16 16:34:53] Disconnecting...
+[2026-02-16 16:35:20] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:35:20] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:35:20] [RUN] 1: CellVolts 18500
+[2026-02-16 16:35:20] Cell Volt Set: 18500
+[2026-02-16 16:35:20] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:35:24] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:35:24] [RUN] 3: CellVolts 28600
+[2026-02-16 16:35:24] Cell Volt Set: 28600
+[2026-02-16 16:35:24] [RUN] 4: Disconnect 
+[2026-02-16 16:35:24] Disconnecting...
+[2026-02-16 16:35:48] [RUN] 0: Connect discharge_ascd_repetetive
+[2026-02-16 16:35:48] Connecting to discharge_ascd_repetetive...
+[2026-02-16 16:35:48] [RUN] 1: LoopStart 
+[2026-02-16 16:35:48] [RUN] 2: Discharge 
+[2026-02-16 16:35:48] Discharging 301A (no condition, skipping wait)
+[2026-02-16 16:35:48] [RUN] 3: Wait 
+[2026-02-16 16:35:48] Waiting 1300 ms...
+[2026-02-16 16:35:49] [RUN] 4: Discharge 
+[2026-02-16 16:35:49] Discharging 0A (no condition, skipping wait)
+[2026-02-16 16:35:49] [RUN] 5: Wait 
+[2026-02-16 16:35:49] Waiting 1300 ms...
+[2026-02-16 16:35:50] [DONE] Script finished.
+[2026-02-16 16:36:02] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:36:02] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:36:02] [RUN] 1: CellVolts 18500
+[2026-02-16 16:36:02] Cell Volt Set: 18500
+[2026-02-16 16:36:02] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:36:02] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:36:02] [RUN] 3: CellVolts 28600
+[2026-02-16 16:36:02] Cell Volt Set: 28600
+[2026-02-16 16:36:02] [RUN] 4: Disconnect 
+[2026-02-16 16:36:02] Disconnecting...
+[2026-02-16 16:36:35] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:36:35] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:36:35] [RUN] 1: CellVolts 18500
+[2026-02-16 16:36:35] Cell Volt Set: 18500
+[2026-02-16 16:36:35] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:36:38] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:36:38] [RUN] 3: CellVolts 28600
+[2026-02-16 16:36:38] Cell Volt Set: 28600
+[2026-02-16 16:36:38] [RUN] 4: Disconnect 
+[2026-02-16 16:36:38] Disconnecting...
+[2026-02-16 16:37:12] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:37:12] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:37:12] [RUN] 1: CellVolts 18500
+[2026-02-16 16:37:12] Cell Volt Set: 18500
+[2026-02-16 16:37:18] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:38:14] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:38:14] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:38:14] [RUN] 1: CellVolts 18500
+[2026-02-16 16:38:14] Cell Volt Set: 18500
+[2026-02-16 16:38:14] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:38:18] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:38:18] [RUN] 3: CellVolts 28600
+[2026-02-16 16:38:18] Cell Volt Set: 28600
+[2026-02-16 16:38:22] [RUN] 4: Disconnect 
+[2026-02-16 16:38:22] Disconnecting...
+[2026-02-16 16:39:07] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-16 16:39:07] Connecting to cell_under_voltage_permanent...
+[2026-02-16 16:39:07] [RUN] 1: CellVolts 18500
+[2026-02-16 16:39:07] Cell Volt Set: 18500
+[2026-02-16 16:39:07] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:39:11] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:39:11] [RUN] 3: CellVolts 28600
+[2026-02-16 16:39:11] Cell Volt Set: 28600
+[2026-02-16 16:39:11] [RUN] 4: Disconnect 
+[2026-02-16 16:39:11] Disconnecting...
+[2026-02-16 16:50:44] [RUN] 0: Connect pack_voltages_difference
+[2026-02-16 16:50:44] Connecting to pack_voltages_difference...
+[2026-02-16 16:50:44] [RUN] 1: CellVolts 18500
+[2026-02-16 16:50:44] Cell Volt Set: 18500
+[2026-02-16 16:50:44] [RUN] 2: Expect BatteryState == 22
+[2026-02-16 16:50:47] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:50:47] [RUN] 3: Wait 
+[2026-02-16 16:50:47] Waiting 100000 ms...
+[2026-02-16 16:55:22] [RUN] 0: Connect pack_voltages_difference
+[2026-02-16 16:55:22] Connecting to pack_voltages_difference...
+[2026-02-16 16:55:22] [RUN] 1: CellVolts 27000
+[2026-02-16 16:55:22] Cell Volt Set: 27000
+[2026-02-16 16:55:22] [RUN] 2: CellVolts 32000
+[2026-02-16 16:55:22] Cell Volt Set: 32000
+[2026-02-16 16:55:22] [RUN] 3: Expect BatteryState == 22
+[2026-02-16 16:56:14] [RUN] 0: Connect pack_voltages_difference
+[2026-02-16 16:56:14] Connecting to pack_voltages_difference...
+[2026-02-16 16:56:14] [RUN] 1: CellVolts 27000
+[2026-02-16 16:56:14] Cell Volt Set: 27000
+[2026-02-16 16:56:14] [RUN] 2: CellVolts 32000
+[2026-02-16 16:56:14] Cell Volt Set: 32000
+[2026-02-16 16:56:14] [RUN] 3: Expect BatteryState == 22
+[2026-02-16 16:56:47] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-16 16:56:47] [RUN] 4: Disconnect 
+[2026-02-16 16:56:47] Disconnecting...
+[2026-02-16 17:10:50] [RUN] 0: Connect cell_voltages_difference
+[2026-02-16 17:10:50] Connecting to cell_voltages_difference...
+[2026-02-16 17:10:50] [RUN] 1: Charge 
+[2026-02-16 17:10:50] Charging 3A (no condition, skipping wait)
+[2026-02-16 17:10:50] [RUN] 2: CellVolts 28500
+[2026-02-16 17:10:50] Cell Volt Set: 28500
+[2026-02-16 17:10:50] [RUN] 3: CellVolts 34000
+[2026-02-16 17:10:50] Cell Volt Set: 34000
+[2026-02-16 17:10:50] [RUN] 4: Expect BatteryState == 22
+[2026-02-16 17:11:40] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-16 17:11:40] [DONE] Script finished.
+[2026-02-17 08:49:32] [RUN] 0: Connect rack_positive_over_voltage
+[2026-02-17 08:49:32] Connecting to rack_positive_over_voltage...
+[2026-02-17 08:49:32] [RUN] 1: RackPositive 865
+[2026-02-17 08:49:32] RACK Positive Set: 865
+[2026-02-17 08:49:32] [RUN] 2: Expect BatteryState == 16
+[2026-02-17 08:49:42] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-17 08:49:42] [DONE] Script finished.
+[2026-02-17 08:50:54] [RUN] 0: Connect rack_positive_over_voltage
+[2026-02-17 08:50:54] Connecting to rack_positive_over_voltage...
+[2026-02-17 08:50:54] [RUN] 1: RackPositive 86500
+[2026-02-17 08:50:54] RACK Positive Set: 86500
+[2026-02-17 08:50:54] [RUN] 2: Expect BatteryState == 16
+[2026-02-17 08:51:00] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-17 08:51:00] [RUN] 3: Disconnect 
+[2026-02-17 08:51:00] Disconnecting...
+[2026-02-17 09:37:37] [RUN] 0: Connect rack_positive_over_voltage
+[2026-02-17 09:37:37] Connecting to rack_positive_over_voltage...
+[2026-02-17 09:37:37] [RUN] 1: RackPositive 86500
+[2026-02-17 09:37:37] RACK Positive Set: 86500
+[2026-02-17 09:37:37] [RUN] 2: Expect BatteryState == 16
+[2026-02-17 09:37:43] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-17 09:37:43] [RUN] 3: Disconnect 
+[2026-02-17 09:37:43] Disconnecting...
+[2026-02-17 09:38:22] [RUN] 0: Connect rack_positive_under_voltage
+[2026-02-17 09:38:22] Connecting to rack_positive_under_voltage...
+[2026-02-17 09:38:22] [RUN] 1: RackPositive 67100
+[2026-02-17 09:38:22] RACK Positive Set: 67100
+[2026-02-17 09:38:22] [RUN] 2: Expect BatteryState == 12
+[2026-02-17 09:38:28] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-17 09:38:28] [RUN] 3: RackPositive 73000
+[2026-02-17 09:38:28] RACK Positive Set: 73000
+[2026-02-17 09:38:28] [RUN] 4: Disconnect 
+[2026-02-17 09:38:28] Disconnecting...
+[2026-02-17 10:32:48] [RUN] 0: Connect hv_positive_over_voltage
+[2026-02-17 10:32:48] Connecting to hv_positive_over_voltage...
+[2026-02-17 10:32:48] [RUN] 1: HVPositive 110000
+[2026-02-17 10:32:48] HV Positive Set: 110000
+[2026-02-17 10:34:38] [RUN] 0: Connect rack_positive_over_voltage
+[2026-02-17 10:34:38] Connecting to rack_positive_over_voltage...
+[2026-02-17 10:34:38] [RUN] 1: RackPositive 86500
+[2026-02-17 10:34:38] RACK Positive Set: 86500
+[2026-02-17 10:34:38] [RUN] 2: Expect BatteryState == 16
+[2026-02-17 10:34:45] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-17 10:34:45] [RUN] 3: RackPositive 73000
+[2026-02-17 10:34:45] RACK Positive Set: 73000
+[2026-02-17 10:34:45] [RUN] 4: Disconnect 
+[2026-02-17 10:34:45] Disconnecting...
+[2026-02-17 10:35:00] [RUN] 0: Connect rack_positive_over_voltage
+[2026-02-17 10:35:00] Connecting to rack_positive_over_voltage...
+[2026-02-17 10:35:00] [RUN] 1: RackPositive 86500
+[2026-02-17 10:35:00] RACK Positive Set: 86500
+[2026-02-17 10:35:58] [RUN] 0: Connect hv_positive_over_voltage
+[2026-02-17 10:35:58] Connecting to hv_positive_over_voltage...
+[2026-02-17 10:35:58] [RUN] 1: HVPositive 110000
+[2026-02-17 10:35:58] HV Positive Set: 110000
+[2026-02-17 10:35:58] [RUN] 2: Expect BatteryState == 12
+[2026-02-17 10:36:09] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-17 10:36:09] [DONE] Script finished.
+[2026-02-17 10:36:59] [RUN] 0: Connect hv_positive_over_voltage
+[2026-02-17 10:36:59] Connecting to hv_positive_over_voltage...
+[2026-02-17 10:36:59] [RUN] 1: HVPositive 110000
+[2026-02-17 10:36:59] HV Positive Set: 110000
+[2026-02-17 10:36:59] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 10:37:07] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-17 10:37:07] [RUN] 3: HVPositive 73000
+[2026-02-17 10:37:07] HV Positive Set: 73000
+[2026-02-17 10:37:07] [RUN] 4: Disconnect 
+[2026-02-17 10:37:07] Disconnecting...
+[2026-02-17 10:38:08] [RUN] 0: Connect hv_positive_over_voltage
+[2026-02-17 10:38:08] Connecting to hv_positive_over_voltage...
+[2026-02-17 10:38:08] [RUN] 1: HVPositive 110000
+[2026-02-17 10:38:08] HV Positive Set: 110000
+[2026-02-17 10:38:08] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 10:38:15] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-17 10:38:15] [RUN] 3: HVPositive 73000
+[2026-02-17 10:38:15] HV Positive Set: 73000
+[2026-02-17 10:38:15] [RUN] 4: Disconnect 
+[2026-02-17 10:38:15] Disconnecting...
+[2026-02-17 10:39:55] [RUN] 0: Connect hv_positive_under_voltage
+[2026-02-17 10:39:55] Connecting to hv_positive_under_voltage...
+[2026-02-17 10:39:55] [RUN] 1: HVPositive 64000
+[2026-02-17 10:39:55] HV Positive Set: 64000
+[2026-02-17 10:39:55] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 10:40:05] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-17 10:40:05] [DONE] Script finished.
+[2026-02-17 10:40:14] [RUN] 0: Connect hv_positive_under_voltage
+[2026-02-17 10:40:14] Connecting to hv_positive_under_voltage...
+[2026-02-17 10:40:14] [RUN] 1: HVPositive 64000
+[2026-02-17 10:40:14] HV Positive Set: 64000
+[2026-02-17 10:40:14] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 10:40:21] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-17 10:40:21] [RUN] 3: HVPositive 73000
+[2026-02-17 10:40:21] HV Positive Set: 73000
+[2026-02-17 10:40:21] [RUN] 4: Disconnect 
+[2026-02-17 10:40:21] Disconnecting...
+[2026-02-17 13:05:45] [RUN] 0: Connect rack_positive_under_voltage
+[2026-02-17 13:05:45] Connecting to rack_positive_under_voltage...
+[2026-02-17 13:05:45] [RUN] 1: RackPositive 67100
+[2026-02-17 13:05:45] RACK Positive Set: 67100
+[2026-02-17 13:05:45] [RUN] 2: Expect BatteryState == 12
+[2026-02-17 13:05:56] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-17 13:05:56] [DONE] Script finished.
+[2026-02-17 13:33:56] [RUN] 0: Connect rack_positive_over_voltage
+[2026-02-17 13:33:56] Connecting to rack_positive_over_voltage...
+[2026-02-17 13:33:56] [RUN] 1: RackPositive 86500
+[2026-02-17 13:33:57] RACK Positive Set: 86500
+[2026-02-17 13:33:57] [RUN] 2: Expect BatteryState == 16
+[2026-02-17 13:34:03] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-17 13:34:03] [RUN] 3: RackPositive 73000
+[2026-02-17 13:34:03] RACK Positive Set: 73000
+[2026-02-17 13:34:03] [RUN] 4: Disconnect 
+[2026-02-17 13:34:03] Disconnecting...
+[2026-02-17 14:13:05] [RUN] 0: Connect charge_positive_over_voltage
+[2026-02-17 14:13:05] Connecting to charge_positive_over_voltage...
+[2026-02-17 14:13:05] [RUN] 1: RackPositive 86500
+[2026-02-17 14:13:05] RACK Positive Set: 86500
+[2026-02-17 14:13:05] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 14:13:15] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-17 14:13:15] [DONE] Script finished.
+[2026-02-17 14:14:24] [RUN] 0: Connect charge_positive_over_voltage
+[2026-02-17 14:14:24] Connecting to charge_positive_over_voltage...
+[2026-02-17 14:14:24] [RUN] 1: ChargePositive 86500
+[2026-02-17 14:14:24] Charge Positive: 86500
+[2026-02-17 14:14:24] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 14:14:34] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-17 14:14:34] [DONE] Script finished.
+[2026-02-17 14:15:42] [RUN] 0: Connect charge_positive_over_voltage
+[2026-02-17 14:15:42] Connecting to charge_positive_over_voltage...
+[2026-02-17 14:15:42] [RUN] 1: ChargePositive 87000
+[2026-02-17 14:15:42] Charge Positive: 87000
+[2026-02-17 14:15:42] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 14:15:52] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-17 14:15:52] [DONE] Script finished.
+[2026-02-17 14:18:36] [RUN] 0: Connect charge_positive_under_voltage
+[2026-02-17 14:18:36] Connecting to charge_positive_under_voltage...
+[2026-02-17 14:18:36] [RUN] 1: ChargePositive 59000
+[2026-02-17 14:18:36] Charge Positive: 59000
+[2026-02-17 14:18:36] [RUN] 2: Expect BatteryState == 22
+[2026-02-17 14:19:26] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-17 14:19:26] [RUN] 3: ChargePositive 73000
+[2026-02-17 14:19:26] Charge Positive: 73000
+[2026-02-17 14:19:26] [RUN] 4: Disconnect 
+[2026-02-17 14:19:26] Disconnecting...
+[2026-02-17 14:29:19] [RUN] 0: Connect discharge_positive_over_voltage
+[2026-02-17 14:29:19] Connecting to discharge_positive_over_voltage...
+[2026-02-17 14:29:19] [RUN] 1: DischargePositive 87000
+[2026-02-17 14:29:19] Discharge Positive: 87000
+[2026-02-17 14:29:19] [RUN] 2: Expect BatteryState == 22
+[2026-02-17 14:30:10] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-17 14:30:10] [DONE] Script finished.
+[2026-02-17 14:31:27] [RUN] 0: Connect discharge_positive_over_voltage
+[2026-02-17 14:31:27] Connecting to discharge_positive_over_voltage...
+[2026-02-17 14:31:28] [RUN] 1: DischargePositive 87000
+[2026-02-17 14:31:28] Discharge Positive: 87000
+[2026-02-17 14:31:28] [RUN] 2: Expect BatteryState == 22
+[2026-02-17 14:32:18] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-17 14:32:18] [DONE] Script finished.
+[2026-02-17 14:34:15] [RUN] 0: Connect discharge_positive_over_voltage
+[2026-02-17 14:34:15] Connecting to discharge_positive_over_voltage...
+[2026-02-17 14:34:15] [RUN] 1: DischargePositive 87000
+[2026-02-17 14:34:15] Discharge Positive: 87000
+[2026-02-17 14:34:15] [RUN] 2: Expect BatteryState == 22
+[2026-02-17 14:35:16] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-17 14:35:16] [DONE] Script finished.
+[2026-02-17 14:37:35] [RUN] 0: Connect discharge_positive_over_voltage
+[2026-02-17 14:37:35] Connecting to discharge_positive_over_voltage...
+[2026-02-17 14:37:36] [RUN] 1: DischargePositive 87000
+[2026-02-17 14:37:37] Discharge Positive: 87000
+[2026-02-17 14:37:37] [RUN] 2: Expect BatteryState == 22
+[2026-02-17 14:38:29] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-17 14:38:29] [RUN] 3: DischargePositive 73000
+[2026-02-17 14:38:29] Discharge Positive: 73000
+[2026-02-17 14:38:29] [RUN] 4: Disconnect 
+[2026-02-17 14:38:29] Disconnecting...
+[2026-02-17 16:08:27] [RUN] 0: Connect pdu_fuse_over_voltage_event
+[2026-02-17 16:08:27] Connecting to pdu_fuse_over_voltage_event...
+[2026-02-17 16:08:27] [RUN] 1: PDUFuse 87000
+[2026-02-17 16:08:27] PDU FUSE: 87000
+[2026-02-17 16:08:27] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 16:08:33] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-17 16:08:33] [RUN] 3: PDUFuse 73000
+[2026-02-17 16:08:33] PDU FUSE: 73000
+[2026-02-17 16:08:33] [RUN] 4: Disconnect 
+[2026-02-17 16:08:33] Disconnecting...
+[2026-02-17 16:08:42] [RUN] 0: Connect pdu_fuse_under_voltage
+[2026-02-17 16:08:42] Connecting to pdu_fuse_under_voltage...
+[2026-02-17 16:08:42] [RUN] 1: PDUFuse 59000
+[2026-02-17 16:08:42] PDU FUSE: 59000
+[2026-02-17 16:08:42] [RUN] 2: Expect BatteryState == 18
+[2026-02-17 16:08:49] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-17 16:08:49] [RUN] 3: PDUFuse 73000
+[2026-02-17 16:08:49] PDU FUSE: 73000
+[2026-02-17 16:08:49] [RUN] 4: Disconnect 
+[2026-02-17 16:08:49] Disconnecting...

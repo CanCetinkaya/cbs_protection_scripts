@@ -1,0 +1,5 @@
+CONNECT pdu_fuse_over_voltage_event
+PDUFUSE 87000
+EXPECT BatteryState == 18 TIMEOUT 10000
+PDUFUSE 73000
+DISCONNECT

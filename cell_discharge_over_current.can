@@ -1,0 +1,4 @@
+CONNECT cell_discharge_over_current
+DISCHARGE 103
+EXPECT BatteryState == 12 TIMEOUT 10000
+DISCONNECT
