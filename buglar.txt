@@ -8,3 +8,15 @@ aold_repetitive_count recorded_protection_values.aold_repetitive_count 600 saniy
 discharge_ascd_event 0 lnadığı an alone a geçiyor normal mi bu ?(şöyle bir sıkıntı var eğer wait charge a geçerse orda kalıyo protection a geçerse alone a geçiyo düşünmek lazım bunu herhangi bir sorun oluşturmuyor ama hiyerarşik anlamda garip duruyo
 
 genel anlamda bazı flagler sıfırlanıyo bazıları sıfırlanmıyo
+
+stack_communication_fail_event
+STACK FAIL SIFIRLANSA BİLE PROTECTION DAN ÇIKMIYOR
+     if (block_protections_cause_of_stack_comm_nfaults_fail == true)
+     {
+         print_stack_faults_protector (info);
+         block_protections_cause_of_communication_fail = true; // BU FALSE OLMALI (GALİBA :))
+         protection.protection_flags |= protection_control_list[event_no].action;
+     }
+
+pdu_communication_fail_event
+communication değil de genel bakıyor

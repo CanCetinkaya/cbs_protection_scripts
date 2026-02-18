@@ -2506,3 +2506,124 @@
 [2026-02-18 08:44:54] Fuse temperature: 25
 [2026-02-18 08:44:54] [RUN] 4: Disconnect 
 [2026-02-18 08:44:54] Disconnecting...
+[2026-02-18 09:08:56] [RUN] 0: Connect precharge_resistor_temperature
+[2026-02-18 09:08:56] Connecting to precharge_resistor_temperature...
+[2026-02-18 09:08:56] [RUN] 1: PrechargeResistorTemperature 81
+[2026-02-18 09:08:56] Precharge resistor temperature: 81
+[2026-02-18 09:08:56] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 09:09:03] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 09:09:03] [RUN] 3: PrechargeResistorTemperature 25
+[2026-02-18 09:09:03] Precharge resistor temperature: 25
+[2026-02-18 09:09:03] [RUN] 4: Disconnect 
+[2026-02-18 09:09:03] Disconnecting...
+[2026-02-18 09:09:21] [RUN] 0: Connect charge_contactor_body_diode_temperature
+[2026-02-18 09:09:21] Connecting to charge_contactor_body_diode_temperature...
+[2026-02-18 09:09:21] [RUN] 1: ChargeContactorBodyDiodeTemperature 81
+[2026-02-18 09:09:21] Charge Contactor Body DIODE temperature: 81
+[2026-02-18 09:09:21] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 09:09:27] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 09:09:27] [RUN] 3: ChargeContactorBodyDiodeTemperature 25
+[2026-02-18 09:09:27] Charge Contactor Body DIODE temperature: 25
+[2026-02-18 09:09:27] [RUN] 4: Disconnect 
+[2026-02-18 09:09:27] Disconnecting...
+[2026-02-18 09:09:35] [RUN] 0: Connect discharge_contactor_body_diode_temperature_event
+[2026-02-18 09:09:35] Connecting to discharge_contactor_body_diode_temperature_event...
+[2026-02-18 09:09:35] [RUN] 1: DischargeContactorBodyDiodeTemperature 81
+[2026-02-18 09:09:36] Discharge Contactor Body DIODE: 81
+[2026-02-18 09:09:36] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 09:09:42] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 09:09:42] [RUN] 3: DischargeContactorBodyDiodeTemperature 25
+[2026-02-18 09:09:42] Discharge Contactor Body DIODE: 25
+[2026-02-18 09:09:42] [RUN] 4: Disconnect 
+[2026-02-18 09:09:42] Disconnecting...
+[2026-02-18 14:29:16] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:29:16] Connecting to stack_communication_faiL...
+[2026-02-18 14:29:16] [RUN] 1: Unknown StackNfault COMM RISE
+[2026-02-18 14:29:16] [WARN] Unknown command: StackNfault COMM RISE
+[2026-02-18 14:29:16] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:29:27] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-18 14:29:27] [DONE] Script finished.
+[2026-02-18 14:30:16] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:30:16] Connecting to stack_communication_faiL...
+[2026-02-18 14:30:17] [RUN] 1: Unknown StackNfault COMM RISE
+[2026-02-18 14:30:17] [WARN] Unknown command: StackNfault COMM RISE
+[2026-02-18 14:30:17] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:30:27] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-18 14:30:27] [DONE] Script finished.
+[2026-02-18 14:32:07] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:32:07] Connecting to stack_communication_faiL...
+[2026-02-18 14:32:07] [RUN] 1: StackNfault COMM
+[2026-02-18 14:32:07] Stack Nfault COMMRISE
+[2026-02-18 14:32:19] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:32:30] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-18 14:32:30] [DONE] Script finished.
+[2026-02-18 14:32:51] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:32:51] Connecting to stack_communication_faiL...
+[2026-02-18 14:32:51] [RUN] 1: StackNfault COMM
+[2026-02-18 14:32:51] Stack Nfault COMMRISE
+[2026-02-18 14:32:51] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:33:01] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-18 14:33:01] [DONE] Script finished.
+[2026-02-18 14:34:51] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:34:51] Connecting to stack_communication_faiL...
+[2026-02-18 14:34:52] [RUN] 1: StackNfault COMM
+[2026-02-18 14:34:52] Stack Nfault COMMRISE
+[2026-02-18 14:35:06] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:35:07] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 14:35:07] [RUN] 3: StackNfault COMM
+[2026-02-18 14:35:07] Stack Nfault COMMCLEAR
+[2026-02-18 14:35:08] [RUN] 4: Disconnect 
+[2026-02-18 14:35:08] Disconnecting...
+[2026-02-18 14:36:17] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:36:17] Connecting to stack_communication_faiL...
+[2026-02-18 14:36:17] [RUN] 1: StackNfault COMM
+[2026-02-18 14:36:17] Stack Nfault COMMRISE
+[2026-02-18 14:36:19] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:36:29] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-18 14:36:29] [DONE] Script finished.
+[2026-02-18 14:37:03] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:37:03] Connecting to stack_communication_faiL...
+[2026-02-18 14:37:03] [RUN] 1: StackNfault COMM
+[2026-02-18 14:37:03] Stack Nfault COMMRISE
+[2026-02-18 14:37:03] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:37:28] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-18 14:37:28] [DONE] Script finished.
+[2026-02-18 14:38:48] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:38:48] Connecting to stack_communication_faiL...
+[2026-02-18 14:38:48] [RUN] 1: StackNfault COMM
+[2026-02-18 14:38:48] Stack Nfault COMMRISE
+[2026-02-18 14:38:48] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:38:59] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-18 14:38:59] [DONE] Script finished.
+[2026-02-18 14:39:33] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:39:33] Connecting to stack_communication_faiL...
+[2026-02-18 14:39:33] [RUN] 1: StackNfault COMM
+[2026-02-18 14:39:33] Stack Nfault COMMRISE
+[2026-02-18 14:39:33] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:39:44] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 14:39:44] [RUN] 3: StackNfault COMM
+[2026-02-18 14:39:44] Stack Nfault COMMCLEAR
+[2026-02-18 14:39:44] [RUN] 4: Disconnect 
+[2026-02-18 14:39:44] Disconnecting...
+[2026-02-18 14:46:08] [RUN] 0: Connect stack_communication_faiL
+[2026-02-18 14:46:08] Connecting to stack_communication_faiL...
+[2026-02-18 14:46:08] [RUN] 1: StackNfault COMM
+[2026-02-18 14:46:08] Stack Nfault COMMRISE
+[2026-02-18 14:46:08] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 14:46:19] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 14:46:19] [RUN] 3: StackNfault COMM
+[2026-02-18 14:46:19] Stack Nfault COMMCLEAR
+[2026-02-18 14:46:19] [RUN] 4: Disconnect 
+[2026-02-18 14:46:19] Disconnecting...
+[2026-02-18 15:13:37] [RUN] 0: Connect pdu_communication_fail
+[2026-02-18 15:13:37] Connecting to pdu_communication_fail...
+[2026-02-18 15:13:37] [RUN] 1: PDUNfault COMM
+[2026-02-18 15:13:37] PDU Nfault COMMRISE
+[2026-02-18 15:13:37] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 15:13:49] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 15:13:49] [RUN] 3: PDUNfault COMM
+[2026-02-18 15:13:49] PDU Nfault COMMCLEAR
+[2026-02-18 15:13:49] [RUN] 4: Expect BatteryState == 4
+[2026-02-18 15:14:08] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-18 15:14:08] [RUN] 5: Disconnect 
+[2026-02-18 15:14:08] Disconnecting...
