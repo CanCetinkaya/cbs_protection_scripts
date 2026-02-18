@@ -1,0 +1,5 @@
+CONNECT discharge_contactor_body_diode_temperature_event
+DISCHARGEDIODETEMP 81
+EXPECT BatteryState == 18 TIMEOUT 10000
+DISCHARGEDIODETEMP 25
+DISCONNECT

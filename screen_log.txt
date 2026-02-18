@@ -2486,3 +2486,23 @@
 [2026-02-17 16:08:49] PDU FUSE: 73000
 [2026-02-17 16:08:49] [RUN] 4: Disconnect 
 [2026-02-17 16:08:49] Disconnecting...
+[2026-02-18 08:39:13] [RUN] 0: Connect shunt_current_resistor_temperature_event
+[2026-02-18 08:39:13] Connecting to shunt_current_resistor_temperature_event...
+[2026-02-18 08:39:14] [RUN] 1: ShuntResistorTemperature 81
+[2026-02-18 08:39:14] Shunt resistor temperature: 81
+[2026-02-18 08:39:14] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 08:39:20] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 08:39:20] [RUN] 3: ShuntResistorTemperature 81
+[2026-02-18 08:39:20] Shunt resistor temperature: 81
+[2026-02-18 08:39:20] [RUN] 4: Disconnect 
+[2026-02-18 08:39:20] Disconnecting...
+[2026-02-18 08:44:47] [RUN] 0: Connect fuse_temperature_event
+[2026-02-18 08:44:47] Connecting to fuse_temperature_event...
+[2026-02-18 08:44:47] [RUN] 1: FuseTemperature 81
+[2026-02-18 08:44:47] Fuse temperature: 81
+[2026-02-18 08:44:47] [RUN] 2: Expect BatteryState == 18
+[2026-02-18 08:44:54] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-18 08:44:54] [RUN] 3: FuseTemperature 25
+[2026-02-18 08:44:54] Fuse temperature: 25
+[2026-02-18 08:44:54] [RUN] 4: Disconnect 
+[2026-02-18 08:44:54] Disconnecting...

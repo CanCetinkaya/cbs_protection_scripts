@@ -1,0 +1,5 @@
+CONNECT fuse_temperature_event
+FUSETEMP 81
+EXPECT BatteryState == 18 TIMEOUT 10000
+FUSETEMP 25
+DISCONNECT

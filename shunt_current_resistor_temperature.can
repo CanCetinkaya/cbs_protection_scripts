@@ -1,0 +1,5 @@
+CONNECT shunt_current_resistor_temperature_event
+SHUNTTEMP 81
+EXPECT BatteryState == 18 TIMEOUT 10000
+SHUNTTEMP 25
+DISCONNECT
