@@ -1,0 +1,6 @@
+CONNECT aux_pins_and_pdu_values_mismatch_event
+AUXMISMATCH ON
+EXPECT BatteryState == 18 TIMEOUT 20000
+# AUXMISMATCH OFF
+# EXPECT BatteryState == 4 TIMEOUT 20000
+DISCONNECT

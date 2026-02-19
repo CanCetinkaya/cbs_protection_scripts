@@ -2660,3 +2660,42 @@
 [2026-02-19 09:16:23] [RUN] 4: Expect BatteryState == 4
 [2026-02-19 09:16:43] [FAIL] EXPECT timeout:BatteryState == 4
 [2026-02-19 09:16:43] [DONE] Script finished.
+[2026-02-19 11:06:34] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-19 11:06:34] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-19 11:06:34] [RUN] 1: AUXMismatch ON
+[2026-02-19 11:06:34] AUX MISMATCH ON
+[2026-02-19 11:06:34] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 11:06:40] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 11:06:40] [RUN] 3: AUXMismatch OFF
+[2026-02-19 11:06:40] AUX MISMATCH OFF
+[2026-02-19 11:06:40] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 11:08:00] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-19 11:08:00] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-19 11:08:00] [RUN] 1: AUXMismatch ON
+[2026-02-19 11:08:00] AUX MISMATCH ON
+[2026-02-19 11:08:00] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 11:08:06] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 11:08:06] [RUN] 3: Disconnect 
+[2026-02-19 11:08:06] Disconnecting...
+[2026-02-19 11:10:24] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-19 11:10:24] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-19 11:10:25] [RUN] 1: AUXMismatch ON
+[2026-02-19 11:10:25] AUX MISMATCH ON
+[2026-02-19 11:10:25] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 11:10:38] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 11:10:38] [RUN] 3: Disconnect 
+[2026-02-19 11:10:38] Disconnecting...
+[2026-02-19 11:13:45] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-19 11:13:45] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-19 11:13:45] [RUN] 1: AUXMismatch ON
+[2026-02-19 11:13:45] AUX MISMATCH ON
+[2026-02-19 11:13:45] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 11:14:42] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-19 11:14:42] [DONE] Script finished.
+[2026-02-19 11:16:14] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-19 11:16:14] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-19 11:16:15] [RUN] 1: AUXMismatch ON
+[2026-02-19 11:16:15] AUX MISMATCH ON
+[2026-02-19 11:16:15] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 11:17:12] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-19 11:17:12] [DONE] Script finished.
