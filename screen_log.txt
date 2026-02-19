@@ -2699,3 +2699,81 @@
 [2026-02-19 11:16:15] [RUN] 2: Expect BatteryState == 18
 [2026-02-19 11:17:12] [FAIL] EXPECT timeout:BatteryState == 18
 [2026-02-19 11:17:12] [DONE] Script finished.
+[2026-02-19 15:41:38] [RUN] 0: Connect gpio_fuse1_fuse2_voltage_difference
+[2026-02-19 15:41:38] Connecting to gpio_fuse1_fuse2_voltage_difference...
+[2026-02-19 15:41:38] [RUN] 1: GPIOVoltage FUSE1
+[2026-02-19 15:41:38] GPIO VOLTAGE MISMATCH FUSE1 15000
+[2026-02-19 15:41:38] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 15:41:59] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-19 15:41:59] [DONE] Script finished.
+[2026-02-19 15:42:12] [RUN] 0: Connect gpio_fuse1_fuse2_voltage_difference
+[2026-02-19 15:42:12] Connecting to gpio_fuse1_fuse2_voltage_difference...
+[2026-02-19 15:42:12] [RUN] 1: GPIOVoltage FUSE1
+[2026-02-19 15:42:12] GPIO VOLTAGE MISMATCH FUSE1 15000
+[2026-02-19 15:43:09] [RUN] 0: Connect gpio_fuse1_fuse2_voltage_difference
+[2026-02-19 15:43:09] Connecting to gpio_fuse1_fuse2_voltage_difference...
+[2026-02-19 15:43:10] [RUN] 1: GPIOVoltage FUSE1
+[2026-02-19 15:43:10] GPIO VOLTAGE MISMATCH FUSE1 15000
+[2026-02-19 15:43:10] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 15:43:27] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 15:43:27] [RUN] 3: GPIOVoltage FUSE1
+[2026-02-19 15:43:27] GPIO VOLTAGE MISMATCH FUSE1 10000
+[2026-02-19 15:43:27] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 15:43:27] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-19 15:43:27] [RUN] 5: Disconnect 
+[2026-02-19 15:43:27] Disconnecting...
+[2026-02-19 16:14:11] [RUN] 0: Connect gpio_avdd_over_voltage
+[2026-02-19 16:14:11] Connecting to gpio_avdd_over_voltage...
+[2026-02-19 16:14:11] [RUN] 1: GPIOVoltage AVDD
+[2026-02-19 16:14:11] GPIO VOLTAGE MISMATCH AVDD 29000
+[2026-02-19 16:14:11] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:14:17] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:14:17] [RUN] 3: GPIOVoltage AVDD
+[2026-02-19 16:14:17] GPIO VOLTAGE MISMATCH AVDD 25000
+[2026-02-19 16:14:17] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 16:14:18] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-19 16:14:18] [RUN] 5: Disconnect 
+[2026-02-19 16:14:18] Disconnecting...
+[2026-02-19 16:15:36] [RUN] 0: Connect gpio_avdd_under_voltage
+[2026-02-19 16:15:36] Connecting to gpio_avdd_under_voltage...
+[2026-02-19 16:15:37] [RUN] 1: GPIOVoltage AVDD
+[2026-02-19 16:15:37] GPIO VOLTAGE MISMATCH AVDD 22000
+[2026-02-19 16:15:37] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:15:42] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:15:42] [RUN] 3: GPIOVoltage AVDD
+[2026-02-19 16:15:42] GPIO VOLTAGE MISMATCH AVDD 25000
+[2026-02-19 16:15:42] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 16:15:43] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-19 16:15:43] [RUN] 5: Disconnect 
+[2026-02-19 16:15:43] Disconnecting...
+[2026-02-19 16:15:57] [RUN] 0: Connect gpio_avdd_under_voltage
+[2026-02-19 16:15:57] Connecting to gpio_avdd_under_voltage...
+[2026-02-19 16:15:57] [RUN] 1: GPIOVoltage AVDD
+[2026-02-19 16:15:57] GPIO VOLTAGE MISMATCH AVDD 22000
+[2026-02-19 16:15:57] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:16:03] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:16:03] [RUN] 3: GPIOVoltage AVDD
+[2026-02-19 16:16:03] GPIO VOLTAGE MISMATCH AVDD 25000
+[2026-02-19 16:16:03] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 16:16:03] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-19 16:16:03] [RUN] 5: Disconnect 
+[2026-02-19 16:16:03] Disconnecting...
+[2026-02-19 16:22:00] [RUN] 0: Connect gpio_tsref_over_voltage
+[2026-02-19 16:22:00] Connecting to gpio_tsref_over_voltage...
+[2026-02-19 16:22:00] [RUN] 1: GPIOVoltage AVDD
+[2026-02-19 16:22:00] GPIO VOLTAGE MISMATCH AVDD 23000
+[2026-02-19 16:22:00] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:22:20] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-19 16:22:20] [DONE] Script finished.
+[2026-02-19 16:22:55] [RUN] 0: Connect gpio_tsref_over_voltage
+[2026-02-19 16:22:55] Connecting to gpio_tsref_over_voltage...
+[2026-02-19 16:22:55] [RUN] 1: GPIOVoltage TSREF
+[2026-02-19 16:22:55] GPIO VOLTAGE MISMATCH TSREF 23000
+[2026-02-19 16:22:55] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:23:01] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:23:01] [RUN] 3: GPIOVoltage TSREF
+[2026-02-19 16:23:01] GPIO VOLTAGE MISMATCH TSREF 18000
+[2026-02-19 16:23:01] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 16:23:02] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-19 16:23:02] [RUN] 5: Disconnect 
+[2026-02-19 16:23:02] Disconnecting...
