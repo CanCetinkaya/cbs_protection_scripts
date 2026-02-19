@@ -2627,3 +2627,36 @@
 [2026-02-18 15:14:08] [PASS] EXPECT matched:BatteryState == 4
 [2026-02-18 15:14:08] [RUN] 5: Disconnect 
 [2026-02-18 15:14:08] Disconnecting...
+[2026-02-19 09:07:29] [RUN] 0: Connect pcs_communication_fail
+[2026-02-19 09:07:29] Connecting to pcs_communication_fail...
+[2026-02-19 09:07:29] [RUN] 1: PCSCommFault COMM RISE
+[2026-02-19 09:07:29] PCS COMM FAULT COMM RISE
+[2026-02-19 09:07:29] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 09:07:50] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-19 09:07:50] [DONE] Script finished.
+[2026-02-19 09:08:25] [RUN] 0: Connect pcs_communication_fail
+[2026-02-19 09:08:25] Connecting to pcs_communication_fail...
+[2026-02-19 09:08:25] [RUN] 1: PCSCommFault COMM RISE
+[2026-02-19 09:08:25] PCS COMM FAULT COMM RISE
+[2026-02-19 09:09:34] [RUN] 0: Connect pcs_communication_fail
+[2026-02-19 09:09:34] Connecting to pcs_communication_fail...
+[2026-02-19 09:09:34] [RUN] 1: PCSCommFault RISE
+[2026-02-19 09:09:34] PCS COMM FAULT RISE
+[2026-02-19 09:09:34] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 09:09:46] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 09:09:46] [RUN] 3: PCSCommFault CLEAR
+[2026-02-19 09:09:46] PCS COMM FAULT CLEAR
+[2026-02-19 09:09:46] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 09:10:06] [FAIL] EXPECT timeout:BatteryState == 4
+[2026-02-19 09:10:06] [DONE] Script finished.
+[2026-02-19 09:16:07] [RUN] 0: Connect pcs_communication_fail
+[2026-02-19 09:16:07] Connecting to pcs_communication_fail...
+[2026-02-19 09:16:07] [RUN] 1: PCSCommFault RISE
+[2026-02-19 09:16:07] PCS COMM FAULT RISE
+[2026-02-19 09:16:07] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 09:16:23] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 09:16:23] [RUN] 3: PCSCommFault CLEAR
+[2026-02-19 09:16:23] PCS COMM FAULT CLEAR
+[2026-02-19 09:16:23] [RUN] 4: Expect BatteryState == 4
+[2026-02-19 09:16:43] [FAIL] EXPECT timeout:BatteryState == 4
+[2026-02-19 09:16:43] [DONE] Script finished.

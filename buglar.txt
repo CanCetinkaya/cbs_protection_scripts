@@ -20,3 +20,6 @@ STACK FAIL SIFIRLANSA BİLE PROTECTION DAN ÇIKMIYOR
 
 pdu_communication_fail_event
 communication değil de genel bakıyor
+
+
+update_pcs_communication_status hata kalktıktan sonra bir daha çağrılamıyor çünkü başka flag gelmiyor
