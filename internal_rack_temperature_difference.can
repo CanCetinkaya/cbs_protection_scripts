@@ -1,0 +1,7 @@
+CONNECT internal_rack_temperature_difference
+CELL_TEMPS 41.0
+EXPECT BatteryState == 18 TIMEOUT 10000
+CELL_TEMPS 25.0
+EXPECT BatteryState == 4 TIMEOUT 10000
+DISCONNECT
+#bu script sonucunda alert veriyo düzügn çalıştığını anlamanın yolunu bul

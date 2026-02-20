@@ -2913,3 +2913,35 @@
 [2026-02-20 09:47:51] [RUN] 2: Expect BatteryState == 16
 [2026-02-20 09:48:01] [FAIL] EXPECT timeout:BatteryState == 16
 [2026-02-20 09:48:01] [DONE] Script finished.
+[2026-02-20 10:45:08] [RUN] 0: Connect internal_rack_temperature_difference
+[2026-02-20 10:45:08] Connecting to internal_rack_temperature_difference...
+[2026-02-20 10:45:08] [RUN] 1: CellTemps 41.0
+[2026-02-20 10:45:08] Cell TEMP Set: 41.0
+[2026-02-20 10:45:08] [RUN] 2: Expect BatteryState == 4
+[2026-02-20 10:45:09] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-20 10:45:09] [RUN] 3: CellTemps 25.0
+[2026-02-20 10:45:09] Cell TEMP Set: 25.0
+[2026-02-20 10:45:09] [RUN] 4: Expect BatteryState == 4
+[2026-02-20 10:45:09] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-20 10:45:09] [RUN] 5: Disconnect 
+[2026-02-20 10:45:09] Disconnecting...
+[2026-02-20 10:45:50] [RUN] 0: Connect internal_rack_temperature_difference
+[2026-02-20 10:45:50] Connecting to internal_rack_temperature_difference...
+[2026-02-20 10:45:50] [RUN] 1: CellTemps 41.0
+[2026-02-20 10:45:50] Cell TEMP Set: 41.0
+[2026-02-20 10:45:50] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 10:46:00] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-20 10:46:00] [DONE] Script finished.
+[2026-02-20 10:55:11] [RUN] 0: Connect gpio_fuse1_fuse2_impedance
+[2026-02-20 10:55:11] Connecting to gpio_fuse1_fuse2_impedance...
+[2026-02-20 10:55:11] [RUN] 1: GPIOVoltage FUSE1
+[2026-02-20 10:55:11] GPIO VOLTAGE MISMATCH FUSE1 15000
+[2026-02-20 10:55:11] [RUN] 2: Wait 
+[2026-02-20 10:55:11] Waiting 1000 ms...
+[2026-02-20 10:55:12] [RUN] 3: Charge 
+[2026-02-20 10:55:12] Charging 5A (no condition, skipping wait)
+[2026-02-20 10:55:12] [RUN] 4: Wait 
+[2026-02-20 10:55:12] Waiting 10000 ms...
+[2026-02-20 10:55:22] [RUN] 5: Expect BatteryState == 4
+[2026-02-20 10:55:42] [FAIL] EXPECT timeout:BatteryState == 4
+[2026-02-20 10:55:42] [DONE] Script finished.

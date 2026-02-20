@@ -1,0 +1,8 @@
+CONNECT gpio_fuse1_fuse2_impedance
+GPIOVOLT FUSE1 15000
+WAIT 1000
+CHARGE 5
+WAIT 10000
+EXPECT BatteryState == 4 TIMEOUT 20000
+DISCONNECT
+#bu script sonucunda alert veriyo düzügn çalıştığını anlamanın yolunu bul
