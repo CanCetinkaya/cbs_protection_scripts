@@ -3153,3 +3153,13 @@
 [2026-02-20 15:21:27] Waiting 10000 ms...
 [2026-02-20 15:21:37] [RUN] 3: Disconnect 
 [2026-02-20 15:21:37] Disconnecting...
+[2026-02-20 16:11:28] [RUN] 0: Connect rack_voltages_difference
+[2026-02-20 16:11:28] Connecting to rack_voltages_difference...
+[2026-02-20 16:11:28] [RUN] 1: CellVolts 34000
+[2026-02-20 16:11:28] Cell Volt Set: 34000
+[2026-02-20 16:11:28] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 16:11:35] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-20 16:11:35] [RUN] 3: CellVolts 28500
+[2026-02-20 16:11:35] Cell Volt Set: 28500
+[2026-02-20 16:11:35] [RUN] 4: Disconnect 
+[2026-02-20 16:11:35] Disconnecting...
