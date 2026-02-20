@@ -2880,3 +2880,36 @@
 [2026-02-20 09:36:06] [RUN] 2: Expect BatteryState == 16
 [2026-02-20 09:36:16] [FAIL] EXPECT timeout:BatteryState == 16
 [2026-02-20 09:36:16] [DONE] Script finished.
+[2026-02-20 09:39:13] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:39:13] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:39:13] [RUN] 1: CellTemps 39.0
+[2026-02-20 09:39:13] Cell TEMP Set: 39.0ALL
+[2026-02-20 09:39:13] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:42:31] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:42:31] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:42:31] [RUN] 1: CellTemps 39.0
+[2026-02-20 09:42:31] Cell TEMP Set: 39.0ALL
+[2026-02-20 09:42:31] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:42:41] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 09:42:41] [DONE] Script finished.
+[2026-02-20 09:43:25] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:43:26] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:43:26] [RUN] 1: CellTemps 39.0
+[2026-02-20 09:43:26] Cell TEMP Set: 39.0ALL
+[2026-02-20 09:43:26] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:43:36] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 09:43:36] [DONE] Script finished.
+[2026-02-20 09:46:44] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:46:44] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:46:44] [RUN] 1: CellTemps 55.0
+[2026-02-20 09:46:44] Cell TEMP Set: 55.0ALL
+[2026-02-20 09:46:44] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:46:54] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 09:46:54] [DONE] Script finished.
+[2026-02-20 09:47:51] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:47:51] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:47:51] [RUN] 1: CellTemps 55.0
+[2026-02-20 09:47:51] Cell TEMP Set: 55.0ALL
+[2026-02-20 09:47:51] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:48:01] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 09:48:01] [DONE] Script finished.
