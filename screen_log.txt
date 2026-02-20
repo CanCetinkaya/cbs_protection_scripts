@@ -2945,3 +2945,41 @@
 [2026-02-20 10:55:22] [RUN] 5: Expect BatteryState == 4
 [2026-02-20 10:55:42] [FAIL] EXPECT timeout:BatteryState == 4
 [2026-02-20 10:55:42] [DONE] Script finished.
+[2026-02-20 10:57:37] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-20 10:57:37] Connecting to cell_charge_over_temperature...
+[2026-02-20 10:57:37] [RUN] 1: CellTemps 62.0
+[2026-02-20 10:57:37] Cell TEMP Set: 62.0ALL
+[2026-02-20 10:57:37] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 10:57:47] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 10:57:47] [DONE] Script finished.
+[2026-02-20 13:52:43] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-20 13:52:43] Connecting to bmu_fan_power_temperature...
+[2026-02-20 13:52:43] [RUN] 1: FanPowerTemp 81
+[2026-02-20 13:52:43] Fan Power Temp 81
+[2026-02-20 13:52:43] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 13:52:51] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-20 13:52:51] [RUN] 3: FanPowerTemp 25
+[2026-02-20 13:52:51] Fan Power Temp 25
+[2026-02-20 13:52:51] [RUN] 4: Disconnect 
+[2026-02-20 13:52:51] Disconnecting...
+[2026-02-20 13:54:17] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-20 13:54:17] Connecting to bmu_fan_power_temperature...
+[2026-02-20 13:54:17] [RUN] 1: FanPowerTemp 81
+[2026-02-20 13:54:17] Fan Power Temp 81
+[2026-02-20 13:54:53] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 13:55:03] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-20 13:55:03] [DONE] Script finished.
+[2026-02-20 13:55:12] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-20 13:55:12] Connecting to bmu_fan_power_temperature...
+[2026-02-20 13:55:12] [RUN] 1: FanPowerTemp 81
+[2026-02-20 13:55:12] Fan Power Temp 81
+[2026-02-20 13:55:12] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 13:56:03] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-20 13:56:03] [DONE] Script finished.
+[2026-02-20 13:58:46] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-20 13:58:46] Connecting to bmu_fan_power_temperature...
+[2026-02-20 13:58:46] [RUN] 1: FanPowerTemp 81
+[2026-02-20 13:58:46] Fan Power Temp 81
+[2026-02-20 13:58:46] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 13:58:56] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-20 13:58:56] [DONE] Script finished.
