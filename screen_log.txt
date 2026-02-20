@@ -2777,3 +2777,79 @@
 [2026-02-19 16:23:02] [PASS] EXPECT matched:BatteryState == 4
 [2026-02-19 16:23:02] [RUN] 5: Disconnect 
 [2026-02-19 16:23:02] Disconnecting...
+[2026-02-19 16:27:19] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:27:19] Connecting to stack_communication_faiL...
+[2026-02-19 16:27:19] [RUN] 1: StackNfault COMM
+[2026-02-19 16:27:19] Stack Nfault COMMRISE
+[2026-02-19 16:27:19] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:27:29] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:27:29] [RUN] 3: Disconnect 
+[2026-02-19 16:27:29] Disconnecting...
+[2026-02-19 16:33:06] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:33:06] Connecting to stack_communication_faiL...
+[2026-02-19 16:33:06] [RUN] 1: StackNfault POWER
+[2026-02-19 16:33:06] Stack Nfault POWERRISE
+[2026-02-19 16:33:06] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:33:16] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:33:16] [RUN] 3: Disconnect 
+[2026-02-19 16:33:16] Disconnecting...
+[2026-02-19 16:34:27] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:34:27] Connecting to stack_communication_faiL...
+[2026-02-19 16:34:27] [RUN] 1: StackNfault POWER
+[2026-02-19 16:34:27] Stack Nfault POWERRISE
+[2026-02-19 16:34:29] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:34:49] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-19 16:34:49] [DONE] Script finished.
+[2026-02-19 16:35:01] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:35:01] Connecting to stack_communication_faiL...
+[2026-02-19 16:35:01] [RUN] 1: StackNfault POWER
+[2026-02-19 16:35:01] Stack Nfault POWERRISE
+[2026-02-19 16:35:01] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:35:11] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:35:11] [RUN] 3: Disconnect 
+[2026-02-19 16:35:11] Disconnecting...
+[2026-02-19 16:38:05] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:38:05] Connecting to stack_communication_faiL...
+[2026-02-19 16:38:06] [RUN] 1: StackNfault POWER
+[2026-02-19 16:38:06] Stack Nfault POWERRISE
+[2026-02-19 16:38:06] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:40:05] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:40:05] Connecting to stack_communication_faiL...
+[2026-02-19 16:40:05] [RUN] 1: StackNfault POWER
+[2026-02-19 16:40:05] Stack Nfault POWERRISE
+[2026-02-19 16:41:01] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:41:58] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-19 16:41:58] [DONE] Script finished.
+[2026-02-19 16:43:18] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:43:18] Connecting to stack_communication_faiL...
+[2026-02-19 16:43:18] [RUN] 1: StackNfault POWER
+[2026-02-19 16:43:18] Stack Nfault POWERRISE
+[2026-02-19 16:43:21] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:43:21] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-19 16:43:21] [RUN] 3: Disconnect 
+[2026-02-19 16:43:21] Disconnecting...
+[2026-02-19 16:43:34] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:43:34] Connecting to stack_communication_faiL...
+[2026-02-19 16:43:34] [RUN] 1: StackNfault POWER
+[2026-02-19 16:43:34] Stack Nfault POWERRISE
+[2026-02-19 16:43:34] [RUN] 2: Expect BatteryState == 18
+[2026-02-19 16:45:15] [RUN] 0: Connect stack_communication_faiL
+[2026-02-19 16:45:16] Connecting to stack_communication_faiL...
+[2026-02-19 16:45:17] [RUN] 1: StackNfault POWER
+[2026-02-19 16:45:19] Stack Nfault POWERRISE
+[2026-02-19 16:45:19] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 07:51:01] [RUN] 0: Connect stack_communication_faiL
+[2026-02-20 07:51:01] Connecting to stack_communication_faiL...
+[2026-02-20 07:51:01] [RUN] 1: StackNfault POWER
+[2026-02-20 07:51:01] Stack Nfault POWERRISE
+[2026-02-20 07:51:01] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 07:51:12] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-20 07:51:12] [RUN] 3: Disconnect 
+[2026-02-20 07:51:12] Disconnecting...
+[2026-02-20 07:57:01] [RUN] 0: Connect pdu_nfaults_occurtion
+[2026-02-20 07:57:01] Connecting to pdu_nfaults_occurtion...
+[2026-02-20 07:57:01] [RUN] 1: PDUNfault POWER
+[2026-02-20 07:57:01] PDU Nfault POWERRISE
+[2026-02-20 07:57:01] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 07:57:21] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-20 07:57:21] [DONE] Script finished.
