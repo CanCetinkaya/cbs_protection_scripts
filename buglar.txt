@@ -25,3 +25,8 @@ communication değil de genel bakıyor
 update_pcs_communication_status hata kalktıktan sonra bir daha çağrılamıyor çünkü başka flag gelmiyor
 
 aux_pins_and_pdu_values_mismatch_event geldiğinde kontrol hem protection a atıyor arkasından permanent a sokan bir event yolluyo daha sub olamadığı için boşa gidiyor permanent a geçmiyor.
+
+
+STACK PDU CABLE BROKEN EVENTLER BOŞ
+
+rack_temperature_difference_event  en fazla ile en azın ortalaması alınıyor ortalama bulmak için ne kadar mantıklı bu

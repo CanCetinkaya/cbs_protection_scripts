@@ -1,0 +1,6 @@
+CONNECT rack_temperature_difference_event
+CELL_TEMPS 39.0 ALL
+EXPECT BatteryState == 16 TIMEOUT 10000
+CELL_TEMPS 25.0 ALL
+EXPECT BatteryState == 4 TIMEOUT 10000
+DISCONNECT

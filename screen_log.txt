@@ -2853,3 +2853,30 @@
 [2026-02-20 07:57:01] [RUN] 2: Expect BatteryState == 18
 [2026-02-20 07:57:21] [FAIL] EXPECT timeout:BatteryState == 18
 [2026-02-20 07:57:21] [DONE] Script finished.
+[2026-02-20 09:21:16] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-20 09:21:16] Connecting to cell_charge_under_temperature...
+[2026-02-20 09:21:16] [RUN] 1: CellTemps -1
+[2026-02-20 09:21:16] Cell TEMP Set: -1
+[2026-02-20 09:21:17] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:21:27] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 09:21:27] [DONE] Script finished.
+[2026-02-20 09:31:41] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-20 09:31:41] Connecting to cell_charge_under_temperature...
+[2026-02-20 09:31:41] [RUN] 1: CellTemps -1
+[2026-02-20 09:31:41] Cell TEMP Set: -1
+[2026-02-20 09:31:41] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:34:19] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:34:19] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:34:20] [RUN] 1: CellTemps 39.0
+[2026-02-20 09:34:20] Cell TEMP Set: 39.0ALL
+[2026-02-20 09:35:05] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:35:05] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:35:05] [RUN] 1: CellTemps 39.0
+[2026-02-20 09:35:05] Cell TEMP Set: 39.0ALL
+[2026-02-20 09:36:05] [RUN] 0: Connect rack_temperature_difference_event
+[2026-02-20 09:36:06] Connecting to rack_temperature_difference_event...
+[2026-02-20 09:36:06] [RUN] 1: CellTemps 39.0
+[2026-02-20 09:36:06] Cell TEMP Set: 39.0ALL
+[2026-02-20 09:36:06] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 09:36:16] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 09:36:16] [DONE] Script finished.

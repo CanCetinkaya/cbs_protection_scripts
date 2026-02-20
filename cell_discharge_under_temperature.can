@@ -1,5 +1,5 @@
 CONNECT cell_discharge_under_temperature
 CELL_TEMPS -21.0
 EXPECT BatteryState == 12 TIMEOUT 10000
-CELL_VOLTS 25.0
+CELL_TEMPS 25.0
 DISCONNECT

@@ -1,6 +1,6 @@
 CONNECT stack_nfaults_occurtion_event
 StackNfault POWER RISE
 EXPECT BatteryState == 18 TIMEOUT 20000
-#StackNfault POWER CLEAR
-#EXPECT BatteryState == 4 TIMEOUT 20000
+StackNfault POWER CLEAR
+EXPECT BatteryState == 4 TIMEOUT 20000
 DISCONNECT
