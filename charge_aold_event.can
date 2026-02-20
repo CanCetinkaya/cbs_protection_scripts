@@ -1,0 +1,6 @@
+CONNECT charge_aold
+CHARGE 76
+EXPECT BatteryState == 15 TIMEOUT 2000
+CHARGE 0
+DISCONNECT
+#cell charge already satisfied this should we need this  15 cause pcs sync take to much time

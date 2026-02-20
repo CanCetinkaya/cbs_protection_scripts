@@ -2983,3 +2983,129 @@
 [2026-02-20 13:58:46] [RUN] 2: Expect BatteryState == 18
 [2026-02-20 13:58:56] [FAIL] EXPECT timeout:BatteryState == 18
 [2026-02-20 13:58:56] [DONE] Script finished.
+[2026-02-20 14:08:42] [RUN] 0: Connect charge_aold
+[2026-02-20 14:08:42] Connecting to charge_aold...
+[2026-02-20 14:08:42] [RUN] 1: Charge 
+[2026-02-20 14:08:42] Charging 75A (no condition, skipping wait)
+[2026-02-20 14:08:42] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 14:08:44] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 14:08:44] [DONE] Script finished.
+[2026-02-20 14:09:19] [RUN] 0: Connect charge_aold
+[2026-02-20 14:09:19] Connecting to charge_aold...
+[2026-02-20 14:09:19] [RUN] 1: Charge 
+[2026-02-20 14:09:19] Charging 75A (no condition, skipping wait)
+[2026-02-20 14:09:19] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 14:09:23] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 14:09:23] [DONE] Script finished.
+[2026-02-20 14:10:07] [RUN] 0: Connect charge_aold
+[2026-02-20 14:10:07] Connecting to charge_aold...
+[2026-02-20 14:10:07] [RUN] 1: Charge 
+[2026-02-20 14:10:07] Charging 75A (no condition, skipping wait)
+[2026-02-20 14:10:07] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 14:10:11] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-20 14:10:11] [DONE] Script finished.
+[2026-02-20 14:10:55] [RUN] 0: Connect charge_aold
+[2026-02-20 14:10:55] Connecting to charge_aold...
+[2026-02-20 14:10:55] [RUN] 1: Charge 
+[2026-02-20 14:10:55] Charging 75A (no condition, skipping wait)
+[2026-02-20 14:10:55] [RUN] 2: Expect BatteryState == 16
+[2026-02-20 14:11:00] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-20 14:11:00] [RUN] 3: Disconnect 
+[2026-02-20 14:11:00] Disconnecting...
+[2026-02-20 14:11:57] [RUN] 0: Connect charge_aold
+[2026-02-20 14:11:57] Connecting to charge_aold...
+[2026-02-20 14:11:57] [RUN] 1: Charge 
+[2026-02-20 14:11:57] Charging 75A (no condition, skipping wait)
+[2026-02-20 14:11:57] [RUN] 2: Expect BatteryState == 15
+[2026-02-20 14:11:59] [PASS] EXPECT matched:BatteryState == 15
+[2026-02-20 14:11:59] [RUN] 3: Disconnect 
+[2026-02-20 14:11:59] Disconnecting...
+[2026-02-20 14:12:29] [RUN] 0: Connect charge_aold
+[2026-02-20 14:12:29] Connecting to charge_aold...
+[2026-02-20 14:12:29] [RUN] 1: Charge 
+[2026-02-20 14:12:29] Charging 75A (no condition, skipping wait)
+[2026-02-20 14:12:29] [RUN] 2: Expect BatteryState == 15
+[2026-02-20 14:12:30] [PASS] EXPECT matched:BatteryState == 15
+[2026-02-20 14:12:30] [RUN] 3: Disconnect 
+[2026-02-20 14:12:30] Disconnecting...
+[2026-02-20 14:15:16] [RUN] 0: Connect charge_safety_current
+[2026-02-20 14:15:16] Connecting to charge_safety_current...
+[2026-02-20 14:15:17] [RUN] 1: Charge 
+[2026-02-20 14:15:17] Charging 101A (no condition, skipping wait)
+[2026-02-20 14:15:18] [RUN] 2: Expect BatteryState == 15
+[2026-02-20 14:15:19] [FAIL] EXPECT timeout:BatteryState == 15
+[2026-02-20 14:15:19] [DONE] Script finished.
+[2026-02-20 14:16:17] [RUN] 0: Connect charge_safety_current
+[2026-02-20 14:16:17] Connecting to charge_safety_current...
+[2026-02-20 14:16:17] [RUN] 1: Charge 
+[2026-02-20 14:16:17] Charging 101A (no condition, skipping wait)
+[2026-02-20 14:16:17] [RUN] 2: Expect BatteryState == 17
+[2026-02-20 14:16:19] [FAIL] EXPECT timeout:BatteryState == 17
+[2026-02-20 14:16:19] [DONE] Script finished.
+[2026-02-20 14:17:21] [RUN] 0: Connect charge_safety_current
+[2026-02-20 14:17:21] Connecting to charge_safety_current...
+[2026-02-20 14:17:22] [RUN] 1: Charge 
+[2026-02-20 14:17:22] Charging 101A (no condition, skipping wait)
+[2026-02-20 14:17:22] [RUN] 2: Expect BatteryState == 17
+[2026-02-20 14:17:23] [PASS] EXPECT matched:BatteryState == 17
+[2026-02-20 14:17:23] [RUN] 3: Unknown CAHRGE 0
+[2026-02-20 14:17:23] [WARN] Unknown command: CAHRGE 0
+[2026-02-20 14:17:23] [RUN] 4: Disconnect 
+[2026-02-20 14:17:23] Disconnecting...
+[2026-02-20 14:31:56] [RUN] 0: Connect rack_can_communication_status
+[2026-02-20 14:31:56] Connecting to rack_can_communication_status...
+[2026-02-20 14:31:56] [RUN] 1: PCSCommFault RISE
+[2026-02-20 14:31:56] PCS COMM FAULT RISE
+[2026-02-20 14:31:56] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 14:32:10] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-20 14:32:10] [RUN] 3: PCSCommFault CLEAR
+[2026-02-20 14:32:10] PCS COMM FAULT CLEAR
+[2026-02-20 14:32:10] [RUN] 4: Expect BatteryState == 4
+[2026-02-20 14:32:31] [FAIL] EXPECT timeout:BatteryState == 4
+[2026-02-20 14:32:31] [DONE] Script finished.
+[2026-02-20 14:38:02] [RUN] 0: Connect rack_can_communication_status
+[2026-02-20 14:38:02] Connecting to rack_can_communication_status...
+[2026-02-20 14:38:02] [RUN] 1: PCSCommFault RISE
+[2026-02-20 14:38:02] PCS COMM FAULT RISE
+[2026-02-20 14:38:02] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 14:38:14] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-20 14:38:14] [RUN] 3: PCSCommFault CLEAR
+[2026-02-20 14:38:14] PCS COMM FAULT CLEAR
+[2026-02-20 14:38:14] [RUN] 4: Expect BatteryState == 4
+[2026-02-20 14:38:34] [FAIL] EXPECT timeout:BatteryState == 4
+[2026-02-20 14:38:34] [DONE] Script finished.
+[2026-02-20 14:44:16] [RUN] 0: Connect rack_can_communication_status
+[2026-02-20 14:44:16] Connecting to rack_can_communication_status...
+[2026-02-20 14:44:16] [RUN] 1: PCSCommFault RISE
+[2026-02-20 14:44:16] PCS COMM FAULT RISE
+[2026-02-20 14:44:17] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 14:44:28] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-20 14:44:28] [RUN] 3: PCSCommFault CLEAR
+[2026-02-20 14:44:28] PCS COMM FAULT CLEAR
+[2026-02-20 14:44:28] [RUN] 4: Expect BatteryState == 4
+[2026-02-20 14:44:48] [FAIL] EXPECT timeout:BatteryState == 4
+[2026-02-20 14:44:48] [DONE] Script finished.
+[2026-02-20 14:46:26] [RUN] 0: Connect rack_can_communication_status
+[2026-02-20 14:46:26] Connecting to rack_can_communication_status...
+[2026-02-20 14:46:27] [RUN] 1: PCSCommFault RISE
+[2026-02-20 14:46:30] PCS COMM FAULT RISE
+[2026-02-20 14:46:31] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 14:48:16] [RUN] 0: Connect rack_can_communication_status
+[2026-02-20 14:48:16] Connecting to rack_can_communication_status...
+[2026-02-20 14:48:16] [RUN] 1: RackCANFault RISE
+[2026-02-20 14:48:16] RACK CAN COMM FAULT RISE
+[2026-02-20 14:48:23] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 14:48:43] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-20 14:48:43] [DONE] Script finished.
+[2026-02-20 14:49:26] [RUN] 0: Connect rack_can_communication_status
+[2026-02-20 14:49:26] Connecting to rack_can_communication_status...
+[2026-02-20 14:49:27] [RUN] 1: RackCANFault RISE
+[2026-02-20 14:49:27] RACK CAN COMM FAULT RISE
+[2026-02-20 14:49:27] [RUN] 2: Expect BatteryState == 18
+[2026-02-20 14:49:46] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-20 14:49:46] [RUN] 3: RackCANFault CLEAR
+[2026-02-20 14:49:46] RACK CAN COMM FAULT CLEAR
+[2026-02-20 14:49:46] [RUN] 4: Expect BatteryState == 4
+[2026-02-20 14:49:47] [PASS] EXPECT matched:BatteryState == 4
+[2026-02-20 14:49:47] [RUN] 5: Disconnect 
+[2026-02-20 14:49:47] Disconnecting...
