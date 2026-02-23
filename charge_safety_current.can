@@ -1,6 +1,9 @@
 CONNECT charge_safety_current
 CHARGE 101
 EXPECT BatteryState == 17 TIMEOUT 2000
+CHARGE 5
+EXPECT BatteryState == 8 TIMEOUT 10000
 CHARGE 0
+EXPECT BatteryState == 4 TIMEOUT 10000
 DISCONNECT
 #cell charge already satisfied this should we need this  17 cause pcs sync take to much time
