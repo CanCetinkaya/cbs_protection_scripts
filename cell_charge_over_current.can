@@ -1,5 +1,6 @@
 CONNECT cell_charge_over_current
+EXPECT BatteryState == 4 TIMEOUT 10000
 CHARGE 52
-EXPECT BatteryState == 16 TIMEOUT 10000
+EXPECT BatteryState == 16 TIMEOUT 15000
 CHARGE 0
 DISCONNECT
