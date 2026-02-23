@@ -3163,3 +3163,1064 @@
 [2026-02-20 16:11:35] Cell Volt Set: 28500
 [2026-02-20 16:11:35] [RUN] 4: Disconnect 
 [2026-02-20 16:11:35] Disconnecting...
+[2026-02-23 09:06:05] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:06:05] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:06:05] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:06:05] AUX MISMATCH ON
+[2026-02-23 09:06:05] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:06:25] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:06:25] [DONE] Script finished.
+[2026-02-23 09:06:29] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:06:29] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:06:29] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:06:29] Fan Power Temp 81
+[2026-02-23 09:06:29] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:06:39] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:06:39] [DONE] Script finished.
+[2026-02-23 09:06:41] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 09:06:41] Connecting to cell_charge_over_current...
+[2026-02-23 09:06:41] [RUN] 1: Charge 
+[2026-02-23 09:06:41] Charging 52A (no condition, skipping wait)
+[2026-02-23 09:06:41] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:06:51] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:06:51] [DONE] Script finished.
+[2026-02-23 09:06:55] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 09:06:55] Connecting to cell_charge_over_temperature...
+[2026-02-23 09:06:55] [RUN] 1: CellTemps 62.0
+[2026-02-23 09:06:55] Cell TEMP Set: 62.0ALL
+[2026-02-23 09:06:55] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:07:05] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:07:05] [DONE] Script finished.
+[2026-02-23 09:07:08] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 09:07:08] Connecting to cell_charge_under_temperature...
+[2026-02-23 09:07:08] [RUN] 1: CellTemps -1
+[2026-02-23 09:07:08] Cell TEMP Set: -1ALL
+[2026-02-23 09:07:08] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:07:18] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:07:18] [DONE] Script finished.
+[2026-02-23 09:07:20] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 09:07:20] Connecting to cell_discharge_over_current...
+[2026-02-23 09:07:20] [RUN] 1: Discharge 
+[2026-02-23 09:07:20] Discharging 103A (no condition, skipping wait)
+[2026-02-23 09:07:20] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 09:07:30] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 09:07:30] [DONE] Script finished.
+[2026-02-23 09:07:31] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 09:07:31] Connecting to cell_charge_over_temperature...
+[2026-02-23 09:07:31] [RUN] 1: CellTemps 66.0
+[2026-02-23 09:07:31] Cell TEMP Set: 66.0ALL
+[2026-02-23 09:07:31] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 09:07:41] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 09:07:41] [DONE] Script finished.
+[2026-02-23 09:07:45] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 09:07:45] Connecting to cell_discharge_under_temperature...
+[2026-02-23 09:07:45] [RUN] 1: CellTemps -21.0
+[2026-02-23 09:07:45] Cell TEMP Set: -21.0ALL
+[2026-02-23 09:07:45] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 09:13:17] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:13:17] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:13:17] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:13:17] AUX MISMATCH ON
+[2026-02-23 09:13:17] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:13:37] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:13:37] [DONE] Script finished.
+[2026-02-23 09:13:39] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:13:39] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:13:39] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:13:39] Fan Power Temp 81
+[2026-02-23 09:13:39] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:13:49] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:13:49] [DONE] Script finished.
+[2026-02-23 09:13:52] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 09:13:52] Connecting to cell_charge_over_current...
+[2026-02-23 09:13:52] [RUN] 1: Charge 
+[2026-02-23 09:13:52] Charging 52A (no condition, skipping wait)
+[2026-02-23 09:13:52] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:14:02] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:14:02] [DONE] Script finished.
+[2026-02-23 09:14:04] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 09:14:04] Connecting to cell_charge_over_temperature...
+[2026-02-23 09:14:04] [RUN] 1: CellTemps 62.0
+[2026-02-23 09:14:04] Cell TEMP Set: 62.0ALL
+[2026-02-23 09:14:04] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:14:56] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:14:57] [DONE] Script finished.
+[2026-02-23 09:15:05] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 09:15:05] Connecting to cell_charge_under_temperature...
+[2026-02-23 09:15:05] [RUN] 1: CellTemps -1
+[2026-02-23 09:15:05] Cell TEMP Set: -1ALL
+[2026-02-23 09:15:05] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:16:18] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:16:18] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:16:18] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:16:18] AUX MISMATCH ON
+[2026-02-23 09:16:18] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:16:42] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:16:42] [DONE] Script finished.
+[2026-02-23 09:16:43] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:16:43] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:16:43] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:16:43] Fan Power Temp 81
+[2026-02-23 09:16:43] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:16:53] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:16:53] [DONE] Script finished.
+[2026-02-23 09:16:55] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 09:16:55] Connecting to cell_charge_over_current...
+[2026-02-23 09:16:55] [RUN] 1: Charge 
+[2026-02-23 09:16:55] Charging 52A (no condition, skipping wait)
+[2026-02-23 09:16:55] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:17:03] [DONE] Script finished.
+[2026-02-23 09:17:05] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:17:05] [DONE] Script finished.
+[2026-02-23 09:17:06] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 09:17:06] Connecting to cell_charge_over_temperature...
+[2026-02-23 09:17:06] [RUN] 1: CellTemps 62.0
+[2026-02-23 09:17:06] Cell TEMP Set: 62.0ALL
+[2026-02-23 09:17:06] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:18:23] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:18:23] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:18:23] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:18:23] AUX MISMATCH ON
+[2026-02-23 09:18:23] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:18:43] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:18:43] [DONE] Script finished.
+[2026-02-23 09:18:43] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:18:43] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:18:43] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:18:43] Fan Power Temp 81
+[2026-02-23 09:18:43] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:37:22] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:37:22] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:37:22] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:37:22] AUX MISMATCH ON
+[2026-02-23 09:37:22] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:37:43] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:37:43] [DONE] Script finished.
+[2026-02-23 09:37:43] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:37:43] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:37:43] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:37:43] Fan Power Temp 81
+[2026-02-23 09:37:43] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:38:29] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:38:29] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:38:29] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:38:29] AUX MISMATCH ON
+[2026-02-23 09:38:29] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:38:49] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:38:49] [DONE] Script finished.
+[2026-02-23 09:38:49] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:38:49] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:38:49] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:38:49] Fan Power Temp 81
+[2026-02-23 09:38:49] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:39:23] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:39:23] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:39:23] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:39:23] AUX MISMATCH ON
+[2026-02-23 09:39:23] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:39:43] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:39:43] [DONE] Script finished.
+[2026-02-23 09:41:00] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:41:00] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:41:00] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:41:00] AUX MISMATCH ON
+[2026-02-23 09:41:00] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 09:41:21] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 09:41:21] [DONE] Script finished.
+[2026-02-23 09:41:21] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:41:21] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:41:21] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:41:21] Fan Power Temp 81
+[2026-02-23 09:41:21] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:41:21] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 09:41:21] [RUN] 3: FanPowerTemp 25
+[2026-02-23 09:41:21] Fan Power Temp 25
+[2026-02-23 09:41:21] [RUN] 4: Disconnect 
+[2026-02-23 09:41:21] Disconnecting...
+[2026-02-23 09:41:21] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 09:41:21] Connecting to cell_charge_over_current...
+[2026-02-23 09:41:21] [RUN] 1: Charge 
+[2026-02-23 09:41:21] Charging 52A (no condition, skipping wait)
+[2026-02-23 09:41:21] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:43:14] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:43:14] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:43:14] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:43:14] AUX MISMATCH ON
+[2026-02-23 09:43:14] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 09:43:20] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 09:43:20] [RUN] 3: Disconnect 
+[2026-02-23 09:43:20] Disconnecting...
+[2026-02-23 09:43:20] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:43:20] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:43:20] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:43:20] Fan Power Temp 81
+[2026-02-23 09:43:20] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:43:31] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 09:43:31] [DONE] Script finished.
+[2026-02-23 09:43:31] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 09:43:31] Connecting to cell_charge_over_current...
+[2026-02-23 09:43:31] [RUN] 1: Charge 
+[2026-02-23 09:43:31] Charging 52A (no condition, skipping wait)
+[2026-02-23 09:43:31] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:45:45] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 09:45:45] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 09:45:45] [RUN] 1: AUXMismatch ON
+[2026-02-23 09:45:45] AUX MISMATCH ON
+[2026-02-23 09:45:45] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 09:46:05] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 09:46:05] [DONE] Script finished.
+[2026-02-23 09:46:05] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 09:46:05] Connecting to bmu_fan_power_temperature...
+[2026-02-23 09:46:05] [RUN] 1: FanPowerTemp 81
+[2026-02-23 09:46:05] Fan Power Temp 81
+[2026-02-23 09:46:05] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 09:46:05] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 09:46:05] [RUN] 3: FanPowerTemp 25
+[2026-02-23 09:46:05] Fan Power Temp 25
+[2026-02-23 09:46:05] [RUN] 4: Disconnect 
+[2026-02-23 09:46:05] Disconnecting...
+[2026-02-23 09:46:05] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 09:46:05] Connecting to cell_charge_over_current...
+[2026-02-23 09:46:05] [RUN] 1: Charge 
+[2026-02-23 09:46:05] Charging 52A (no condition, skipping wait)
+[2026-02-23 09:46:05] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:46:15] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:46:15] [DONE] Script finished.
+[2026-02-23 09:46:15] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 09:46:15] Connecting to cell_charge_over_temperature...
+[2026-02-23 09:46:15] [RUN] 1: CellTemps 62.0
+[2026-02-23 09:46:15] Cell TEMP Set: 62.0ALL
+[2026-02-23 09:46:15] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:46:25] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:46:25] [DONE] Script finished.
+[2026-02-23 09:46:25] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 09:46:25] Connecting to cell_charge_under_temperature...
+[2026-02-23 09:46:25] [RUN] 1: CellTemps -1
+[2026-02-23 09:46:25] Cell TEMP Set: -1ALL
+[2026-02-23 09:46:25] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 09:46:36] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 09:46:36] [DONE] Script finished.
+[2026-02-23 09:46:36] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 09:46:36] Connecting to cell_discharge_over_current...
+[2026-02-23 09:46:36] [RUN] 1: Discharge 
+[2026-02-23 09:46:36] Discharging 103A (no condition, skipping wait)
+[2026-02-23 09:46:36] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 09:46:46] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 09:46:46] [DONE] Script finished.
+[2026-02-23 09:46:46] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 09:46:46] Connecting to cell_charge_over_temperature...
+[2026-02-23 09:46:46] [RUN] 1: CellTemps 66.0
+[2026-02-23 09:46:46] Cell TEMP Set: 66.0ALL
+[2026-02-23 09:46:46] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 09:46:56] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 09:46:56] [DONE] Script finished.
+[2026-02-23 09:46:56] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 09:46:56] Connecting to cell_discharge_under_temperature...
+[2026-02-23 09:46:56] [RUN] 1: CellTemps -21.0
+[2026-02-23 09:46:56] Cell TEMP Set: -21.0ALL
+[2026-02-23 09:46:56] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 09:47:06] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 09:47:06] [DONE] Script finished.
+[2026-02-23 09:47:06] [RUN] 0: Connect cell_over_temperature_pf
+[2026-02-23 09:47:06] Connecting to cell_over_temperature_pf...
+[2026-02-23 09:47:06] [RUN] 1: CellTemps 86.0
+[2026-02-23 09:47:06] Cell TEMP Set: 86.0ALL
+[2026-02-23 09:47:06] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 09:47:56] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 09:47:56] [DONE] Script finished.
+[2026-02-23 09:47:56] [RUN] 0: Connect cell_over_voltage
+[2026-02-23 09:47:56] Connecting to cell_over_voltage...
+[2026-02-23 09:47:56] [RUN] 1: CellVolts 36000
+[2026-02-23 09:47:56] Cell Volt Set: 36000
+[2026-02-23 09:47:56] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:42:08] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:42:08] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:42:08] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:42:08] AUX MISMATCH ON
+[2026-02-23 10:42:08] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:42:14] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 10:42:14] [RUN] 3: Wait 
+[2026-02-23 10:42:14] Waiting 5000 ms...
+[2026-02-23 10:42:19] [RUN] 4: Disconnect 
+[2026-02-23 10:42:19] Disconnecting...
+[2026-02-23 10:42:19] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 10:42:19] Connecting to bmu_fan_power_temperature...
+[2026-02-23 10:42:19] [RUN] 1: FanPowerTemp 81
+[2026-02-23 10:42:19] Fan Power Temp 81
+[2026-02-23 10:42:19] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 10:42:29] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 10:42:29] [DONE] Script finished.
+[2026-02-23 10:42:29] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 10:42:29] Connecting to cell_charge_over_current...
+[2026-02-23 10:42:29] [RUN] 1: Charge 
+[2026-02-23 10:42:29] Charging 52A (no condition, skipping wait)
+[2026-02-23 10:42:29] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:43:48] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:43:48] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:43:48] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:43:48] AUX MISMATCH ON
+[2026-02-23 10:43:48] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:44:08] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 10:44:08] [DONE] Script finished.
+[2026-02-23 10:44:08] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 10:44:08] Connecting to bmu_fan_power_temperature...
+[2026-02-23 10:44:09] [RUN] 1: FanPowerTemp 81
+[2026-02-23 10:44:09] Fan Power Temp 81
+[2026-02-23 10:44:09] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 10:44:09] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 10:44:09] [RUN] 3: FanPowerTemp 25
+[2026-02-23 10:44:09] Fan Power Temp 25
+[2026-02-23 10:44:09] [RUN] 4: Disconnect 
+[2026-02-23 10:44:09] Disconnecting...
+[2026-02-23 10:44:09] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 10:44:09] Connecting to cell_charge_over_current...
+[2026-02-23 10:44:09] [RUN] 1: Charge 
+[2026-02-23 10:44:09] Charging 52A (no condition, skipping wait)
+[2026-02-23 10:44:09] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:44:19] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:44:19] [DONE] Script finished.
+[2026-02-23 10:44:19] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 10:44:19] Connecting to cell_charge_over_temperature...
+[2026-02-23 10:44:19] [RUN] 1: CellTemps 62.0
+[2026-02-23 10:44:19] Cell TEMP Set: 62.0ALL
+[2026-02-23 10:44:19] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:45:02] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:45:02] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:45:02] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:45:02] AUX MISMATCH ON
+[2026-02-23 10:45:02] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:45:09] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 10:45:09] [RUN] 3: Reset 
+[2026-02-23 10:45:14] [RUN] 4: Disconnect 
+[2026-02-23 10:45:14] Disconnecting...
+[2026-02-23 10:45:14] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 10:45:14] Connecting to bmu_fan_power_temperature...
+[2026-02-23 10:45:14] [RUN] 1: FanPowerTemp 81
+[2026-02-23 10:45:14] Fan Power Temp 81
+[2026-02-23 10:45:14] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 10:45:24] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 10:45:24] [DONE] Script finished.
+[2026-02-23 10:45:24] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 10:45:24] Connecting to cell_charge_over_current...
+[2026-02-23 10:45:24] [RUN] 1: Charge 
+[2026-02-23 10:45:24] Charging 52A (no condition, skipping wait)
+[2026-02-23 10:45:24] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:45:34] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:45:34] [DONE] Script finished.
+[2026-02-23 10:45:34] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 10:45:34] Connecting to cell_charge_over_temperature...
+[2026-02-23 10:45:34] [RUN] 1: CellTemps 62.0
+[2026-02-23 10:45:34] Cell TEMP Set: 62.0ALL
+[2026-02-23 10:45:34] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:45:44] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:45:44] [DONE] Script finished.
+[2026-02-23 10:45:44] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 10:45:44] Connecting to cell_charge_under_temperature...
+[2026-02-23 10:45:44] [RUN] 1: CellTemps -1
+[2026-02-23 10:45:44] Cell TEMP Set: -1ALL
+[2026-02-23 10:45:44] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:45:54] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:45:54] [DONE] Script finished.
+[2026-02-23 10:45:54] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 10:45:54] Connecting to cell_discharge_over_current...
+[2026-02-23 10:45:54] [RUN] 1: Discharge 
+[2026-02-23 10:45:54] Discharging 103A (no condition, skipping wait)
+[2026-02-23 10:45:54] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:46:04] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 10:46:04] [DONE] Script finished.
+[2026-02-23 10:46:04] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 10:46:04] Connecting to cell_charge_over_temperature...
+[2026-02-23 10:46:04] [RUN] 1: CellTemps 66.0
+[2026-02-23 10:46:04] Cell TEMP Set: 66.0ALL
+[2026-02-23 10:46:04] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:46:14] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 10:46:14] [DONE] Script finished.
+[2026-02-23 10:46:14] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 10:46:14] Connecting to cell_discharge_under_temperature...
+[2026-02-23 10:46:14] [RUN] 1: CellTemps -21.0
+[2026-02-23 10:46:14] Cell TEMP Set: -21.0ALL
+[2026-02-23 10:46:14] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:46:52] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:46:52] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:46:52] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:46:52] AUX MISMATCH ON
+[2026-02-23 10:46:52] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:46:58] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 10:46:58] [RUN] 3: Reset 
+[2026-02-23 10:47:03] [RUN] 4: Disconnect 
+[2026-02-23 10:47:03] Disconnecting...
+[2026-02-23 10:47:03] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 10:47:03] Connecting to bmu_fan_power_temperature...
+[2026-02-23 10:47:03] [RUN] 1: FanPowerTemp 81
+[2026-02-23 10:47:03] Fan Power Temp 81
+[2026-02-23 10:47:03] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 10:47:13] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 10:47:13] [DONE] Script finished.
+[2026-02-23 10:47:13] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 10:47:13] Connecting to cell_charge_over_current...
+[2026-02-23 10:47:13] [RUN] 1: Charge 
+[2026-02-23 10:47:13] Charging 52A (no condition, skipping wait)
+[2026-02-23 10:47:13] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:47:24] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:47:24] [DONE] Script finished.
+[2026-02-23 10:47:24] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 10:47:24] Connecting to cell_charge_over_temperature...
+[2026-02-23 10:47:24] [RUN] 1: CellTemps 62.0
+[2026-02-23 10:47:24] Cell TEMP Set: 62.0ALL
+[2026-02-23 10:47:24] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:47:34] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:47:34] [DONE] Script finished.
+[2026-02-23 10:47:34] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 10:47:34] Connecting to cell_charge_under_temperature...
+[2026-02-23 10:47:34] [RUN] 1: CellTemps -1
+[2026-02-23 10:47:34] Cell TEMP Set: -1ALL
+[2026-02-23 10:47:34] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:47:44] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:47:44] [DONE] Script finished.
+[2026-02-23 10:47:44] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 10:47:44] Connecting to cell_discharge_over_current...
+[2026-02-23 10:47:44] [RUN] 1: Discharge 
+[2026-02-23 10:47:44] Discharging 103A (no condition, skipping wait)
+[2026-02-23 10:47:44] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:47:54] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-23 10:47:54] [RUN] 3: Disconnect 
+[2026-02-23 10:47:54] Disconnecting...
+[2026-02-23 10:47:54] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 10:47:54] Connecting to cell_charge_over_temperature...
+[2026-02-23 10:47:54] [RUN] 1: CellTemps 66.0
+[2026-02-23 10:47:54] Cell TEMP Set: 66.0ALL
+[2026-02-23 10:47:54] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:47:54] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-23 10:47:54] [RUN] 3: CellTemps 25.0
+[2026-02-23 10:47:54] Cell TEMP Set: 25.0ALL
+[2026-02-23 10:47:54] [RUN] 4: Disconnect 
+[2026-02-23 10:47:54] Disconnecting...
+[2026-02-23 10:47:54] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 10:47:54] Connecting to cell_discharge_under_temperature...
+[2026-02-23 10:47:54] [RUN] 1: CellTemps -21.0
+[2026-02-23 10:47:54] Cell TEMP Set: -21.0ALL
+[2026-02-23 10:47:54] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:47:55] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-23 10:47:55] [RUN] 3: CellTemps 25.0
+[2026-02-23 10:47:55] Cell TEMP Set: 25.0ALL
+[2026-02-23 10:47:55] [RUN] 4: Disconnect 
+[2026-02-23 10:47:55] Disconnecting...
+[2026-02-23 10:47:55] [RUN] 0: Connect cell_over_temperature_pf
+[2026-02-23 10:47:55] Connecting to cell_over_temperature_pf...
+[2026-02-23 10:47:55] [RUN] 1: CellTemps 86.0
+[2026-02-23 10:47:55] Cell TEMP Set: 86.0ALL
+[2026-02-23 10:47:55] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:48:45] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 10:48:45] [DONE] Script finished.
+[2026-02-23 10:48:45] [RUN] 0: Connect cell_over_voltage
+[2026-02-23 10:48:45] Connecting to cell_over_voltage...
+[2026-02-23 10:48:45] [RUN] 1: CellVolts 36000
+[2026-02-23 10:48:45] Cell Volt Set: 36000
+[2026-02-23 10:48:45] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:48:55] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:48:55] [DONE] Script finished.
+[2026-02-23 10:48:55] [RUN] 0: Connect cell_under_temperature_pf
+[2026-02-23 10:48:55] Connecting to cell_under_temperature_pf...
+[2026-02-23 10:48:55] [RUN] 1: CellTemps -31.0
+[2026-02-23 10:48:55] Cell TEMP Set: -31.0ALL
+[2026-02-23 10:48:55] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:49:45] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 10:49:45] [DONE] Script finished.
+[2026-02-23 10:49:45] [RUN] 0: Connect cell_under_voltage
+[2026-02-23 10:49:45] Connecting to cell_under_voltage...
+[2026-02-23 10:49:45] [RUN] 1: CellVolts 28400
+[2026-02-23 10:49:45] Cell Volt Set: 28400
+[2026-02-23 10:49:45] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:49:46] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-23 10:49:46] [RUN] 3: CellVolts 28600
+[2026-02-23 10:49:46] Cell Volt Set: 28600
+[2026-02-23 10:49:46] [RUN] 4: Disconnect 
+[2026-02-23 10:49:46] Disconnecting...
+[2026-02-23 10:49:46] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-23 10:49:46] Connecting to cell_under_voltage_permanent...
+[2026-02-23 10:49:46] [RUN] 1: CellVolts 18500
+[2026-02-23 10:49:46] Cell Volt Set: 18500
+[2026-02-23 10:49:46] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:51:18] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:51:18] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:51:18] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:51:18] AUX MISMATCH ON
+[2026-02-23 10:51:18] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:51:25] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 10:51:25] [RUN] 3: Reset 
+[2026-02-23 10:51:30] [RUN] 4: Disconnect 
+[2026-02-23 10:51:30] Disconnecting...
+[2026-02-23 10:51:30] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 10:51:30] Connecting to bmu_fan_power_temperature...
+[2026-02-23 10:51:30] [RUN] 1: FanPowerTemp 81
+[2026-02-23 10:51:30] Fan Power Temp 81
+[2026-02-23 10:51:30] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 10:52:02] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:52:02] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:52:02] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:52:02] AUX MISMATCH ON
+[2026-02-23 10:52:02] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:52:22] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 10:52:22] [DONE] Script finished.
+[2026-02-23 10:52:22] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 10:52:22] Connecting to bmu_fan_power_temperature...
+[2026-02-23 10:52:22] [RUN] 1: FanPowerTemp 81
+[2026-02-23 10:52:22] Fan Power Temp 81
+[2026-02-23 10:52:22] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 10:52:23] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 10:52:23] [RUN] 3: FanPowerTemp 25
+[2026-02-23 10:52:23] Fan Power Temp 25
+[2026-02-23 10:52:23] [RUN] 4: Disconnect 
+[2026-02-23 10:52:23] Disconnecting...
+[2026-02-23 10:52:23] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 10:52:23] Connecting to cell_charge_over_current...
+[2026-02-23 10:52:23] [RUN] 1: Charge 
+[2026-02-23 10:52:23] Charging 52A (no condition, skipping wait)
+[2026-02-23 10:52:23] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:53:38] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:53:38] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:53:38] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:53:38] AUX MISMATCH ON
+[2026-02-23 10:53:38] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:54:09] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:54:09] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:54:09] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:54:09] AUX MISMATCH ON
+[2026-02-23 10:54:09] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:54:39] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:54:39] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:54:39] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:54:39] AUX MISMATCH ON
+[2026-02-23 10:54:39] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:56:16] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:56:16] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:56:16] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:56:16] AUX MISMATCH ON
+[2026-02-23 10:56:16] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:56:37] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 10:57:04] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 10:57:04] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 10:57:04] [RUN] 1: AUXMismatch ON
+[2026-02-23 10:57:04] AUX MISMATCH ON
+[2026-02-23 10:57:04] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 10:57:11] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 10:57:11] [RUN] 3: Reset 
+[2026-02-23 10:57:16] [RUN] 4: Disconnect 
+[2026-02-23 10:57:16] Disconnecting...
+[2026-02-23 10:57:16] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 10:57:16] Connecting to bmu_fan_power_temperature...
+[2026-02-23 10:57:16] [RUN] 1: FanPowerTemp 81
+[2026-02-23 10:57:16] Fan Power Temp 81
+[2026-02-23 10:57:16] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 10:57:26] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 10:57:36] [DONE] Script finished.
+[2026-02-23 10:57:36] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 10:57:36] Connecting to cell_charge_over_current...
+[2026-02-23 10:57:36] [RUN] 1: Charge 
+[2026-02-23 10:57:36] Charging 52A (no condition, skipping wait)
+[2026-02-23 10:57:36] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:57:47] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:57:57] [DONE] Script finished.
+[2026-02-23 10:57:57] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 10:57:57] Connecting to cell_charge_over_temperature...
+[2026-02-23 10:57:57] [RUN] 1: CellTemps 62.0
+[2026-02-23 10:57:57] Cell TEMP Set: 62.0ALL
+[2026-02-23 10:57:57] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:58:07] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:58:17] [DONE] Script finished.
+[2026-02-23 10:58:17] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 10:58:17] Connecting to cell_charge_under_temperature...
+[2026-02-23 10:58:17] [RUN] 1: CellTemps -1
+[2026-02-23 10:58:17] Cell TEMP Set: -1ALL
+[2026-02-23 10:58:17] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 10:58:27] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 10:58:37] [DONE] Script finished.
+[2026-02-23 10:58:37] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 10:58:37] Connecting to cell_discharge_over_current...
+[2026-02-23 10:58:37] [RUN] 1: Discharge 
+[2026-02-23 10:58:37] Discharging 103A (no condition, skipping wait)
+[2026-02-23 10:58:37] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:58:47] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 10:58:57] [DONE] Script finished.
+[2026-02-23 10:58:57] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 10:58:57] Connecting to cell_charge_over_temperature...
+[2026-02-23 10:58:57] [RUN] 1: CellTemps 66.0
+[2026-02-23 10:58:57] Cell TEMP Set: 66.0ALL
+[2026-02-23 10:58:57] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:59:07] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 10:59:17] [DONE] Script finished.
+[2026-02-23 10:59:17] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 10:59:17] Connecting to cell_discharge_under_temperature...
+[2026-02-23 10:59:17] [RUN] 1: CellTemps -21.0
+[2026-02-23 10:59:17] Cell TEMP Set: -21.0ALL
+[2026-02-23 10:59:17] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 10:59:27] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 10:59:37] [DONE] Script finished.
+[2026-02-23 10:59:37] [RUN] 0: Connect cell_over_temperature_pf
+[2026-02-23 10:59:37] Connecting to cell_over_temperature_pf...
+[2026-02-23 10:59:37] [RUN] 1: CellTemps 86.0
+[2026-02-23 10:59:37] Cell TEMP Set: 86.0ALL
+[2026-02-23 10:59:37] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:00:28] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:01:18] [DONE] Script finished.
+[2026-02-23 11:01:18] [RUN] 0: Connect cell_over_voltage
+[2026-02-23 11:01:18] Connecting to cell_over_voltage...
+[2026-02-23 11:01:18] [RUN] 1: CellVolts 36000
+[2026-02-23 11:01:18] Cell Volt Set: 36000
+[2026-02-23 11:01:18] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:01:22] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-23 11:01:22] [RUN] 3: CellVolts 34000
+[2026-02-23 11:01:22] Cell Volt Set: 34000
+[2026-02-23 11:01:22] [RUN] 4: Disconnect 
+[2026-02-23 11:01:22] Disconnecting...
+[2026-02-23 11:01:22] [RUN] 0: Connect cell_under_temperature_pf
+[2026-02-23 11:01:22] Connecting to cell_under_temperature_pf...
+[2026-02-23 11:01:22] [RUN] 1: CellTemps -31.0
+[2026-02-23 11:01:22] Cell TEMP Set: -31.0ALL
+[2026-02-23 11:01:22] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:02:12] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:03:24] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 11:03:24] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 11:03:24] [RUN] 1: AUXMismatch ON
+[2026-02-23 11:03:24] AUX MISMATCH ON
+[2026-02-23 11:03:24] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:03:30] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 11:03:30] [RUN] 3: Reset 
+[2026-02-23 11:03:35] [RUN] 4: Disconnect 
+[2026-02-23 11:03:35] Disconnecting...
+[2026-02-23 11:03:35] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 11:03:35] Connecting to bmu_fan_power_temperature...
+[2026-02-23 11:03:35] [RUN] 1: FanPowerTemp 81
+[2026-02-23 11:03:35] Fan Power Temp 81
+[2026-02-23 11:03:35] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 11:03:45] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 11:03:50] [DONE] Script finished.
+[2026-02-23 11:03:50] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 11:03:50] Connecting to cell_charge_over_current...
+[2026-02-23 11:03:50] [RUN] 1: Charge 
+[2026-02-23 11:03:50] Charging 52A (no condition, skipping wait)
+[2026-02-23 11:03:50] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:04:01] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:04:06] [DONE] Script finished.
+[2026-02-23 11:04:06] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:04:06] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:04:06] [RUN] 1: CellTemps 62.0
+[2026-02-23 11:04:06] Cell TEMP Set: 62.0ALL
+[2026-02-23 11:04:06] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:04:16] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:04:21] [DONE] Script finished.
+[2026-02-23 11:04:21] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 11:04:21] Connecting to cell_charge_under_temperature...
+[2026-02-23 11:04:21] [RUN] 1: CellTemps -1
+[2026-02-23 11:04:21] Cell TEMP Set: -1ALL
+[2026-02-23 11:04:21] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:04:31] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:04:36] [DONE] Script finished.
+[2026-02-23 11:04:36] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 11:04:36] Connecting to cell_discharge_over_current...
+[2026-02-23 11:04:36] [RUN] 1: Discharge 
+[2026-02-23 11:04:36] Discharging 103A (no condition, skipping wait)
+[2026-02-23 11:04:36] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:04:46] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 11:04:51] [DONE] Script finished.
+[2026-02-23 11:04:51] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:04:51] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:04:51] [RUN] 1: CellTemps 66.0
+[2026-02-23 11:04:51] Cell TEMP Set: 66.0ALL
+[2026-02-23 11:04:51] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:05:01] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 11:05:06] [DONE] Script finished.
+[2026-02-23 11:05:06] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 11:05:06] Connecting to cell_discharge_under_temperature...
+[2026-02-23 11:05:06] [RUN] 1: CellTemps -21.0
+[2026-02-23 11:05:06] Cell TEMP Set: -21.0ALL
+[2026-02-23 11:05:06] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:05:16] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 11:05:22] [DONE] Script finished.
+[2026-02-23 11:05:22] [RUN] 0: Connect cell_over_temperature_pf
+[2026-02-23 11:05:22] Connecting to cell_over_temperature_pf...
+[2026-02-23 11:05:22] [RUN] 1: CellTemps 86.0
+[2026-02-23 11:05:22] Cell TEMP Set: 86.0ALL
+[2026-02-23 11:05:22] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:06:12] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:06:17] [DONE] Script finished.
+[2026-02-23 11:06:17] [RUN] 0: Connect cell_over_voltage
+[2026-02-23 11:06:17] Connecting to cell_over_voltage...
+[2026-02-23 11:06:17] [RUN] 1: CellVolts 36000
+[2026-02-23 11:06:17] Cell Volt Set: 36000
+[2026-02-23 11:06:17] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:06:27] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:06:32] [DONE] Script finished.
+[2026-02-23 11:06:32] [RUN] 0: Connect cell_under_temperature_pf
+[2026-02-23 11:06:32] Connecting to cell_under_temperature_pf...
+[2026-02-23 11:06:32] [RUN] 1: CellTemps -31.0
+[2026-02-23 11:06:32] Cell TEMP Set: -31.0ALL
+[2026-02-23 11:06:32] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:07:22] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:07:27] [DONE] Script finished.
+[2026-02-23 11:07:27] [RUN] 0: Connect cell_under_voltage
+[2026-02-23 11:07:27] Connecting to cell_under_voltage...
+[2026-02-23 11:07:27] [RUN] 1: CellVolts 28400
+[2026-02-23 11:07:27] Cell Volt Set: 28400
+[2026-02-23 11:07:27] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:07:37] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 11:07:42] [DONE] Script finished.
+[2026-02-23 11:07:42] [RUN] 0: Connect cell_under_voltage_permanent
+[2026-02-23 11:07:42] Connecting to cell_under_voltage_permanent...
+[2026-02-23 11:07:42] [RUN] 1: CellVolts 18500
+[2026-02-23 11:07:42] Cell Volt Set: 18500
+[2026-02-23 11:07:42] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:08:50] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 11:08:50] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 11:08:50] [RUN] 1: AUXMismatch ON
+[2026-02-23 11:08:50] AUX MISMATCH ON
+[2026-02-23 11:08:50] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:09:10] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:09:15] [DONE] Script finished.
+[2026-02-23 11:09:15] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 11:09:15] Connecting to bmu_fan_power_temperature...
+[2026-02-23 11:09:15] [RUN] 1: FanPowerTemp 81
+[2026-02-23 11:09:15] Fan Power Temp 81
+[2026-02-23 11:09:15] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 11:09:25] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 11:09:30] [DONE] Script finished.
+[2026-02-23 11:09:30] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 11:09:30] Connecting to cell_charge_over_current...
+[2026-02-23 11:09:30] [RUN] 1: Charge 
+[2026-02-23 11:09:30] Charging 52A (no condition, skipping wait)
+[2026-02-23 11:09:30] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:09:40] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:09:45] [DONE] Script finished.
+[2026-02-23 11:09:45] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:09:45] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:09:45] [RUN] 1: CellTemps 62.0
+[2026-02-23 11:09:45] Cell TEMP Set: 62.0ALL
+[2026-02-23 11:09:45] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:11:01] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 11:11:01] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 11:11:01] [RUN] 1: AUXMismatch ON
+[2026-02-23 11:11:01] AUX MISMATCH ON
+[2026-02-23 11:11:01] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:11:08] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 11:11:08] [RUN] 3: Reset 
+[2026-02-23 11:11:18] [RUN] 4: Disconnect 
+[2026-02-23 11:11:18] Disconnecting...
+[2026-02-23 11:11:18] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 11:11:18] Connecting to bmu_fan_power_temperature...
+[2026-02-23 11:11:18] [RUN] 1: FanPowerTemp 81
+[2026-02-23 11:11:18] Fan Power Temp 81
+[2026-02-23 11:11:18] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 11:11:28] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 11:11:38] [DONE] Script finished.
+[2026-02-23 11:11:38] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 11:11:38] Connecting to cell_charge_over_current...
+[2026-02-23 11:11:38] [RUN] 1: Charge 
+[2026-02-23 11:11:38] Charging 52A (no condition, skipping wait)
+[2026-02-23 11:11:38] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:11:48] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:11:58] [DONE] Script finished.
+[2026-02-23 11:11:58] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:11:58] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:11:58] [RUN] 1: CellTemps 62.0
+[2026-02-23 11:11:58] Cell TEMP Set: 62.0ALL
+[2026-02-23 11:11:58] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:12:08] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:12:18] [DONE] Script finished.
+[2026-02-23 11:12:18] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 11:12:18] Connecting to cell_charge_under_temperature...
+[2026-02-23 11:12:18] [RUN] 1: CellTemps -1
+[2026-02-23 11:12:18] Cell TEMP Set: -1ALL
+[2026-02-23 11:12:18] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:12:29] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:12:39] [DONE] Script finished.
+[2026-02-23 11:12:39] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 11:12:39] Connecting to cell_discharge_over_current...
+[2026-02-23 11:12:39] [RUN] 1: Discharge 
+[2026-02-23 11:12:39] Discharging 103A (no condition, skipping wait)
+[2026-02-23 11:12:39] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:12:49] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 11:12:59] [DONE] Script finished.
+[2026-02-23 11:12:59] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:12:59] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:12:59] [RUN] 1: CellTemps 66.0
+[2026-02-23 11:12:59] Cell TEMP Set: 66.0ALL
+[2026-02-23 11:12:59] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:13:09] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 11:13:19] [DONE] Script finished.
+[2026-02-23 11:13:19] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 11:13:19] Connecting to cell_discharge_under_temperature...
+[2026-02-23 11:13:19] [RUN] 1: CellTemps -21.0
+[2026-02-23 11:13:19] Cell TEMP Set: -21.0ALL
+[2026-02-23 11:13:19] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:13:29] [FAIL] EXPECT timeout:BatteryState == 12
+[2026-02-23 11:13:39] [DONE] Script finished.
+[2026-02-23 11:13:39] [RUN] 0: Connect cell_over_temperature_pf
+[2026-02-23 11:13:39] Connecting to cell_over_temperature_pf...
+[2026-02-23 11:13:39] [RUN] 1: CellTemps 86.0
+[2026-02-23 11:13:39] Cell TEMP Set: 86.0ALL
+[2026-02-23 11:13:39] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:14:29] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:14:39] [DONE] Script finished.
+[2026-02-23 11:14:39] [RUN] 0: Connect cell_over_voltage
+[2026-02-23 11:14:39] Connecting to cell_over_voltage...
+[2026-02-23 11:14:39] [RUN] 1: CellVolts 36000
+[2026-02-23 11:14:39] Cell Volt Set: 36000
+[2026-02-23 11:15:24] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:15:26] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-23 11:15:26] [RUN] 3: CellVolts 34000
+[2026-02-23 11:15:26] Cell Volt Set: 34000
+[2026-02-23 11:16:03] [RUN] 4: Disconnect 
+[2026-02-23 11:17:10] Disconnecting...
+[2026-02-23 11:17:13] [RUN] 0: Connect cell_under_temperature_pf
+[2026-02-23 11:17:13] Connecting to cell_under_temperature_pf...
+[2026-02-23 11:17:13] [RUN] 1: CellTemps -31.0
+[2026-02-23 11:17:13] Cell TEMP Set: -31.0ALL
+[2026-02-23 11:17:13] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:19:38] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 11:19:38] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 11:19:38] [RUN] 1: AUXMismatch ON
+[2026-02-23 11:19:38] AUX MISMATCH ON
+[2026-02-23 11:19:38] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:19:58] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:20:08] [DONE] Script finished.
+[2026-02-23 11:20:08] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 11:20:08] Connecting to bmu_fan_power_temperature...
+[2026-02-23 11:20:08] [RUN] 1: FanPowerTemp 81
+[2026-02-23 11:20:08] Fan Power Temp 81
+[2026-02-23 11:20:09] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 11:20:19] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 11:20:29] [DONE] Script finished.
+[2026-02-23 11:20:29] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 11:20:29] Connecting to cell_charge_over_current...
+[2026-02-23 11:20:29] [RUN] 1: Charge 
+[2026-02-23 11:20:29] Charging 52A (no condition, skipping wait)
+[2026-02-23 11:20:29] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:20:39] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:20:49] [DONE] Script finished.
+[2026-02-23 11:20:49] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:20:49] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:20:49] [RUN] 1: CellTemps 62.0
+[2026-02-23 11:20:49] Cell TEMP Set: 62.0ALL
+[2026-02-23 11:20:49] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:20:59] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:27:04] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 11:27:04] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 11:27:04] [RUN] 1: AUXMismatch ON
+[2026-02-23 11:27:04] AUX MISMATCH ON
+[2026-02-23 11:27:04] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:27:24] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 11:27:34] [DONE] Script finished.
+[2026-02-23 11:27:36] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 11:27:36] Connecting to bmu_fan_power_temperature...
+[2026-02-23 11:27:36] [RUN] 1: FanPowerTemp 81
+[2026-02-23 11:27:36] Fan Power Temp 81
+[2026-02-23 11:27:36] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 11:27:47] [FAIL] EXPECT timeout:BatteryState == 18
+[2026-02-23 11:27:57] [DONE] Script finished.
+[2026-02-23 11:27:58] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 11:27:58] Connecting to cell_charge_over_current...
+[2026-02-23 11:27:58] [RUN] 1: Charge 
+[2026-02-23 11:27:58] Charging 52A (no condition, skipping wait)
+[2026-02-23 11:27:58] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:28:11] [PASS] EXPECT matched:BatteryState == 16
+[2026-02-23 11:28:11] [RUN] 3: Charge 
+[2026-02-23 11:28:11] Charging 0A (no condition, skipping wait)
+[2026-02-23 11:28:11] [RUN] 4: Disconnect 
+[2026-02-23 11:28:13] Disconnecting...
+[2026-02-23 11:28:19] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:28:19] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:28:19] [RUN] 1: CellTemps 62.0
+[2026-02-23 11:28:19] Cell TEMP Set: 62.0ALL
+[2026-02-23 11:28:19] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:28:32] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:28:42] [DONE] Script finished.
+[2026-02-23 11:28:44] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 11:28:44] Connecting to cell_charge_under_temperature...
+[2026-02-23 11:28:44] [RUN] 1: CellTemps -1
+[2026-02-23 11:28:44] Cell TEMP Set: -1ALL
+[2026-02-23 11:28:44] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:29:10] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:29:20] [DONE] Script finished.
+[2026-02-23 11:29:24] [RUN] 0: Connect cell_discharge_over_current
+[2026-02-23 11:29:24] Connecting to cell_discharge_over_current...
+[2026-02-23 11:29:24] [RUN] 1: Discharge 
+[2026-02-23 11:29:24] Discharging 103A (no condition, skipping wait)
+[2026-02-23 11:29:24] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:29:36] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-23 11:29:36] [RUN] 3: Disconnect 
+[2026-02-23 11:29:36] Disconnecting...
+[2026-02-23 11:29:38] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 11:29:38] Connecting to cell_charge_over_temperature...
+[2026-02-23 11:29:38] [RUN] 1: CellTemps 66.0
+[2026-02-23 11:29:38] Cell TEMP Set: 66.0ALL
+[2026-02-23 11:29:38] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:29:40] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-23 11:29:40] [RUN] 3: CellTemps 25.0
+[2026-02-23 11:29:40] Cell TEMP Set: 25.0ALL
+[2026-02-23 11:29:40] [RUN] 4: Disconnect 
+[2026-02-23 11:29:41] Disconnecting...
+[2026-02-23 11:29:43] [RUN] 0: Connect cell_discharge_under_temperature
+[2026-02-23 11:29:43] Connecting to cell_discharge_under_temperature...
+[2026-02-23 11:29:43] [RUN] 1: CellTemps -21.0
+[2026-02-23 11:29:43] Cell TEMP Set: -21.0ALL
+[2026-02-23 11:29:43] [RUN] 2: Expect BatteryState == 12
+[2026-02-23 11:29:44] [PASS] EXPECT matched:BatteryState == 12
+[2026-02-23 11:29:44] [RUN] 3: CellTemps 25.0
+[2026-02-23 11:29:44] Cell TEMP Set: 25.0ALL
+[2026-02-23 11:29:44] [RUN] 4: Disconnect 
+[2026-02-23 11:29:45] Disconnecting...
+[2026-02-23 11:29:50] [RUN] 0: Connect cell_over_temperature_pf
+[2026-02-23 11:29:50] Connecting to cell_over_temperature_pf...
+[2026-02-23 11:29:50] [RUN] 1: CellTemps 86.0
+[2026-02-23 11:29:50] Cell TEMP Set: 86.0ALL
+[2026-02-23 11:29:50] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 11:30:41] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 11:30:41] [RUN] 3: CellTemps 25.0
+[2026-02-23 11:30:41] Cell TEMP Set: 25.0ALL
+[2026-02-23 11:30:41] [RUN] 4: Disconnect 
+[2026-02-23 11:30:45] Disconnecting...
+[2026-02-23 11:30:47] [RUN] 0: Connect cell_over_voltage
+[2026-02-23 11:30:47] Connecting to cell_over_voltage...
+[2026-02-23 11:30:47] [RUN] 1: CellVolts 36000
+[2026-02-23 11:30:47] Cell Volt Set: 36000
+[2026-02-23 11:30:47] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 11:30:57] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 11:31:07] [DONE] Script finished.
+[2026-02-23 11:31:10] [RUN] 0: Connect cell_under_temperature_pf
+[2026-02-23 11:31:10] Connecting to cell_under_temperature_pf...
+[2026-02-23 11:31:10] [RUN] 1: CellTemps -31.0
+[2026-02-23 11:31:10] Cell TEMP Set: -31.0ALL
+[2026-02-23 13:22:10] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 13:22:10] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 13:22:10] [RUN] 1: AUXMismatch ON
+[2026-02-23 13:22:10] AUX MISMATCH ON
+[2026-02-23 13:22:10] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 13:22:30] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 13:22:40] [DONE] Script finished.
+[2026-02-23 13:22:40] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 13:22:40] Connecting to bmu_fan_power_temperature...
+[2026-02-23 13:22:40] [RUN] 1: FanPowerTemp 81
+[2026-02-23 13:22:40] Fan Power Temp 81
+[2026-02-23 13:22:40] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 13:22:49] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 13:22:49] [RUN] 3: FanPowerTemp 25
+[2026-02-23 13:22:49] Fan Power Temp 25
+[2026-02-23 13:22:49] [RUN] 4: Disconnect 
+[2026-02-23 13:22:49] Disconnecting...
+[2026-02-23 13:22:49] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 13:22:49] Connecting to cell_charge_over_current...
+[2026-02-23 13:22:49] [RUN] 1: Charge 
+[2026-02-23 13:22:49] Charging 52A (no condition, skipping wait)
+[2026-02-23 13:22:49] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:22:59] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 13:23:09] [DONE] Script finished.
+[2026-02-23 13:23:09] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 13:23:09] Connecting to cell_charge_over_temperature...
+[2026-02-23 13:23:09] [RUN] 1: CellTemps 62.0
+[2026-02-23 13:23:09] Cell TEMP Set: 62.0ALL
+[2026-02-23 13:23:09] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:23:19] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 13:23:29] [DONE] Script finished.
+[2026-02-23 13:23:29] [RUN] 0: Connect cell_charge_under_temperature
+[2026-02-23 13:23:29] Connecting to cell_charge_under_temperature...
+[2026-02-23 13:23:29] [RUN] 1: CellTemps -1
+[2026-02-23 13:23:29] Cell TEMP Set: -1ALL
+[2026-02-23 13:23:29] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:24:26] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 13:24:26] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 13:24:26] [RUN] 1: AUXMismatch ON
+[2026-02-23 13:24:26] AUX MISMATCH ON
+[2026-02-23 13:24:26] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 13:24:47] [FAIL] EXPECT timeout:BatteryState == 22
+[2026-02-23 13:24:57] [DONE] Script finished.
+[2026-02-23 13:24:57] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 13:24:57] Connecting to bmu_fan_power_temperature...
+[2026-02-23 13:24:57] [RUN] 1: FanPowerTemp 81
+[2026-02-23 13:24:57] Fan Power Temp 81
+[2026-02-23 13:24:57] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 13:24:57] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 13:24:57] [RUN] 3: FanPowerTemp 25
+[2026-02-23 13:24:57] Fan Power Temp 25
+[2026-02-23 13:24:57] [RUN] 4: Disconnect 
+[2026-02-23 13:24:57] Disconnecting...
+[2026-02-23 13:24:57] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 13:24:57] Connecting to cell_charge_over_current...
+[2026-02-23 13:24:57] [RUN] 1: Charge 
+[2026-02-23 13:24:57] Charging 52A (no condition, skipping wait)
+[2026-02-23 13:24:57] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:25:07] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 13:25:17] [DONE] Script finished.
+[2026-02-23 13:25:17] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 13:25:17] Connecting to cell_charge_over_temperature...
+[2026-02-23 13:25:17] [RUN] 1: CellTemps 62.0
+[2026-02-23 13:25:17] Cell TEMP Set: 62.0ALL
+[2026-02-23 13:25:17] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:25:27] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 13:32:46] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 13:32:46] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 13:32:46] [RUN] 1: AUXMismatch ON
+[2026-02-23 13:32:46] AUX MISMATCH ON
+[2026-02-23 13:32:46] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 13:33:21] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 13:33:21] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 13:33:21] [RUN] 1: AUXMismatch ON
+[2026-02-23 13:33:21] AUX MISMATCH ON
+[2026-02-23 13:33:21] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 13:33:27] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 13:33:27] [RUN] 3: Reset 
+[2026-02-23 13:33:38] [RUN] 4: Disconnect 
+[2026-02-23 13:33:38] Disconnecting...
+[2026-02-23 13:33:38] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 13:33:38] Connecting to bmu_fan_power_temperature...
+[2026-02-23 13:33:38] [RUN] 1: FanPowerTemp 81
+[2026-02-23 13:33:38] Fan Power Temp 81
+[2026-02-23 13:33:38] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 13:33:46] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 13:33:46] [RUN] 3: FanPowerTemp 25
+[2026-02-23 13:33:46] Fan Power Temp 25
+[2026-02-23 13:33:46] [RUN] 4: Disconnect 
+[2026-02-23 13:33:46] Disconnecting...
+[2026-02-23 13:33:46] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 13:33:46] Connecting to cell_charge_over_current...
+[2026-02-23 13:33:46] [RUN] 1: Charge 
+[2026-02-23 13:33:46] Charging 52A (no condition, skipping wait)
+[2026-02-23 13:33:46] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:33:56] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 13:34:06] [DONE] Script finished.
+[2026-02-23 13:34:06] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 13:34:06] Connecting to cell_charge_over_temperature...
+[2026-02-23 13:34:06] [RUN] 1: CellTemps 62.0
+[2026-02-23 13:34:06] Cell TEMP Set: 62.0ALL
+[2026-02-23 13:34:06] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:35:31] [RUN] 0: Connect aux_pins_and_pdu_values_mismatch_event
+[2026-02-23 13:35:31] Connecting to aux_pins_and_pdu_values_mismatch_event...
+[2026-02-23 13:35:31] [RUN] 1: AUXMismatch ON
+[2026-02-23 13:35:31] AUX MISMATCH ON
+[2026-02-23 13:35:31] [RUN] 2: Expect BatteryState == 22
+[2026-02-23 13:35:38] [PASS] EXPECT matched:BatteryState == 22
+[2026-02-23 13:35:38] [RUN] 3: Reset 
+[2026-02-23 13:35:48] [RUN] 4: Disconnect 
+[2026-02-23 13:35:48] Disconnecting...
+[2026-02-23 13:35:48] [RUN] 0: Connect bmu_fan_power_temperature
+[2026-02-23 13:35:48] Connecting to bmu_fan_power_temperature...
+[2026-02-23 13:35:48] [RUN] 1: FanPowerTemp 81
+[2026-02-23 13:35:48] Fan Power Temp 81
+[2026-02-23 13:35:48] [RUN] 2: Expect BatteryState == 18
+[2026-02-23 13:35:57] [PASS] EXPECT matched:BatteryState == 18
+[2026-02-23 13:35:57] [RUN] 3: FanPowerTemp 25
+[2026-02-23 13:35:57] Fan Power Temp 25
+[2026-02-23 13:35:57] [RUN] 4: Disconnect 
+[2026-02-23 13:35:57] Disconnecting...
+[2026-02-23 13:35:57] [RUN] 0: Connect cell_charge_over_current
+[2026-02-23 13:35:57] Connecting to cell_charge_over_current...
+[2026-02-23 13:35:57] [RUN] 1: Charge 
+[2026-02-23 13:35:57] Charging 52A (no condition, skipping wait)
+[2026-02-23 13:35:57] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:36:07] [FAIL] EXPECT timeout:BatteryState == 16
+[2026-02-23 13:36:17] [DONE] Script finished.
+[2026-02-23 13:36:17] [RUN] 0: Connect cell_charge_over_temperature
+[2026-02-23 13:36:17] Connecting to cell_charge_over_temperature...
+[2026-02-23 13:36:17] [RUN] 1: CellTemps 62.0
+[2026-02-23 13:36:17] Cell TEMP Set: 62.0ALL
+[2026-02-23 13:36:17] [RUN] 2: Expect BatteryState == 16
+[2026-02-23 13:36:27] [FAIL] EXPECT timeout:BatteryState == 16
