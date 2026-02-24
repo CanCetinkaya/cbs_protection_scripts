@@ -1,4 +1,5 @@
 CONNECT charge_contactor_body_diode_temperature
+EXPECT BatteryState == 4 TIMEOUT 10000
 CHARGEDIODETEMP 81
 EXPECT BatteryState == 18 TIMEOUT 10000
 CHARGEDIODETEMP 25

@@ -1,4 +1,5 @@
 CONNECT charge_safety_current
+EXPECT BatteryState == 4 TIMEOUT 10000
 CHARGE 101
 EXPECT BatteryState == 17 TIMEOUT 2500
 CHARGE 5
