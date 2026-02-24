@@ -1,4 +1,5 @@
 CONNECT stack_communication_faiL
+EXPECT BatteryState == 4 TIMEOUT 20000
 StackNfault COMM RISE
 EXPECT BatteryState == 18 TIMEOUT 20000
 StackNfault COMM CLEAR
