@@ -1,4 +1,5 @@
 CONNECT gpio_fuse1_fuse2_impedance
+EXPECT BatteryState == 4 TIMEOUT 20000
 GPIOVOLT FUSE1 15000
 WAIT 1000
 CHARGE 5
